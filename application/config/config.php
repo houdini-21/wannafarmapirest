@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+date_default_timezone_set('America/El_Salvador');
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
@@ -23,10 +23,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'https://localhost/wannafarm/';
+//$config['base_url'] = '';
 
-/*
-|--------------------------------------------------------------------------
+/*--------------------------------------------------------------------------
 | Index File
 |--------------------------------------------------------------------------
 |
@@ -35,7 +35,7 @@ $config['base_url'] = '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -100,7 +100,7 @@ $config['charset'] = 'UTF-8';
 | setting this variable to TRUE (boolean).  See the user guide for details.
 |
 */
-$config['enable_hooks'] = FALSE;
+$config['enable_hooks'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -223,7 +223,7 @@ $config['allow_get_array'] = TRUE;
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 0;
+$config['log_threshold'] = 4;
 
 /*
 |--------------------------------------------------------------------------
@@ -272,7 +272,6 @@ $config['log_file_permissions'] = 0644;
 |
 */
 $config['log_date_format'] = 'Y-m-d H:i:s';
-
 /*
 |--------------------------------------------------------------------------
 | Error Views Directory Path
@@ -314,7 +313,8 @@ $config['cache_path'] = '';
 $config['cache_query_string'] = FALSE;
 
 /*
-|--------------------------------------------------------------------------
+|--------------------------------------
+------------------------------------
 | Encryption Key
 |--------------------------------------------------------------------------
 |
@@ -324,7 +324,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'F0x7r07';
 
 /*
 |--------------------------------------------------------------------------
@@ -379,7 +379,7 @@ $config['encryption_key'] = '';
 */
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
-$config['sess_expiration'] = 7200;
+$config['sess_expiration'] = 28800;
 $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
@@ -521,3 +521,4 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
