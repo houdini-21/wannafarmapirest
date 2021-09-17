@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('database', 'encryption');
+$autoload['libraries'] = array('database', 'encryption', 'email');
 
 /*
 | -------------------------------------------------------------------
@@ -90,7 +90,7 @@ $autoload['drivers'] = array();
 |	$autoload['helper'] = array('url', 'file');
 */
 $autoload['helper'] = array();
-
+//$autoload['helper'] = array('url', 'form', 'jwt', "authorization");
 /*
 | -------------------------------------------------------------------
 |  Auto-load Config files
@@ -104,6 +104,8 @@ $autoload['helper'] = array();
 |
 */
 $autoload['config'] = array();
+//
+//$autoload['config'] = array('jwt');
 
 /*
 | -------------------------------------------------------------------
