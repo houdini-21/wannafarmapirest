@@ -6,12 +6,12 @@ class Login extends CI_Controller {
        {
             parent::__construct();
             $this->load->model("LoginModel","loginModel");
-            $this->load->library('encryption');
             $this->load->helper('url');
+            $this->load->helper('electro_helper');
        }
        public function index()
        {
-        echo 'hello friend';
+        $this->load->view(template_frontpath("login"), false);
        }
 
     public function login(){
@@ -27,19 +27,32 @@ class Login extends CI_Controller {
         }
     }
 
+       public function crearUsuario($token=""){
+        if($token!=''){
+            $code_decode=decryptToken($token);
+            if($code_decode['status']==200){
+                $data['id']=$code_decode['data']->id;
+                $this->load->view(template_frontpath("createUser"),$data, false);
+            }
+            else {
+                echo 'token invalido';
+            }
+        }else {    
+            redirect('login', 'refresh');
+        }
+       }
+
        public function createPerson(){
-        $code=$this->input->post('code'); 
-        $code_decode=$this->encryption->decrypt($code);
-        $id_cuenta = $code_decode;
-        echo $code_decode;
+
+        $id_cuenta = $this->input->post('id_cuenta');
         $name=$this->input->post('name'); 
         $lastname=$this->input->post('lastname');
         $age=$this->input->post('age');
         $address=$this->input->post('address');
-        $departament=$this->input->post('departament');
-        $town=$this->input->post('town');
+        $departament=21;
+        $town=21;
         $phone=$this->input->post('phone');
-        $role=$this->input->post('role');
+        $role=23;
         
         $data['id_cuenta']=$id_cuenta;
         $data['nombres']=$name;
@@ -53,13 +66,13 @@ class Login extends CI_Controller {
         $data['direccion']=$address;
 
 
-    //    $sql=$this->loginModel->registerUser($data);
+        $sql=$this->loginModel->registerUser($data);
     
-      //  if($sql>0){
-       //     echo 'persona creada';
-       // }else{
-       //     echo 'error';
-       // }
+        if($sql>0){
+            echo 'persona creada';
+         } else{
+            echo 'error';
+         }
        }
 
 
@@ -71,17 +84,48 @@ class Login extends CI_Controller {
         $data['contrasena']=md5($password);
         
         $sql=$this->loginModel->createUser($data);
-        echo $sql;
-        $code=$this->encryption->encrypt($sql);
-      
+        $encript['id']=$sql;
+        $code = createToken($encript);  
+
         if($sql!=0){
             echo 'usuario creado';
-            echo '<br>';
-            echo $code;
+            $url = base_url().'login/crearUsuario/'.$code;
+            $this->enviar($url, $email);
         } 
         else {
             echo 'error';
         }
     }
+
+   public function enviar($data, $email){
+       $this->load->library('email');
+        
+        $config['protocol'] = 'smtp';
+         
+        $config["smtp_host"] = 'smtp.titan.email';
+         
+        $config["smtp_user"] = 'noreplay@wannnafarm.com';
+         
+        $config["smtp_pass"] = 'Houdini&&21';   
+         
+        $config["smtp_port"] = '587';
+        
+        $config['charset'] = 'utf-8';
+ 
+        $config['wordwrap'] = TRUE;
+         
+       $config['validate'] = true;
+       
+        
+        $this->email->initialize($config);
+ 
+        $this->email->from('noreplay@wannnafarm.com', 'Wannafarm');
+         
+        $this->email->to($email);
+          
+        $this->email->message($data);
+      
+        $this->email->send();         
+   } 
 
 }
