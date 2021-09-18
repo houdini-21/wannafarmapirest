@@ -36,7 +36,7 @@ class Login extends CI_Controller
             $cuentaConfirmada = $this->loginModel->cuentaConfirmada(
                 $code_decode["data"]->id
             );
-            if ($code_decode["status"] == 200 && $cuentaConfirmada) {
+            if ($code_decode["status"] == 200 && $cuentaConfirmada==false) {
                 $data["id"] = $code_decode["data"]->id;
                 $this->load->view(
                     template_frontpath("createUser"),
@@ -75,12 +75,18 @@ class Login extends CI_Controller
         $data["direccion"] = $address;
 
         $sql = $this->loginModel->registerUser($data);
-        $cuenta["estado"] = 1;
-        $cuenta["id_persona"] = $sql;
-        $this->loginModel->updateCuenta($cuenta, $id_cuenta);
 
         if ($sql > 0) {
-            echo "persona creada";
+            $cuenta["id_persona"] = $sql;
+            $this->loginModel->updateCuenta($cuenta, $id_cuenta);
+
+            $encript["id"] = $id_cuenta;
+            $email = $this->loginModel->getEmail($id_cuenta);
+            $code = createToken($encript);
+            $url = base_url() . "login/confirmaCuenta/" . $code;
+
+            send_mail($url, $email);
+            echo "se ha enviado un correo de confirmacion a " . $email;
         } else {
             echo "error";
         }
@@ -118,27 +124,27 @@ class Login extends CI_Controller
             echo "Error, intente mas tarde";
         }
     }
-
-    public function enviar($data, $email)
+    public function confirmaCuenta($token)
     {
-        $this->load->library("email");
-
-        $config["protocol"] = "smtp";
-        $config["smtp_host"] = "smtp.titan.email";
-        $config["smtp_user"] = "houdini@wannnafarm.com";
-        $config["smtp_pass"] = "Houdini&&21";
-        $config["smtp_port"] = "587";
-        $config["charset"] = "utf-8";
-        $config["wordwrap"] = true;
-        $config["validate"] = true;
-        $this->email->initialize($config);
-        $this->email->from("houdini@wannnafarm.com", "Wannafarm");
-        $this->email->to($email);
-        $this->email->message($data);
-        if ($this->email->send()) {
-            return 201;
+        if ($token != "") {
+            $code_decode = decryptToken($token);
+            $cuentaConfirmada = $this->loginModel->cuentaConfirmada(
+                $code_decode["data"]->id
+            );
+            if ($code_decode["status"] == 200) {
+                if ($cuentaConfirmada == false) {
+                    $id = $code_decode["data"]->id;
+                    $update["estado"] = 1;
+                    $this->loginModel->updateCuenta($update, $id);
+                    echo "cuenta confirmada";
+                } else {
+                    echo "tu cuenta ya fue confirmada";
+                }
+            } else {
+                echo "token vencido";
+            }
         } else {
-            return 500;
+            redirect("login", "refresh");
         }
     }
 }

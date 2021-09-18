@@ -51,7 +51,7 @@ class LoginModel extends CI_Controller
         $this->db->from("wf_cuenta");
         $this->db->where("id_cuenta", $id);
         $res = $this->db->get()->result();
-        if ($res[0]->estado == 0) {
+        if ($res[0]->estado == 1) {
             return true;
         } else {
             return false;
@@ -62,6 +62,15 @@ class LoginModel extends CI_Controller
     {
         $this->db->where("id_cuenta", $id);
         $this->db->update("wf_cuenta", $data);
+    }
+
+    public function getEmail($id)
+    {
+        $this->db->select("correo");
+        $this->db->from("wf_cuenta");
+        $this->db->where("id_cuenta", $id);
+        $res = $this->db->get()->row();
+        return $res->correo;
     }
 }
 
