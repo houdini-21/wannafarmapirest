@@ -23,7 +23,7 @@ date_default_timezone_set('America/El_Salvador');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://wannnafarm.com';
+$config['base_url'] = 'https://localhost/~houdini/wannafarm';
 //$config['base_url'] = '';
 
 /*--------------------------------------------------------------------------
