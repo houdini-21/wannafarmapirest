@@ -1,31 +1,31 @@
 @font-face {
   font-family: 'suprema-regular';
 
-  src: url(./assets/fonts/suprema-regular.ttf);
+  src: url(../fonts/suprema-regular.ttf);
 }
 
 @font-face {
   font-family: 'suprema-semibold';
 
-  src: url(./assets/fonts/suprema-semibold.ttf);
+  src: url(../fonts/suprema-semibold.ttf);
 }
 
 @font-face {
   font-family: 'suprema-medium';
 
-  src: url(./assets/fonts/suprema-medium.ttf);
+  src: url(../fonts/suprema-medium.ttf);
 }
 
 @font-face {
   font-family: 'suprema-light';
 
-  src: url(./assets/fonts/suprema-light.ttf);
+  src: url(../fonts/suprema-light.ttf);
 }
 
 @font-face {
   font-family: 'suprema-thin';
 
-  src: url(./assets/fonts/suprema-thin.ttf);
+  src: url(../fonts/suprema-thin.ttf);
 }
 
 .suprema-regular {
