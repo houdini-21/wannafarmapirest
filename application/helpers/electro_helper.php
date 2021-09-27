@@ -241,16 +241,16 @@ function send_mail($data, $email)
 
     $CI->load->library("email");
     $config["protocol"] = "smtp";
-    $config["smtp_host"] = "smtp.titan.email";
-    $config["smtp_user"] = "houdini@wannnafarm.com";
-    $config["smtp_pass"] = "Houdini&&21";
+    $config["smtp_host"] = "smtp.hostinger.com";
+    $config["smtp_user"] = "noreplay@wannnafarm.com";
+    $config["smtp_pass"] = "Houdini@kuto21";
     $config["smtp_port"] = "587";
     $config["charset"] = "utf-8";
     $config["wordwrap"] = true;
     $config["validate"] = true;
 
     $CI->email->initialize($config);
-    $CI->email->from("houdini@wannnafarm.com", "Wannafarm");
+    $CI->email->from("noreplay@wannnafarm.com", "Wannafarm");
     $CI->email->to($email);
     $CI->email->message($data);
     if ($CI->email->send()) {

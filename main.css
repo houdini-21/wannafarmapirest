@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'suprema-regular';
+  src: url(../fonts/suprema-regular.ttf);
+}
+
+@font-face {
+  font-family: 'suprema-semibold';
+  src: url(../fonts/suprema-semibold.ttf);
+}
+
+@font-face {
+  font-family: 'suprema-medium';
+  src: url(../fonts/suprema-medium.ttf);
+}
+
+@font-face {
+  font-family: 'suprema-light';
+  src: url(../fonts/suprema-light.ttf);
+}
+
+@font-face {
+  font-family: 'suprema-thin';
+  src: url(../fonts/suprema-thin.ttf);
+}
+
+.suprema-regular {
+  font-family: 'suprema-regular';
+}
+
+.suprema-semibold {
+  font-family: 'suprema-semibold';
+}
+
+.suprema-medium {
+  font-family: 'suprema-medium';
+}
+
+.suprema-light {
+  font-family: 'suprema-light';
+}
+
+.suprema-thin {
+  font-family: 'suprema-thin';
+}
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
