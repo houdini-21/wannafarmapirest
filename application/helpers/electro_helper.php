@@ -243,7 +243,7 @@ function send_mail($data, $email)
     $config["protocol"] = "smtp";
     $config["smtp_host"] = "smtp.hostinger.com";
     $config["smtp_user"] = "noreplay@wannnafarm.com";
-    $config["smtp_pass"] = "Houdini@kuto21";
+    $config["smtp_pass"] = "Kuto@houdini21";
     $config["smtp_port"] = "587";
     $config["charset"] = "utf-8";
     $config["wordwrap"] = true;
@@ -256,6 +256,8 @@ function send_mail($data, $email)
     if ($CI->email->send()) {
         return 201;
     } else {
+
+        echo $CI->email->print_debugger();
         return 500;
     }
 }
