@@ -256,7 +256,6 @@ function send_mail($data, $email)
     if ($CI->email->send()) {
         return 201;
     } else {
-
         echo $CI->email->print_debugger();
         return 500;
     }
@@ -409,5 +408,36 @@ function decryptToken($token)
     $message["status"] = 200;
     return $message;
 }
-?>
 
+function is_logged_in()
+{
+    // Get current CodeIgniter instance
+    $CI = &get_instance();
+    // We need to use $CI->session instead of $this->session
+    $user = $CI->session->userdata("user_data");
+    if (!isset($user)) {
+        redirect("login");
+    }
+}
+
+function is_logged()
+{
+    // Get current CodeIgniter instance
+    $CI = &get_instance();
+    // We need to use $CI->session instead of $this->session
+    $user = $CI->session->userdata("user_data");
+    if (isset($user)) {
+        echo "<script type='text/javascript'>";
+        echo "window.history.back(-1)";
+        echo "</script>";
+    }
+}
+
+function get_metadata()
+{
+    $CI = &get_instance();
+    $user = $CI->session->userdata("user_data");
+    return $user;
+}
+
+?>

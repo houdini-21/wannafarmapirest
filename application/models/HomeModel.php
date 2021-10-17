@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class HomeModel extends CI_Controller {
+class HomeModel extends CI_Model {
 
     public function login($email,$encripPass){
         $this->db->select();

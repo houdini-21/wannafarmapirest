@@ -7,17 +7,16 @@ class Login extends CI_Controller
   {
     parent::__construct();
     $this->load->model('LoginModel', 'loginModel');
-    $this->load->helper('url');
-    $this->load->helper('electro_helper');
+    is_logged();
   }
   public function index()
   {
-    $this->load->view(template_frontpath('sign-up'), false);
+    $this->load->view(template_frontpath('sign-templates/sign-up'), false);
   }
 
   public function signin()
   {
-    $this->load->view(template_frontpath('sign-in'), false);
+    $this->load->view(template_frontpath('sign-templates/sign-in'), false);
   }
 
   public function loginUser()
@@ -26,7 +25,17 @@ class Login extends CI_Controller
     $password = $this->input->post('password');
 
     $sql = $this->loginModel->login($email, md5($password));
-    echo $sql;
+    if(isset($sql->id_persona)){
+        $router = $this->loginModel->getTypeUser($sql->id_persona);
+        if($router->id_rol==1){
+         $this->session->set_userdata('user_data', $router);
+         redirect('Farmer', 'refresh');
+        }
+        else {
+         $this->session->set_userdata($router);
+         redirect('Landlord', 'refresh');
+        }
+    }
   }
 
   public function crearUsuario($token = '')
@@ -38,7 +47,7 @@ class Login extends CI_Controller
       );
       if ($code_decode['status'] == 200 && $cuentaConfirmada == false) {
         $data['id'] = $code_decode['data']->id;
-        $this->load->view(template_frontpath('createUser'), $data, false);
+        $this->load->view(template_frontpath('sign-templates/createUser'), $data, false);
       } else {
         echo 'token vencido';
       }
@@ -90,7 +99,9 @@ class Login extends CI_Controller
         $this->load->view(template_frontpath('message'), $message, false);
       }
     } else {
-      echo 'error';
+        $message['message'] =
+          'Error al enviar correo electronico';
+        $this->load->view(template_frontpath('message'), $message, false);
     }
   }
 
@@ -115,15 +126,10 @@ class Login extends CI_Controller
     if ($sql != 0) {
       $url = base_url() . 'login/crearUsuario/' . $code;
       redirect($url, 'refresh');
-      /**
-            $enviarCorreo = send_mail($url, $email);
-            if ($enviarCorreo == 201) {
-                echo "Cuenta creada con exito, se ha enviado un correo de confirmacion a " .
-                    $email;
-            }
-                * */
     } else {
-      echo 'Error, intente mas tarde';
+        $message['message'] =
+          'Error intente mas tarde';
+        $this->load->view(template_frontpath('message'), $message, false);
     }
   }
   public function confirmaCuenta($token)
