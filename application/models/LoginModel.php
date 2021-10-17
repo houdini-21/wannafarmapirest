@@ -2,7 +2,7 @@
 <?php
 defined("BASEPATH") or exit("No direct script access allowed");
 
-class LoginModel extends CI_Controller
+class LoginModel extends CI_Model
 {
     public function login($email, $encripPass)
     {
@@ -15,7 +15,7 @@ class LoginModel extends CI_Controller
         $exists = $res->num_rows();
         if ($exists > 0) {
             if ($result[0]->estado == 1) {
-                return "bienvenido";
+                return $result[0];
             } else {
                 return "debes de confirmar tu cuenta";
             }
@@ -72,5 +72,12 @@ class LoginModel extends CI_Controller
         $res = $this->db->get()->row();
         return $res->correo;
     }
-}
 
+    function getTypeUser($id){
+        $this->db->select("id_persona,id_cuenta,id_rol");
+        $this->db->from("wf_persona");
+        $this->db->where("id_persona", $id);
+        $res = $this->db->get()->row();
+        return $res;
+    }
+}
