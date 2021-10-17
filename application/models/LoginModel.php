@@ -74,7 +74,7 @@ class LoginModel extends CI_Model
     }
 
     function getTypeUser($id){
-        $this->db->select("id_persona,id_cuenta,id_rol");
+        $this->db->select("*");
         $this->db->from("wf_persona");
         $this->db->where("id_persona", $id);
         $res = $this->db->get()->row();

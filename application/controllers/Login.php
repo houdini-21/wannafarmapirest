@@ -92,16 +92,16 @@ class Login extends CI_Controller
       if (send_mail($url, $email) == 201) {
         $message['message'] =
           'se ha enviado un correo de confirmacion a ' . $email;
-        $this->load->view(template_frontpath('message'), $message, false);
+        $this->load->view(template_frontpath('ui/message'), $message, false);
       } else {
         $message['message'] =
           'Error al enviar correo electronico';
-        $this->load->view(template_frontpath('message'), $message, false);
+        $this->load->view(template_frontpath('ui/message'), $message, false);
       }
     } else {
         $message['message'] =
           'Error al enviar correo electronico';
-        $this->load->view(template_frontpath('message'), $message, false);
+        $this->load->view(template_frontpath('ui/message'), $message, false);
     }
   }
 
@@ -129,7 +129,7 @@ class Login extends CI_Controller
     } else {
         $message['message'] =
           'Error intente mas tarde';
-        $this->load->view(template_frontpath('message'), $message, false);
+        $this->load->view(template_frontpath('ui/message'), $message, false);
     }
   }
   public function confirmaCuenta($token)
@@ -145,14 +145,14 @@ class Login extends CI_Controller
           $update['estado'] = 1;
           $this->loginModel->updateCuenta($update, $id);
           $message['message'] = 'cuenta confirmada';
-          $this->load->view(template_frontpath('message'), $message, false);
+          $this->load->view(template_frontpath('ui/message'), $message, false);
         } else {
           $message['message'] = 'tu cuenta ya fue confirmada';
-          $this->load->view(template_frontpath('message'), $message, false);
+          $this->load->view(template_frontpath('ui/message'), $message, false);
         }
       } else {
         $message['message'] = 'token vencido';
-        $this->load->view(template_frontpath('message'), $message, false);
+        $this->load->view(template_frontpath('ui/message'), $message, false);
       }
     } else {
       redirect('login', 'refresh');
