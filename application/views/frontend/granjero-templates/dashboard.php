@@ -1,12 +1,63 @@
 <?php $this->load->view(template_frontpath('template/header')); ?>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<style>
+
+.slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots li button:before {
+    content: '•';
+    font-size: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    opacity: .4;
+    color: #fff;
+}
+.slick-dots .slick-active button:before {
+opacity: .9;
+}
+</style>
   <nav
-    class="fixed flex flex-row items-center justify-between w-full h-16 px-6 bg-white shadow "
+    class="fixed flex flex-row items-center justify-between w-full h-16 px-6 bg-white shadow top-0 left-0 z-10"
   >
     <div><p class="text-2xl text-green suprema-regular">Wannafarm</p></div>
 <div class="hidden lg:flex w-4/12 h-16 items-center justify-center">
 <input type="text" name="search" id="" class="px-4 py-2 bg-gray-100 text-gray-500 text-base rounded-full w-full suprema-regular outline-none" placeholder="Buscar lugar">
 </div>
-<div class="hidden lg:flex lg:flex flex-row justify-between items-center w-6/12">
+<div class="hidden lg:flex lg:flex flex-row justify-between items-center w-5/12">
     <div
       class="
         flex
@@ -24,7 +75,7 @@
     >
       <p
         class="
-          text-lg text-green
+          text-base text-green
           suprema-regular
           group-hover:text-white
           transition
@@ -33,7 +84,7 @@
         "
       >
         <a href="<?= base_url('/Farmer') ?>"
-          ><i class="far fa-home mr-3 text-xl"></i>Home</a
+          ><i class="far fa-home mr-3 text-lg"></i>Home</a
         >
       </p>
     </div>
@@ -55,7 +106,7 @@
     >
       <p
         class="
-          text-lg text-green
+          text-base text-green
           suprema-regular
           group-hover:text-white
           transition
@@ -64,7 +115,7 @@
         "
       >
         <a href="<?= base_url('/Farmer') ?>"
-          ><i class="far fa-hand-holding-seedling mr-3 text-xl"></i>Mis Tierras</a
+          ><i class="far fa-hand-holding-seedling mr-3 text-lg"></i>Mis Tierras</a
         >
       </p>
     </div>
@@ -85,7 +136,7 @@
     >
       <p
         class="
-          text-lg text-green
+          text-base text-green
           suprema-regular
           group-hover:text-white
           transition
@@ -94,7 +145,7 @@
         "
       >
         <a href="<?= base_url('/Farmer') ?>"
-          ><i class="far fa-wheat mr-3 text-xl"></i>Mis Cultivos</a
+          ><i class="far fa-wheat mr-3 text-lg"></i>Mis Cultivos</a
         >
       </p>
     </div>
@@ -109,8 +160,9 @@
   <div
     class="
       bg-green
-      absolute
+     fixed 
       left-0
+      top-0
       h-full
       transform
       -translate-x-full
@@ -124,6 +176,7 @@
       flex flex-col
       items-center
       justify-start
+      z-50
    "
     id="sidebar"
   >
@@ -249,9 +302,54 @@
     </div>
   </div>
 
-<div class="flex flex-col justify-center items-center w-full">
+<div class="mt-16">
+<div class="flex flex-col justify-center items-center w-full px-7">
+<div class="h-22 w-full pt-5">
+<h2 class="text-4xl text-gray-800 suprema-regular">Buenas noches fernando!</h2>
 </div>
+<div class="flex flex-col justify-center items-start w-full pt-5">
 
+<div class="w-full h-80 bg-white mb-4">
+<div class="carrousel">
+<img src="<?= base_url('/assets/images/bg-test.jpg') ?>" alt="" class="w-full h-48 object-cover rounded-md">
+
+<img src="<?= base_url('/assets/images/bg-test.jpg') ?>" alt="" class="w-full h-48 object-cover rounded-md">
+</div>
+<div class="px-3 py-1 flex flex-col justify-between items-start h-32">
+<p class="text-lg text-gray-700 suprema-regular">Finca Libertad - Sonsonate</p>
+<p class="text-base text-gray-700 suprema-medium">Lorem ipsum consequatur mollitia fugit</p>
+<p class="text-lg text-gray-700 suprema-semibold">$200/Mes</p>
+</div>
+</div>
+<div class="w-full h-80 bg-white mb-4">
+<div class="carrousel">
+<img src="<?= base_url('/assets/images/bg-test.jpg') ?>" alt="" class="w-full h-48 object-cover rounded-md">
+
+<img src="<?= base_url('/assets/images/bg-test.jpg') ?>" alt="" class="w-full h-48 object-cover rounded-md">
+</div>
+<div class="px-3 py-1 flex flex-col justify-between items-start h-32">
+<p class="text-lg text-gray-700 suprema-regular">Finca Libertad - Sonsonate</p>
+<p class="text-base text-gray-700 suprema-medium">Lorem ipsum consequatur mollitia fugit</p>
+<p class="text-lg text-gray-700 suprema-semibold">$200/Mes</p>
+</div>
+</div>
+<div class="w-full h-80 bg-white mb-4">
+<div class="carrousel">
+<img src="<?= base_url('/assets/images/bg-test.jpg') ?>" alt="" class="w-full h-48 object-cover rounded-md">
+
+<img src="<?= base_url('/assets/images/bg-test.jpg') ?>" alt="" class="w-full h-48 object-cover rounded-md">
+</div>
+<div class="px-3 py-1 flex flex-col justify-between items-start h-32">
+<p class="text-lg text-gray-700 suprema-regular">Finca Libertad - Sonsonate</p>
+<p class="text-base text-gray-700 suprema-medium">Lorem ipsum consequatur mollitia fugit</p>
+<p class="text-lg text-gray-700 suprema-semibold">$200/Mes</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
 const sidebar = document.getElementById('sidebar');
 const open_sidebar = document.getElementById('open-sidebar');
@@ -266,6 +364,9 @@ close_sidebar.addEventListener('click', ()=>{
     sidebar.classList.toggle('-translate-x-full');
 })
 
-
+$('.carrousel').slick({
+dots: true,
+arrows: false,
+});
 </script>
 <?php $this->load->view(template_frontpath('template/footer')); ?>
