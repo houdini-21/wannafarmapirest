@@ -8,6 +8,7 @@ class Farmer extends CI_Controller
     parent::__construct();
     is_logged_in();
   }
+  
   public function index()
   {
     $data['dataUser'] = get_metadata();
