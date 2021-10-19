@@ -305,7 +305,7 @@ opacity: .9;
 <div class="mt-16">
 <div class="flex flex-col justify-center items-center w-full px-7">
 <div class="h-22 w-full pt-5">
-<h2 class="text-4xl text-gray-800 suprema-regular">Buenas noches fernando!</h2>
+<h2 class="text-4xl text-gray-800 suprema-regular"><?= $saludo.$dataUser->nombres ?>!</h2>
 </div>
 <div class="flex flex-col justify-center items-start w-full pt-5">
 
@@ -321,34 +321,10 @@ opacity: .9;
 <p class="text-lg text-gray-700 suprema-semibold">$200/Mes</p>
 </div>
 </div>
-<div class="w-full h-80 bg-white mb-4">
-<div class="carrousel">
-<img src="<?= base_url('/assets/images/bg-test.jpg') ?>" alt="" class="w-full h-48 object-cover rounded-md">
-
-<img src="<?= base_url('/assets/images/bg-test.jpg') ?>" alt="" class="w-full h-48 object-cover rounded-md">
-</div>
-<div class="px-3 py-1 flex flex-col justify-between items-start h-32">
-<p class="text-lg text-gray-700 suprema-regular">Finca Libertad - Sonsonate</p>
-<p class="text-base text-gray-700 suprema-medium">Lorem ipsum consequatur mollitia fugit</p>
-<p class="text-lg text-gray-700 suprema-semibold">$200/Mes</p>
-</div>
-</div>
-<div class="w-full h-80 bg-white mb-4">
-<div class="carrousel">
-<img src="<?= base_url('/assets/images/bg-test.jpg') ?>" alt="" class="w-full h-48 object-cover rounded-md">
-
-<img src="<?= base_url('/assets/images/bg-test.jpg') ?>" alt="" class="w-full h-48 object-cover rounded-md">
-</div>
-<div class="px-3 py-1 flex flex-col justify-between items-start h-32">
-<p class="text-lg text-gray-700 suprema-regular">Finca Libertad - Sonsonate</p>
-<p class="text-base text-gray-700 suprema-medium">Lorem ipsum consequatur mollitia fugit</p>
-<p class="text-lg text-gray-700 suprema-semibold">$200/Mes</p>
 </div>
 </div>
 </div>
-</div>
-</div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
 const sidebar = document.getElementById('sidebar');
