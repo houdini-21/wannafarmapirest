@@ -1,0 +1,64 @@
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important;
+}
+
+.u-margin-top-big {
+  margin-top: 8rem !important;
+}
+
+.u-margin-top-huge {
+  margin-top: 10rem !important;
+}
+
+.u-white-text {
+  color: $color-white !important;
+}
+
+.u-dark-text {
+  color: $color-grey-dark-3 !important;
+}
+.u-capitalize-text {
+  text-transform: capitalize !important;
+}
+
+.u-green-principal {
+  &-font {
+    color: $green-light-1;
+  }
+  &-btn {
+    background-color: $green-light-1;
+  }
+}
+
+.u-black-1 {
+  &-font {
+    color: $black-1;
+  }
+  &-btn {
+    background-color: $black-1;
+  }
+}
+
+.u-white-1 {
+  &-font {
+    color: $white-1;
+  }
+  &-btn {
+    background-color: $white-1;
+  }
+}
+.link {
+    text-decoration: none;
+}

@@ -1,0 +1,20 @@
+.navbar {
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 8rem;
+    z-index: 200;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  &__items-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 44rem;
+  }
+}

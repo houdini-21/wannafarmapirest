@@ -1,0 +1,106 @@
+.our-team {
+  &__container {
+    &-box {
+      background-image: url(../../public/img/our-team-back.png);
+      background-size: cover;
+      background-position: center;
+      height: 63rem;
+      width: 120rem;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+    }
+  }
+
+  &__text-box {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  &__cards {
+    &-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      width: 95rem;
+    }
+    &-div {
+      height: 40rem;
+      width: 27.5rem;
+    }
+  }
+
+  &__about-me {
+    &-box {
+      height: 19rem;
+      width: 23rem;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+  }
+}
+
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 40rem;
+  width: 27.5rem;
+
+  &__side {
+    height: 40rem;
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: $white-1;
+
+    &--front {
+      background-color: $color-white;
+      &-1 {
+        background-image: url(../../public/img/CEO.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+      &-2 {
+        background-image: url(../../public/img/CTO.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+      &-3 {
+        background-image: url(../../public/img/CCO.jpeg);
+        background-position: center;
+        background-size: cover;
+      }
+    }
+
+    &--back {
+      transform: rotateY(180deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+}

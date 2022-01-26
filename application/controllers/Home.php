@@ -10,7 +10,9 @@ class Home extends CI_Controller
     }
     public function index()
     {
-        redirect("login", "refresh");
+     //   redirect("login", "refresh");
+   //  redirect("login", "refresh");
+     $this->load->view(template_frontpath('landing/index.php'), false);
     }
 
     public function login()

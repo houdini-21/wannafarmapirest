@@ -1,0 +1,43 @@
+.footer {
+  height: 30rem;
+  width: 100%;
+  background-color: $green-light-1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &__text-box {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 20rem;
+  }
+  &__links-page {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45rem;
+  }
+  &__links-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 10rem;
+  }
+
+  &__social-icons {
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  &__special {
+      position: absolute;
+      bottom: 1rem;
+  }
+}
