@@ -98,6 +98,7 @@ class parcelasController extends CI_Controller
            if (!file_exists($ruta)) //verifica si existe la ruta y sino la crea
                 {//ES OBLIGATORIO CREAR LA CARPETA DENTRO DEL DIRECTORIO RAIZ A MANO PARA PODER ALMACENAR LOS DATOS
                 mkdir($estructura,0777, true);
+                
                 }
            $archivo = $ruta . $_FILES["fotosparcela"]["name"];//concatena al archivo la ruta en la que se tiene que guardar con el nombre con el que se subio la imagen
            if (!file_exists($archivo)) //validando si el archivo existe
