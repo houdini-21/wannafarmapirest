@@ -80,4 +80,7 @@ class LoginModel extends CI_Model
         $res = $this->db->get()->row();
         return $res;
     }
+
+    
+
 }
