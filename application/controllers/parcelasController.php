@@ -76,80 +76,171 @@ class parcelasController extends CI_Controller
   {
     $sql = $this->parcelasModel->registrarParcelas($data);
     if ($sql > 0) 
-    {
-     $idParcelas['id_parcelas'] = $sql;
-     $parcelasid = implode($idParcelas);
-  //   print_r($parcelasid);
-      if ($_FILES["fotosparcela"]["error"] > 0) //carga el archivo con sus propiedades
-        {
-       // $result = [ "resultado" => "error al carhar archivo" ];
-      //  $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-      throw new Exception('error al carhar archivo');    //lanza una nueva excepcion
-     }
-      else
-       {
-          $permtidos = array("image/jpg", "image/png", "image/jpeg");//son los formatos que se aceptan 
-          $limite_kb = 200;//peso maximo permitido
-          if (in_array($_FILES["fotosparcela"]["type"], $permtidos) && $_FILES["fotosparcela"]["size"] < $limite_kb * 1024)
-          {        //verifica dentro del arreglo el tipo de archivo si cumple con los requerimientos y si el tamano es el permitido
-           $ruta = './files/'.$id_persona.'/'.'parcelas/'.$parcelasid.'/' ;//crea la ruta en la que se guardaran
-                    //files/14/parcelas/24/foto   
-            $estructura = './files/'.$id_persona.'/'.'parcelas/'.$parcelasid.'/';
-           if (!file_exists($ruta)) //verifica si existe la ruta y sino la crea
-                {//ES OBLIGATORIO CREAR LA CARPETA DENTRO DEL DIRECTORIO RAIZ A MANO PARA PODER ALMACENAR LOS DATOS
-                mkdir($estructura,0777, true);
-                
-                }
-           $archivo = $ruta . $_FILES["fotosparcela"]["name"];//concatena al archivo la ruta en la que se tiene que guardar con el nombre con el que se subio la imagen
-           if (!file_exists($archivo)) //validando si el archivo existe
-           {
-             $resultado = @move_uploaded_file($_FILES["fotosparcela"]["tmp_name"], $archivo);//la funcion de  @move_uploaded_file mueve el archivo del formulario a la nueva ruta
-                  if ($resultado) 
-                  {
-                    $result = [ "resultado" => "archivo guardado" ];
-                  // $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-                  } 
+     {
+          $idParcelas['id_parcelas'] = $sql;
+          $parcelasid = implode($idParcelas);
+            if ($_FILES["fotosparcela"]["error"] > 0) //carga el archivo con sus propiedades
+              {
+                throw new Exception('error al carhar archivo');    //lanza una nueva excepcion
+              }
+            else
+              {
+                  $permtidos = array("image/jpg", "image/png", "image/jpeg");//son los formatos que se aceptan 
+                  $limite_kb = 200;//peso maximo permitido
+                  if (in_array($_FILES["fotosparcela"]["type"], $permtidos) && $_FILES["fotosparcela"]["size"] < $limite_kb * 1024)
+                     {        //verifica dentro del arreglo el tipo de archivo si cumple con los requerimientos y si el tamano es el permitido
+                        $ruta = './files/'.$id_persona.'/'.'parcelas/'.$parcelasid.'/' ;//crea la ruta en la que se guardaran
+                        $estructura = './files/'.$id_persona.'/'.'parcelas/'.$parcelasid.'/';
+                         if (!file_exists($ruta)) //verifica si existe la ruta y sino la crea
+                            {//ES OBLIGATORIO CREAR LA CARPETA DENTRO DEL DIRECTORIO RAIZ A MANO PARA PODER ALMACENAR LOS DATOS
+                               mkdir($estructura,0777, true);
+                            }
+                        $archivo = $ruta . $_FILES["fotosparcela"]["name"];//concatena al archivo la ruta en la que se tiene que guardar con el nombre con el que se subio la imagen
+                        if (!file_exists($archivo)) //validando si el archivo existe
+                          {
+                              $resultado = @move_uploaded_file($_FILES["fotosparcela"]["tmp_name"], $archivo);//la funcion de  @move_uploaded_file mueve el archivo del formulario a la nueva ruta
+                              if ($resultado) 
+                                {
+                                  $result = [ "resultado" => "archivo guardado" ];
+                                } 
+                              else 
+                                {
+                                  throw new Exception('no se guardo');
+                                }
+                            } 
+                        else 
+                            {
+                              throw new Exception('el archivo ya existe');
+                            }
+                     } 
                   else 
+                  {
+                    throw new Exception('archivo no permitido o exece el tamano');
+                  }
+              }
+//nueva inserccion de fotos //alamcenando comprobantes 
+                if ($_FILES["comprobantepropiedad"]["error"] > 0)
+                {
+                  throw new Exception('error al carhar archivo');
+                }
+                else
+                {
+                    if (in_array($_FILES["comprobantepropiedad"]["type"], $permtidos) && $_FILES["comprobantepropiedad"]["size"] < $limite_kb * 1024)
+                      {        
+                          $ruta = './files/'.$id_persona.'/'.'comprobantes/'.$parcelasid.'/' ;
+                          $estructura = './files/'.$id_persona.'/'.'comprobantes/'.$parcelasid.'/';
+                          if (!file_exists($ruta)) 
+                              {
+                                mkdir($estructura,0777, true);
+                              }
+                          $archivo = $ruta . $_FILES["comprobantepropiedad"]["name"];
+                          if (!file_exists($archivo)) 
+                            {
+                                $resultado = @move_uploaded_file($_FILES["comprobantepropiedad"]["tmp_name"], $archivo);
+                                if ($resultado)
+                                  {
+                                    $result = [ "resultado" => "archivo guardado" ];
+                                  } 
+                                else 
+                                  {
+                                    throw new Exception('no se guardo');
+                                  }
+                              } 
+                          else 
+                              {
+                                throw new Exception('el archivo ya existe');
+                              }
+                      } 
+                    else 
                     {
-                    //   $result = [
-                    //   "resultado" => "no se guardado"
-                    //   ];
-                    //   $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-                    // // echo "no se guardo";
-                    throw new Exception('no se guardo');
+                      throw new Exception('archivo no permitido o exece el tamano');
                     }
-            } 
-            else 
-            {
-            //     $result = [
-            //       "resultado" => "el archivo ya existe"
-            //     ];
-            //     $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false);
-            // //  echo "el archivo ya existe";
-            throw new Exception('el archivo ya existe');
-            }
-          } 
-         else 
-         {
-            // $result = [
-            //   "resultado" => "archivo no permitido o exece el tamano"
-            // ];
-            // $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false);
-            // //echo "archivo no permitido o exece el tamano";
-            throw new Exception('archivo no permitido o exece el tamano');
-          }
-        }
-      }
-    else 
-    {
-      // $result = [
-      //   "success" => "error al almacenar archivos"
-      // ];
-      // $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-       throw new Exception('error al almacenar archivos');
-    }
+                }
+//documento de identidad al derecho
+              if ($_FILES["fotofrontal"]["error"] > 0)
+                {
+                  throw new Exception('error al carhar archivo');
+                }
+                else
+                {
+                    if (in_array($_FILES["fotofrontal"]["type"], $permtidos) && $_FILES["fotofrontal"]["size"] < $limite_kb * 1024)
+                      {        
+                          $ruta = './files/'.$id_persona.'/'.'identificacion/'.$parcelasid.'/' ;
+                          $estructura = './files/'.$id_persona.'/'.'identificacion/'.$parcelasid.'/';
+                          if (!file_exists($ruta)) 
+                              {
+                                mkdir($estructura,0777, true);
+                              }
+                          $archivo = $ruta . $_FILES["fotofrontal"]["name"];
+                          if (!file_exists($archivo)) 
+                            {
+                                $resultado = @move_uploaded_file($_FILES["fotofrontal"]["tmp_name"], $archivo);
+                                if ($resultado)
+                                  {
+                                    $result = [ "resultado" => "archivo guardado" ];
+                                  } 
+                                else 
+                                  {
+                                    throw new Exception('no se guardo');
+                                  }
+                              } 
+                          else 
+                              {
+                                throw new Exception('el archivo ya existe');
+                              }
+                      } 
+                    else 
+                    {
+                      throw new Exception('archivo no permitido o exece el tamano');
+                    }
+                }
+//comprobante de identidad al reverso
+              if ($_FILES["fotoreverso"]["error"] > 0)
+                {
+                  throw new Exception('error al carhar archivo');
+                }
+                else
+                {
+                    if (in_array($_FILES["fotoreverso"]["type"], $permtidos) && $_FILES["fotoreverso"]["size"] < $limite_kb * 1024)
+                      {        
+                        $ruta = './files/'.$id_persona.'/'.'identificacion/'.$parcelasid.'/' ;
+                        $estructura = './files/'.$id_persona.'/'.'identificacion/'.$parcelasid.'/';
+                        if (!file_exists($ruta)) 
+                              {
+                                mkdir($estructura,0777, true);
+                              }
+                          $archivo = $ruta . $_FILES["fotoreverso"]["name"];
+                          if (!file_exists($archivo)) 
+                            {
+                                $resultado = @move_uploaded_file($_FILES["fotoreverso"]["tmp_name"], $archivo);
+                                if ($resultado)
+                                  {
+                                    $result = [ "resultado" => "archivo guardado" ];
+                                  } 
+                                else 
+                                  {
+                                    throw new Exception('no se guardo');
+                                  }
+                              } 
+                          else 
+                              {
+                                throw new Exception('el archivo ya existe');
+                              }
+                      } 
+                    else 
+                    {
+                      throw new Exception('archivo no permitido o exece el tamano');
+                    }
+                }
+//
+            
 
-  }
+    }
+    else 
+      {
+      throw new Exception('error al almacenar archivos');
+      }
+  } 
   catch(exception $e ){
        $result = [
          "success" =>$e
@@ -171,257 +262,6 @@ class parcelasController extends CI_Controller
 
         
         
-
-//***********agrgando comprobante de propiedad************
-      //  if ($_FILES["comprobantepropiedad"]["error"] > 0) //carga el archivo con sus propiedades
-      //  {
-      //    $result = [
-      //               "resultado" => "error al carhar archivo"
-      //              ];
-      //    $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-      //   // echo "error al carhar archivo";
-      //  }
-      //  else
-      //  {
-      //    $permtidos = array("image/jpg", "image/png", "image/jpeg");//son los formatos que se aceptan 
-      //    $limite_kb = 200;//peso maximo permitido
-      //    if (in_array($_FILES["comprobantepropiedad"]["type"], $permtidos) && $_FILES["comprobantepropiedad"]["size"] < $limite_kb * 1024)
-      //     {        //verifica dentro del arreglo el tipo de archivo si cumple con los requerimientos y si el tamano es el permitido
-      //      $ruta = './files/' . $id_persona . '/';//crea la ruta en la que se guardaran
-      //      $archivo = $ruta . $_FILES["fotosparcela"]["name"];//concatena al archivo la ruta en la que se tiene que guardar con el nombre con el que se subio la imagen
-      //      if (!file_exists($ruta)) //verifica si existe la ruta y sino la crea
-      //      {
-      //        mkdir($ruta);
-      //      }
-      //      if (!file_exists($archivo)) //validando si el archivo existe
-      //      {
-      //        $resultado = @move_uploaded_file($_FILES["fotosparcela"]["tmp_name"], $archivo);//la funcion de  @move_uploaded_file mueve el archivo del formulario a la nueva ruta
-      //        if ($resultado) 
-      //        {
-      //          $result = [
-      //            "resultado" => "archivo guardado",
-      //            "add" => " otras "
-      //          ];
-      //          $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-      //        } 
-      //        else 
-      //        {
-      //          $result = [
-      //            "resultado" => "no se guardado"
-      //          ];
-      //          $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-      //         // echo "no se guardo";
-      //        }
-      //      } 
-      //      else 
-      //      {
-      //        $result = [
-      //          "resultado" => "el archivo ya existe"
-      //        ];
-      //        $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false);
-      //      //  echo "el archivo ya existe";
-      //      }
-      //    } 
-      //    else 
-      //    {
-      //      $result = [
-      //        "resultado" => "archivo no permitido o exece el tamano"
-      //      ];
-      //      $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false);
-      //      //echo "archivo no permitido o exece el tamano";
-      //    }
-      //  }
-
-  
-
-     
-  
-
-
-
-
-
-    //almacenando comprovante de propiedad
-    // if ($_FILES["archivo"]["error"] > 0) //carga el archivo con sus propiedades
-    // {
-    //   $result = [
-    //              "resultado" => "error al carhar archivo"
-    //             ];
-    //   $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-    //  // echo "error al carhar archivo";
-    // }
-    // else
-    // {
-    //   $permtidos = array("image/jpg", "image/png", "image/jpeg");//son los formatos que se aceptan 
-    //   $limite_kb = 200;//peso maximo permitido
-    //   if (in_array($_FILES["archivo"]["type"], $permtidos) && $_FILES["archivo"]["size"] < $limite_kb * 1024)
-    //    {        //verifica dentro del arreglo el tipo de archivo si cumple con los requerimientos y si el tamano es el permitido
-    //     $ruta = './files/' . $id_persona . '/';//crea la ruta en la que se guardaran
-    //     $archivo = $ruta . $_FILES["archivo"]["name"];//concatena al archivo la ruta en la que se tiene que guardar con el nombre con el que se subio la imagen
-    //     if (!file_exists($ruta)) //verifica si existe la ruta y sino la crea
-    //     {
-    //       mkdir($ruta);
-    //     }
-    //     if (!file_exists($archivo)) //validando si el archivo existe
-    //     {
-    //       $resultado = @move_uploaded_file($_FILES["archivo"]["tmp_name"], $archivo);//la funcion de  @move_uploaded_file mueve el archivo del formulario a la nueva ruta
-    //       if ($resultado) 
-    //       {
-    //         $result = [
-    //           "resultado" => "archivo guardado",
-    //           "add" => " otras "
-    //         ];
-    //         $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-    //       } 
-    //       else 
-    //       {
-    //         $result = [
-    //           "resultado" => "no se guardado"
-    //         ];
-    //         $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-    //        // echo "no se guardo";
-    //       }
-    //     } 
-    //     else 
-    //     {
-    //       $result = [
-    //         "resultado" => "el archivo ya existe"
-    //       ];
-    //       $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false);
-    //     //  echo "el archivo ya existe";
-    //     }
-    //   } 
-    //   else 
-    //   {
-    //     $result = [
-    //       "resultado" => "archivo no permitido o exece el tamano"
-    //     ];
-    //     $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false);
-    //     //echo "archivo no permitido o exece el tamano";
-    //   }
-    // }
-
-    // //foto de documento de identidad frontal
-    // if ($_FILES["archivo"]["error"] > 0) //carga el archivo con sus propiedades
-    // {
-    //   $result = [
-    //              "resultado" => "error al carhar archivo"
-    //             ];
-    //   $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-    //  // echo "error al carhar archivo";
-    // }
-    // else
-    // {
-    //   $permtidos = array("image/jpg", "image/png", "image/jpeg");//son los formatos que se aceptan 
-    //   $limite_kb = 200;//peso maximo permitido
-    //   if (in_array($_FILES["archivo"]["type"], $permtidos) && $_FILES["archivo"]["size"] < $limite_kb * 1024)
-    //    {        //verifica dentro del arreglo el tipo de archivo si cumple con los requerimientos y si el tamano es el permitido
-    //     $ruta = './files/' . $id_persona . '/';//crea la ruta en la que se guardaran
-    //     $archivo = $ruta . $_FILES["archivo"]["name"];//concatena al archivo la ruta en la que se tiene que guardar con el nombre con el que se subio la imagen
-    //     if (!file_exists($ruta)) //verifica si existe la ruta y sino la crea
-    //     {
-    //       mkdir($ruta);
-    //     }
-    //     if (!file_exists($archivo)) //validando si el archivo existe
-    //     {
-    //       $resultado = @move_uploaded_file($_FILES["archivo"]["tmp_name"], $archivo);//la funcion de  @move_uploaded_file mueve el archivo del formulario a la nueva ruta
-    //       if ($resultado) 
-    //       {
-    //         $result = [
-    //           "resultado" => "archivo guardado",
-    //           "add" => " otras "
-    //         ];
-    //         $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-    //       } 
-    //       else 
-    //       {
-    //         $result = [
-    //           "resultado" => "no se guardado"
-    //         ];
-    //         $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-    //        // echo "no se guardo";
-    //       }
-    //     } 
-    //     else 
-    //     {
-    //       $result = [
-    //         "resultado" => "el archivo ya existe"
-    //       ];
-    //       $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false);
-    //     //  echo "el archivo ya existe";
-    //     }
-    //   } 
-    //   else 
-    //   {
-    //     $result = [
-    //       "resultado" => "archivo no permitido o exece el tamano"
-    //     ];
-    //     $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false);
-    //     //echo "archivo no permitido o exece el tamano";
-    //   }
-    // }
-
-    // //foto de identidad al reverso
-    // if ($_FILES["archivo"]["error"] > 0) //carga el archivo con sus propiedades
-    // {
-    //   $result = [
-    //              "resultado" => "error al carhar archivo"
-    //             ];
-    //   $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-    //  // echo "error al carhar archivo";
-    // }
-    // else
-    // {
-    //   $permtidos = array("image/jpg", "image/png", "image/jpeg");//son los formatos que se aceptan 
-    //   $limite_kb = 200;//peso maximo permitido
-    //   if (in_array($_FILES["archivo"]["type"], $permtidos) && $_FILES["archivo"]["size"] < $limite_kb * 1024)
-    //    {        //verifica dentro del arreglo el tipo de archivo si cumple con los requerimientos y si el tamano es el permitido
-    //     $ruta = './files/' . $id_persona . '/';//crea la ruta en la que se guardaran
-    //     $archivo = $ruta . $_FILES["archivo"]["name"];//concatena al archivo la ruta en la que se tiene que guardar con el nombre con el que se subio la imagen
-    //     if (!file_exists($ruta)) //verifica si existe la ruta y sino la crea
-    //     {
-    //       mkdir($ruta);
-    //     }
-    //     if (!file_exists($archivo)) //validando si el archivo existe
-    //     {
-    //       $resultado = @move_uploaded_file($_FILES["archivo"]["tmp_name"], $archivo);//la funcion de  @move_uploaded_file mueve el archivo del formulario a la nueva ruta
-    //       if ($resultado) 
-    //       {
-    //         $result = [
-    //           "resultado" => "archivo guardado",
-    //           "add" => " otras "
-    //         ];
-    //         $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-    //       } 
-    //       else 
-    //       {
-    //         $result = [
-    //           "resultado" => "no se guardado"
-    //         ];
-    //         $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
-    //        // echo "no se guardo";
-    //       }
-    //     } 
-    //     else 
-    //     {
-    //       $result = [
-    //         "resultado" => "el archivo ya existe"
-    //       ];
-    //       $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false);
-    //     //  echo "el archivo ya existe";
-    //     }
-    //   } 
-    //   else 
-    //   {
-    //     $result = [
-    //       "resultado" => "archivo no permitido o exece el tamano"
-    //     ];
-    //     $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false);
-    //     //echo "archivo no permitido o exece el tamano";
-    //   }
-    // }
-
-    //
 
   }
 
