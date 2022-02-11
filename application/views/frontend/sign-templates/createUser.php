@@ -135,7 +135,7 @@ w-full
               name="accountType"
               value="1"
             />
-            <span class="ml-2">Agricultor</span>
+            <span class="ml-2">Productor</span>
           </label>
           <label class="inline-flex items-center lg:ml-6">
             <input

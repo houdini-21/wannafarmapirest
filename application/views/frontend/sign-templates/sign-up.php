@@ -28,6 +28,7 @@
         type="text"
         placeholder="Correo"
         name="email"
+        required
       />
 
       <input
@@ -45,6 +46,7 @@
         type="password"
         placeholder="Contrasena"
         name="password"
+        required
       />
     <button class="focus:bg-green-400 py-2 px-2 rounded bg-green text-white suprema-medium mt-4" type="submit">Iniciar sesion</button>
     </form>
