@@ -68,9 +68,4 @@
 
     </div>
 
-se deben eliminar el navbar de las paginas que no sean el dashboard
-se debe crear formulario para llenar las parcelas
-se deben subir las fotos a la base de datos
-se deben mostrar las fotos en forma de catalogo
-
   </nav>

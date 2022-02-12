@@ -19,7 +19,7 @@ class parcelasController extends CI_Controller
     $session = $this->session->userdata('islog'); //extraemos la informacion de la session
     if ($session == 0) //si no hay session se manda al login
     {
-      $this->load->view(
+      $this->load->view( 
         template_frontpath('sign-templates/sign-up'),
         false
       );
@@ -194,7 +194,7 @@ class parcelasController extends CI_Controller
                       throw new Exception('archivo no permitido o exece el tamano');
                     }
                 }
-//comprobante de identidad al reverso
+ //comprobante de identidad al reverso
               if ($_FILES["fotoreverso"]["error"] > 0)
                 {
                   throw new Exception('error al carhar archivo');
@@ -232,7 +232,7 @@ class parcelasController extends CI_Controller
                       throw new Exception('archivo no permitido o exece el tamano');
                     }
                 }
-//
+ //
             
 
     }
@@ -256,14 +256,40 @@ class parcelasController extends CI_Controller
     $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), $result, false); 
  
   }
+}
 
+public function verparcelas()
+{
+  //extrayendo informacion de las parcelas
+  $valor2 = $this->session->userdata('idperson');
+  $id_persona = $valor2;
+  try{
+    $resultado =  $this->parcelasModel->extrayendoParcelas($id_persona);
+    if($resultado != null)
+    {
+      $data = array('consulta' => $resultado);
+      $this->load->view(template_frontpath('parcelas-template/misparcelas'),$data, false); 
+    
+   
+        //concatenando arreglo que se mostrara en la vista
+        // $info = [
+        //   $resultado 
+        // ] ;
+        // $this->load->view(template_frontpath('parcelas-template/misparcelas'),$info, false); 
+    }
+    else{
+      throw new Exception("ha ocurrido un error al mostrar las parcelas");
+    }
+  }
+  catch(Exception $e){
+    $info = [$e] ;
+    $this->load->view(template_frontpath('parcelas-template/misparcelas'),$info, false); 
 
-
-
-        
-        
 
   }
+
+}
+//se va extraer la informacion de la db que corresponda al id de la persona
 
   
 }
