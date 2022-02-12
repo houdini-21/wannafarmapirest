@@ -17,14 +17,7 @@
 			<div class="form-group text-center">
 				
                 
-				<?php 
-				$valor = $this->session->userdata('gmail');
-				$valor2 = $this->session->userdata('idperson');
-				//echo $valor;
-			   
-				
-				?>
-				<h3>bienvenido <?php print_r($valor.$valor2); ?>  </h3>
+		
 				
 			</div>
 		</div>

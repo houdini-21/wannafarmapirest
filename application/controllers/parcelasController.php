@@ -1,7 +1,7 @@
 <?php
 defined("BASEPATH") or exit("No direct script access allowed");
 
-class parcelasController extends CI_Controller
+class parcelasController extends CRUD_controller
 {
   public function __construct()
   {
@@ -11,38 +11,34 @@ class parcelasController extends CI_Controller
   }
   public function index()
   {
-    //verificando si el usuario esta logueado
-    $this->isLogged();
-  }
-  public function isLogged() //funcion del log
-  {
-    $session = $this->session->userdata('islog'); //extraemos la informacion de la session
-    if ($session == 0) //si no hay session se manda al login
-    {
-      $this->load->view( 
-        template_frontpath('sign-templates/sign-up'),
-        false
-      );
-    } else {
-      //carganmos un mensjae para la vista 
-      $result = [
-        "resultado" => " ",
-        "add" => " ",
-        "success" => " "
-      ];
-      //
-      $this->load->view(
-        template_frontpath('parcelas-template/agregarparcelas'),
-        $result,
-        false
-        // $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), false);
-      );
+    //extrayendo informacion de las parcelas
+    $valor2 = $this->session->userdata('idperson');
+    $id_persona = $valor2;
+    try{
+      $resultado =  $this->parcelasModel->extrayendoParcelas($id_persona);
+      if($resultado != null)
+      {
+        $data = array('consulta' => $resultado);
+        $this->load->view(template_frontpath('parcelas-template/misparcelas'),$data, false); 
+      
+     
+          //concatenando arreglo que se mostrara en la vista
+          // $info = [
+          //   $resultado 
+          // ] ;
+          // $this->load->view(template_frontpath('parcelas-template/misparcelas'),$info, false); 
+      }
+      else{
+        throw new Exception("ha ocurrido un error al mostrar las parcelas");
+      }
     }
-  }
-  public function logout() //funcion para cerrar sesion
-  {
-    $this->session->sess_destroy();
-    return redirect(base_url());
+    catch(Exception $e){
+      $info = [$e] ;
+      $this->load->view(template_frontpath('parcelas-template/misparcelas'),$info, false); 
+  
+  
+    }
+  
   }
 
   //almaceando parcelas
@@ -118,7 +114,7 @@ class parcelasController extends CI_Controller
                     throw new Exception('archivo no permitido o exece el tamano');
                   }
               }
-//nueva inserccion de fotos //alamcenando comprobantes 
+                //nueva inserccion de fotos //alamcenando comprobantes 
                 if ($_FILES["comprobantepropiedad"]["error"] > 0)
                 {
                   throw new Exception('error al carhar archivo');
@@ -156,7 +152,7 @@ class parcelasController extends CI_Controller
                       throw new Exception('archivo no permitido o exece el tamano');
                     }
                 }
-//documento de identidad al derecho
+              //documento de identidad al derecho
               if ($_FILES["fotofrontal"]["error"] > 0)
                 {
                   throw new Exception('error al carhar archivo');
@@ -258,37 +254,7 @@ class parcelasController extends CI_Controller
   }
 }
 
-public function verparcelas()
-{
-  //extrayendo informacion de las parcelas
-  $valor2 = $this->session->userdata('idperson');
-  $id_persona = $valor2;
-  try{
-    $resultado =  $this->parcelasModel->extrayendoParcelas($id_persona);
-    if($resultado != null)
-    {
-      $data = array('consulta' => $resultado);
-      $this->load->view(template_frontpath('parcelas-template/misparcelas'),$data, false); 
-    
-   
-        //concatenando arreglo que se mostrara en la vista
-        // $info = [
-        //   $resultado 
-        // ] ;
-        // $this->load->view(template_frontpath('parcelas-template/misparcelas'),$info, false); 
-    }
-    else{
-      throw new Exception("ha ocurrido un error al mostrar las parcelas");
-    }
-  }
-  catch(Exception $e){
-    $info = [$e] ;
-    $this->load->view(template_frontpath('parcelas-template/misparcelas'),$info, false); 
 
-
-  }
-
-}
 //se va extraer la informacion de la db que corresponda al id de la persona
 
   

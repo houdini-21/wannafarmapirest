@@ -3,7 +3,7 @@ $this->shortcodes = [];
 function userget()
 {
     $ci = &get_instance();
-    return $ci->session->userdata("electro_user");
+    return $ci->session->userdata("user_data");
 }
 //views backend
 function template_backpath($file = "")
@@ -426,10 +426,19 @@ function is_logged()
     $CI = &get_instance();
     // We need to use $CI->session instead of $this->session
     $user = $CI->session->userdata("user_data");
-    if (isset($user)) {
-        echo "<script type='text/javascript'>";
-        echo "window.history.back(-1)";
-        echo "</script>";
+    if (isset($user) && $user != '' && $user != null) {
+        if ($user->id_role == 1) {
+            //redirect to user
+            redirect(base_url() . 'users');
+          }
+          if ($user->id_role == 2) {
+            //redirect to admin
+            redirect(base_url() . 'admin');
+          }
+          if ($user->id_role == 3) {
+            //redirect to jinx
+            redirect(base_url() . 'jinx');
+          }
     }
 }
 
