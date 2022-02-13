@@ -383,3 +383,73 @@ INFO - 2022-02-13 08:58:45 --> File loaded: C:\xampp\htdocs\wannafarmapirest\app
 INFO - 2022-02-13 08:58:45 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//sign-templates/sign-up.php
 INFO - 2022-02-13 08:58:45 --> Final output sent to browser
 DEBUG - 2022-02-13 08:58:45 --> Total execution time: 0.1190
+INFO - 2022-02-13 08:59:36 --> Config Class Initialized
+INFO - 2022-02-13 08:59:36 --> Hooks Class Initialized
+DEBUG - 2022-02-13 08:59:36 --> UTF-8 Support Enabled
+INFO - 2022-02-13 08:59:36 --> Utf8 Class Initialized
+INFO - 2022-02-13 08:59:36 --> URI Class Initialized
+INFO - 2022-02-13 08:59:36 --> Router Class Initialized
+INFO - 2022-02-13 08:59:36 --> Output Class Initialized
+INFO - 2022-02-13 08:59:36 --> Security Class Initialized
+DEBUG - 2022-02-13 08:59:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 08:59:36 --> Input Class Initialized
+INFO - 2022-02-13 08:59:36 --> Language Class Initialized
+INFO - 2022-02-13 08:59:36 --> Loader Class Initialized
+INFO - 2022-02-13 08:59:36 --> Helper loaded: url_helper
+INFO - 2022-02-13 08:59:36 --> Helper loaded: electro_helper
+INFO - 2022-02-13 08:59:36 --> Database Driver Class Initialized
+INFO - 2022-02-13 08:59:36 --> Email Class Initialized
+DEBUG - 2022-02-13 08:59:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 08:59:36 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 08:59:36 --> Controller Class Initialized
+INFO - 2022-02-13 08:59:36 --> Model "LoginModel" initialized
+DEBUG - 2022-02-13 08:59:36 --> Session class already loaded. Second attempt ignored.
+INFO - 2022-02-13 08:59:37 --> Config Class Initialized
+INFO - 2022-02-13 08:59:37 --> Hooks Class Initialized
+DEBUG - 2022-02-13 08:59:37 --> UTF-8 Support Enabled
+INFO - 2022-02-13 08:59:37 --> Utf8 Class Initialized
+INFO - 2022-02-13 08:59:37 --> URI Class Initialized
+INFO - 2022-02-13 08:59:37 --> Router Class Initialized
+INFO - 2022-02-13 08:59:37 --> Output Class Initialized
+INFO - 2022-02-13 08:59:37 --> Security Class Initialized
+DEBUG - 2022-02-13 08:59:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 08:59:37 --> Input Class Initialized
+INFO - 2022-02-13 08:59:37 --> Language Class Initialized
+INFO - 2022-02-13 08:59:37 --> Loader Class Initialized
+INFO - 2022-02-13 08:59:37 --> Helper loaded: url_helper
+INFO - 2022-02-13 08:59:37 --> Helper loaded: electro_helper
+INFO - 2022-02-13 08:59:37 --> Database Driver Class Initialized
+INFO - 2022-02-13 08:59:37 --> Email Class Initialized
+DEBUG - 2022-02-13 08:59:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 08:59:37 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 08:59:37 --> Controller Class Initialized
+INFO - 2022-02-13 08:59:37 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 08:59:37 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/HeaderView.php
+INFO - 2022-02-13 08:59:37 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/FooterView.php
+INFO - 2022-02-13 08:59:37 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/dashboard.php
+INFO - 2022-02-13 08:59:37 --> Final output sent to browser
+DEBUG - 2022-02-13 08:59:37 --> Total execution time: 0.1641
+INFO - 2022-02-13 08:59:38 --> Config Class Initialized
+INFO - 2022-02-13 08:59:38 --> Hooks Class Initialized
+DEBUG - 2022-02-13 08:59:38 --> UTF-8 Support Enabled
+INFO - 2022-02-13 08:59:38 --> Utf8 Class Initialized
+INFO - 2022-02-13 08:59:38 --> URI Class Initialized
+INFO - 2022-02-13 08:59:38 --> Router Class Initialized
+INFO - 2022-02-13 08:59:38 --> Output Class Initialized
+INFO - 2022-02-13 08:59:38 --> Security Class Initialized
+DEBUG - 2022-02-13 08:59:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 08:59:38 --> Input Class Initialized
+INFO - 2022-02-13 08:59:38 --> Language Class Initialized
+ERROR - 2022-02-13 08:59:38 --> 404 Page Not Found: Assets/landing
+INFO - 2022-02-13 08:59:38 --> Config Class Initialized
+INFO - 2022-02-13 08:59:38 --> Hooks Class Initialized
+DEBUG - 2022-02-13 08:59:38 --> UTF-8 Support Enabled
+INFO - 2022-02-13 08:59:38 --> Utf8 Class Initialized
+INFO - 2022-02-13 08:59:38 --> URI Class Initialized
+INFO - 2022-02-13 08:59:38 --> Router Class Initialized
+INFO - 2022-02-13 08:59:38 --> Output Class Initialized
+INFO - 2022-02-13 08:59:38 --> Security Class Initialized
+DEBUG - 2022-02-13 08:59:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 08:59:38 --> Input Class Initialized
+INFO - 2022-02-13 08:59:38 --> Language Class Initialized
+ERROR - 2022-02-13 08:59:38 --> 404 Page Not Found: Assets/landing

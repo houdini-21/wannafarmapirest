@@ -1,7 +1,8 @@
 <?php
 defined("BASEPATH") or exit("No direct script access allowed");
-
-class parcelasController extends CI_Controller
+//cuando crees un controlador con permisos especiales usar un extends CRUD_controller
+//para configurar quien puede acceder ir a la ruta core/crud_controller.php
+class parcelasController extends CRUD_controller
 {
   public function __construct()
   {

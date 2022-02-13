@@ -17,6 +17,9 @@ class CRUD_controller extends CI_Controller
             redirect(base_url('login'));
         }
 
+        ///debes de agregar el nombre del contraldor conforme los usuarios con persmisos 
+        //si el controlador creado es para farmer entonces deber de agregar el nombre del controlador en el array del usuario farmer
+
         //farmer
         $acceso_rol[1] = array("farmer");
         //landlord
