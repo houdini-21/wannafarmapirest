@@ -3,7 +3,12 @@ $this->shortcodes = [];
 function userget()
 {
     $ci = &get_instance();
-    return $ci->session->userdata("electro_user");
+    return $ci->session->userdata("user_data");
+}
+function user_id()
+{
+    $ci = &get_instance();
+    return $ci->session->userdata("user_data")->id_persona;
 }
 //views backend
 function template_backpath($file = "")
@@ -70,27 +75,21 @@ function show_message()
     switch ($type) {
         case "success":
             $html =
-                '<div class="alert alert-success auto-show">
-  <span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;' .
-                $msj .
-                '
-</div>';
+                '<div class="h-12 px-2 w-full bg-green fixed top flex items-center justify-center">
+                <p class="suprema-regular text-white text-center capitalize">' . $msj . '</p>
+            </div>';
             break;
         case "error":
             $html =
-                '<div class="alert alert-danger auto-show">
-<span class="glyphicon glyphicon-remove"></span>&nbsp;&nbsp;&nbsp;' .
-                $msj .
-                '
-</div>';
+                '<div class="h-12 px-2 w-full bg-red-600 fixed top flex items-center justify-center">
+            <p class="suprema-regular text-white text-center capitalize">' . $msj . '</p>
+        </div>';
             break;
         case "info":
             $html =
-                '<div class="alert alert-info auto-show">
-<span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;&nbsp;' .
-                $msj .
-                '
-</div>';
+                '<div class="h-12 px-2 w-full bg-blue-600 fixed top flex items-center justify-center">
+            <p class="suprema-regular text-white text-center capitalize">' . $msj . '</p>
+        </div>';
             break;
         default:
             break;
@@ -133,7 +132,7 @@ function menu_get($unicode, $render = false)
     $menu = $CI->sysmodel->menu_get_by_slug($unicode);
     if ($render && $menu != false) {
         echo "<ul>";
-        foreach ($menu as $i => $item):
+        foreach ($menu as $i => $item) :
             echo '<li><a href="' .
                 base_url($item->url) .
                 '">' .
@@ -151,14 +150,14 @@ function render_shorcodes($html)
 
     $shortcodes = $CI->config->item("shortcodes");
 
-    foreach ($shortcodes as $i => $item):
+    foreach ($shortcodes as $i => $item) :
         $html = str_replace("[" . $i . "]", $item(), $html);
         $array = [];
         preg_match_all("/\[" . $i . " ([^<]*)\]/i", $html, $matches);
 
         $matches = $matches[1];
 
-        foreach ($matches as $ii => $var):
+        foreach ($matches as $ii => $var) :
             preg_match_all(
                 '/(?P<variable>\w+)=\"(?P<value>([a-zA-Z0-9])+([a-zA-Z0-9\._-])+)\"/',
                 $var,
@@ -180,7 +179,7 @@ function render_shorcodes($html)
 
             $parameters = [];
 
-            foreach ($variables as $j => $var):
+            foreach ($variables as $j => $var) :
                 $parameters[$var] = $values[$j];
             endforeach;
 
@@ -426,10 +425,19 @@ function is_logged()
     $CI = &get_instance();
     // We need to use $CI->session instead of $this->session
     $user = $CI->session->userdata("user_data");
-    if (isset($user)) {
-        echo "<script type='text/javascript'>";
-        echo "window.history.back(-1)";
-        echo "</script>";
+    if (isset($user) && $user != '' && $user != null) {
+        if ($user->id_role == 1) {
+            //redirect to user
+            redirect(base_url() . 'users');
+        }
+        if ($user->id_role == 2) {
+            //redirect to admin
+            redirect(base_url() . 'admin');
+        }
+        if ($user->id_role == 3) {
+            //redirect to jinx
+            redirect(base_url() . 'jinx');
+        }
     }
 }
 
@@ -440,4 +448,27 @@ function get_metadata()
     return $user;
 }
 
-?>
+function showSaludo()
+{
+    $usuario = get_metadata();
+    $message = '';
+    $hora = date('H');
+    if ($hora >= 1 && $hora <= 11) {
+        $message = "Buenos dias,";
+    }
+    if ($hora >= 12 && $hora <= 18) {
+        $message = "Buenas tardes,";
+    }
+    if ($hora >= 19 && $hora <= 23) {
+        $message = "Buenas noches,";
+    }
+    $message .= " " . $usuario->nombres;
+    return $message;
+}
+
+
+function getAvatarByName(){
+    $usuario = get_metadata();
+    $url = 'https://ui-avatars.com/api/?name='.$usuario->nombres.' '.$usuario->apellidos.'&background=fff&color=57BF77';
+    echo $url;
+}

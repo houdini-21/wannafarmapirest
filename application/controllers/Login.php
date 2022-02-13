@@ -8,14 +8,12 @@ class Login extends CI_Controller
     parent::__construct();
     $this->load->model('LoginModel', 'loginModel');
     $this->load->library('session');
-  
   }
   public function index()
   {
-       $this->load->view(template_frontpath('sign-templates/sign-up'), false);
-       
+    $this->load->view(template_frontpath('sign-templates/sign-up'), false);
   }
- 
+
   public function signin()
   {
     $this->load->view(template_frontpath('sign-templates/sign-in'), false);
@@ -25,30 +23,21 @@ class Login extends CI_Controller
   {
     $email = $this->input->post('email');
     $password = $this->input->post('password');
-    //$this->session->set_userdata('$email');
-   
-    $sql = $this->loginModel->login($email, md5($password)); 
-    if(isset($sql->id_persona)){
-      //
-      $id_usuario = $sql->id_persona;
-      $this->session->set_userdata('idperson', $id_usuario);
 
-      //
-        $router = $this->loginModel->getTypeUser($sql->id_persona);
-        if($router->id_rol==1){
-        // $this->session->set_userdata('user_data', $router);
-       // $this->session->set_userdata('$router'); 
-       // $this->session->set_userdata($arraydata);
-         redirect('Farmer', 'refresh');
-        }
-        else {
-        $this->session->set_userdata('islog', true);
-        $this->session->set_userdata('gmail', $email);
-        // $this->session->set_userdata('datos' ,$router);
-         redirect('Landlord', 'refresh');
-        }
-    }
-    else{
+    $sql = $this->loginModel->login($email, md5($password));
+
+    if (isset($sql->id_persona)) {
+      $router = $this->loginModel->getTypeUser($sql->id_persona);
+      if ($router->id_rol == 1) {
+        $this->session->set_userdata('user_data', $router);
+        redirect('Farmer', 'refresh');
+      } else {
+
+        $this->session->set_userdata('user_data', $router);
+        redirect('Landlord', 'refresh');
+      }
+    } else {
+      message('error', 'Usuario/contraseña incorrectos'); 
       redirect('Login', 'refresh');
     }
   }
@@ -114,9 +103,9 @@ class Login extends CI_Controller
         $this->load->view(template_frontpath('ui/message'), $message, false);
       }
     } else {
-        $message['message'] =
-          'Error al enviar correo electronico';
-        $this->load->view(template_frontpath('ui/message'), $message, false);
+      $message['message'] =
+        'Error al enviar correo electronico';
+      $this->load->view(template_frontpath('ui/message'), $message, false);
     }
   }
 
@@ -142,9 +131,9 @@ class Login extends CI_Controller
       $url = base_url() . 'login/crearUsuario/' . $code;
       redirect($url, 'refresh');
     } else {
-        $message['message'] =
-          'Error intente mas tarde';
-        $this->load->view(template_frontpath('ui/message'), $message, false); 
+      $message['message'] =
+        'Error intente mas tarde';
+      $this->load->view(template_frontpath('ui/message'), $message, false);
     }
   }
   public function confirmaCuenta($token)
@@ -174,10 +163,9 @@ class Login extends CI_Controller
     }
   }
 
-  public function logout()//funcion para cerrar sesion
+  public function logout() //funcion para cerrar sesion
   {
     $this->session->sess_destroy();
-    return redirect(base_url()); 
-   
+    return redirect(base_url());
   }
 }

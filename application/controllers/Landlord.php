@@ -2,45 +2,27 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Landlord extends CI_Controller
+class Landlord extends CRUD_controller
 {
   public function __construct()
   {
     parent::__construct();
-
     $this->load->helper('url');
     $this->load->helper('electro_helper');
     $this->load->model('LandLordModel', 'landLord-model');
-    $this->load->library('session');
-  
-  }
-  public function index()//el lanlord hace referencia al dash del arrendatario
-  {
-   $this->isLogged();//verificamos si esta logueado
-  }
+    $this->load->model('parcelasModel');
 
-  public function isLogged()
+  }
+  public function index()
   {
-    $session = $this->session->userdata('islog');//extraemos la informacion de la session
-    if($session == 0)//si no hay session se manda al login
-    {
-      $this->load->view(
-        template_frontpath('sign-templates/sign-up'),false
-      );
-    }
-  else{
-    $this->load->view(
-      template_frontpath('arrendador-templates/dashboard'), 
-      false
-    );
-  }
-  }
 
-  public function login()
-  {
-  }
+    //extructura de creacion de vista con informacion
 
-  public function createUser()
-  {
+    //primero se carga la informacion de los controladores o helpers anteriormente cargados en el constructor()
+    $idUsuario = user_id(); //el helper user_id() trae el id del usuario
+    $resultado = $this->parcelasModel->extrayendoParcelas($idUsuario);
+    //se carga en una variable por si el necesario interar con ella, ya sea buscar o agregar mas informacion de la que ya trae la consulta
+    $data['parcelas'] = $resultado;
+    $this->load->view(template_frontpath('arrendador-templates/dashboard'), $data, false);
   }
 }
