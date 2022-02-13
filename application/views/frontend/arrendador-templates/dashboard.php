@@ -17,8 +17,6 @@
 			<div class="form-group text-center">
 				
                 
-		
-				
 			</div>
 		</div>
 	</div>
@@ -49,7 +47,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-					<a type="button" href="<?php echo base_url("parcelasController/verparcelas") ?>" class="btn btn-outline-success">ir</a>
+					<a type="button" href="<?php echo base_url("parcelasController/") ?>" class="btn btn-outline-success">ir</a>
 					</div>
 				</div>
 			</div>

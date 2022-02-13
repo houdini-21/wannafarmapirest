@@ -37,7 +37,7 @@ class Login extends CI_Controller
         redirect('Landlord', 'refresh');
       }
     } else {
-      message('error', 'Usuario o contraseña incorrectos'); 
+      message('error', 'Usuario/contraseña incorrectos'); 
       redirect('Login', 'refresh');
     }
   }
