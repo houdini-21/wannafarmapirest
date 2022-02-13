@@ -181,32 +181,5 @@ class parcelasController extends CRUD_controller
     }
   }
 
-  public function verparcelas()
-  {
-    //extrayendo informacion de las parcelas
-    $valor2 = user_id(); //el helper user_id() trae el id del usuario
-    $id_persona = $valor2;
-    try {
-      $resultado =  $this->parcelasModel->extrayendoParcelas($id_persona);
-      if ($resultado != null) {
-        $data = array('consulta' => $resultado);
-        $this->load->view(template_frontpath('parcelas-template/misparcelas'), $data, false);
-
-
-        //concatenando arreglo que se mostrara en la vista
-        // $info = [
-        //   $resultado 
-        // ] ;
-        // $this->load->view(template_frontpath('parcelas-template/misparcelas'),$info, false); 
-      } else {
-        throw new Exception("ha ocurrido un error al mostrar las parcelas");
-      }
-    } catch (Exception $e) {
-      $info = [$e];
-      $this->load->view(template_frontpath('parcelas-template/misparcelas'), $info, false);
-    }
-  }
-  //se va extraer la informacion de la db que corresponda al id de la persona
-
 
 }

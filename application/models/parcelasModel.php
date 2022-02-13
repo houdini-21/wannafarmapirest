@@ -10,13 +10,14 @@ class parcelasModel extends CI_Model
         return $this->db->insert_id();
     }
 
-    //extrayendo a las parcelas de cada id
+    //extrayendo a las parcelas por id de usuario
     public function extrayendoParcelas($id_persona)
     {
         $this->db->select("*");
         $this->db->from("wf_parcelas");
         $this->db->where("id_persona", $id_persona);
         $res = $this->db->get();
-        return $res;
+        //solo retoran un array con la informacion de parcelas, lista para cargarase en la vista
+        return $res->result();
     }
 }

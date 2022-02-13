@@ -447,3 +447,28 @@ function get_metadata()
     $user = $CI->session->userdata("user_data");
     return $user;
 }
+
+function showSaludo()
+{
+    $usuario = get_metadata();
+    $message = '';
+    $hora = date('H');
+    if ($hora >= 1 && $hora <= 11) {
+        $message = "Buenos dias,";
+    }
+    if ($hora >= 12 && $hora <= 18) {
+        $message = "Buenas tardes,";
+    }
+    if ($hora >= 19 && $hora <= 23) {
+        $message = "Buenas noches,";
+    }
+    $message .= " " . $usuario->nombres;
+    return $message;
+}
+
+
+function getAvatarByName(){
+    $usuario = get_metadata();
+    $url = 'https://ui-avatars.com/api/?name='.$usuario->nombres.' '.$usuario->apellidos.'&background=fff&color=57BF77';
+    echo $url;
+}
