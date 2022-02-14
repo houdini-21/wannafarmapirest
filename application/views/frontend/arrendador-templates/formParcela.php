@@ -120,7 +120,7 @@
             }
 
             $.ajax({
-                url: 'https://localhost/wannafarmapirest/landlord/guardarParcela',
+                url: base_url + 'landlord/guardarParcela',
                 type: 'POST',
                 data: fd,
                 dataType: 'JSON',
@@ -135,7 +135,7 @@
                             'success'
                         );
                         setTimeout(function() {
-                            window.location.href = "https://localhost/wannafarmapirest/landlord/";
+                            window.location.href = base_url + "/landlord/";
                         }, 3000);
                     } else {
                         Swal.fire(
