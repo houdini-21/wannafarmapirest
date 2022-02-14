@@ -3941,3 +3941,6160 @@ INFO - 2022-02-13 11:53:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\app
 INFO - 2022-02-13 11:53:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/dashboard.php
 INFO - 2022-02-13 11:53:43 --> Final output sent to browser
 DEBUG - 2022-02-13 11:53:43 --> Total execution time: 0.1342
+INFO - 2022-02-13 16:57:24 --> Config Class Initialized
+INFO - 2022-02-13 16:57:24 --> Hooks Class Initialized
+DEBUG - 2022-02-13 16:57:24 --> UTF-8 Support Enabled
+INFO - 2022-02-13 16:57:24 --> Utf8 Class Initialized
+INFO - 2022-02-13 16:57:24 --> URI Class Initialized
+DEBUG - 2022-02-13 16:57:24 --> No URI present. Default controller set.
+INFO - 2022-02-13 16:57:24 --> Router Class Initialized
+INFO - 2022-02-13 16:57:24 --> Output Class Initialized
+INFO - 2022-02-13 16:57:25 --> Security Class Initialized
+DEBUG - 2022-02-13 16:57:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 16:57:25 --> Input Class Initialized
+INFO - 2022-02-13 16:57:25 --> Language Class Initialized
+INFO - 2022-02-13 16:57:25 --> Loader Class Initialized
+INFO - 2022-02-13 16:57:25 --> Helper loaded: url_helper
+INFO - 2022-02-13 16:57:25 --> Helper loaded: electro_helper
+INFO - 2022-02-13 16:57:25 --> Database Driver Class Initialized
+INFO - 2022-02-13 16:57:25 --> Email Class Initialized
+DEBUG - 2022-02-13 16:57:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 16:57:25 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 16:57:25 --> Controller Class Initialized
+INFO - 2022-02-13 16:57:25 --> Model "HomeModel" initialized
+INFO - 2022-02-13 16:57:25 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//landing/index.php
+INFO - 2022-02-13 16:57:25 --> Final output sent to browser
+DEBUG - 2022-02-13 16:57:25 --> Total execution time: 1.0163
+INFO - 2022-02-13 17:09:03 --> Config Class Initialized
+INFO - 2022-02-13 17:09:03 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:09:03 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:09:03 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:09:03 --> URI Class Initialized
+INFO - 2022-02-13 17:09:03 --> Router Class Initialized
+INFO - 2022-02-13 17:09:03 --> Output Class Initialized
+INFO - 2022-02-13 17:09:03 --> Security Class Initialized
+DEBUG - 2022-02-13 17:09:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:09:03 --> Input Class Initialized
+INFO - 2022-02-13 17:09:03 --> Language Class Initialized
+INFO - 2022-02-13 17:09:03 --> Loader Class Initialized
+INFO - 2022-02-13 17:09:03 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:09:03 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:09:04 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:09:04 --> Email Class Initialized
+DEBUG - 2022-02-13 17:09:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:09:04 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:09:04 --> Controller Class Initialized
+INFO - 2022-02-13 17:09:04 --> Model "LoginModel" initialized
+DEBUG - 2022-02-13 17:09:04 --> Session class already loaded. Second attempt ignored.
+INFO - 2022-02-13 17:09:04 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header.php
+INFO - 2022-02-13 17:09:04 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer.php
+INFO - 2022-02-13 17:09:04 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//sign-templates/sign-up.php
+INFO - 2022-02-13 17:09:04 --> Final output sent to browser
+DEBUG - 2022-02-13 17:09:04 --> Total execution time: 0.2718
+INFO - 2022-02-13 17:09:26 --> Config Class Initialized
+INFO - 2022-02-13 17:09:26 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:09:26 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:09:26 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:09:26 --> URI Class Initialized
+INFO - 2022-02-13 17:09:26 --> Router Class Initialized
+INFO - 2022-02-13 17:09:26 --> Output Class Initialized
+INFO - 2022-02-13 17:09:26 --> Security Class Initialized
+DEBUG - 2022-02-13 17:09:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:09:26 --> Input Class Initialized
+INFO - 2022-02-13 17:09:26 --> Language Class Initialized
+INFO - 2022-02-13 17:09:26 --> Loader Class Initialized
+INFO - 2022-02-13 17:09:26 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:09:26 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:09:26 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:09:26 --> Email Class Initialized
+DEBUG - 2022-02-13 17:09:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:09:26 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:09:26 --> Controller Class Initialized
+INFO - 2022-02-13 17:09:26 --> Model "LoginModel" initialized
+DEBUG - 2022-02-13 17:09:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2022-02-13 17:09:27 --> Config Class Initialized
+INFO - 2022-02-13 17:09:27 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:09:27 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:09:27 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:09:27 --> URI Class Initialized
+INFO - 2022-02-13 17:09:27 --> Router Class Initialized
+INFO - 2022-02-13 17:09:27 --> Output Class Initialized
+INFO - 2022-02-13 17:09:27 --> Security Class Initialized
+DEBUG - 2022-02-13 17:09:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:09:27 --> Input Class Initialized
+INFO - 2022-02-13 17:09:27 --> Language Class Initialized
+INFO - 2022-02-13 17:09:27 --> Loader Class Initialized
+INFO - 2022-02-13 17:09:27 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:09:27 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:09:27 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:09:27 --> Email Class Initialized
+DEBUG - 2022-02-13 17:09:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:09:27 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:09:27 --> Controller Class Initialized
+INFO - 2022-02-13 17:09:27 --> Model "LoginModel" initialized
+DEBUG - 2022-02-13 17:09:27 --> Session class already loaded. Second attempt ignored.
+INFO - 2022-02-13 17:09:27 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header.php
+INFO - 2022-02-13 17:09:27 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer.php
+INFO - 2022-02-13 17:09:27 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//sign-templates/sign-up.php
+INFO - 2022-02-13 17:09:27 --> Final output sent to browser
+DEBUG - 2022-02-13 17:09:27 --> Total execution time: 0.1067
+INFO - 2022-02-13 17:09:33 --> Config Class Initialized
+INFO - 2022-02-13 17:09:33 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:09:33 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:09:33 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:09:33 --> URI Class Initialized
+INFO - 2022-02-13 17:09:33 --> Router Class Initialized
+INFO - 2022-02-13 17:09:33 --> Output Class Initialized
+INFO - 2022-02-13 17:09:33 --> Security Class Initialized
+DEBUG - 2022-02-13 17:09:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:09:33 --> Input Class Initialized
+INFO - 2022-02-13 17:09:33 --> Language Class Initialized
+INFO - 2022-02-13 17:09:33 --> Loader Class Initialized
+INFO - 2022-02-13 17:09:33 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:09:33 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:09:33 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:09:33 --> Email Class Initialized
+DEBUG - 2022-02-13 17:09:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:09:33 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:09:33 --> Controller Class Initialized
+INFO - 2022-02-13 17:09:33 --> Model "LoginModel" initialized
+DEBUG - 2022-02-13 17:09:33 --> Session class already loaded. Second attempt ignored.
+INFO - 2022-02-13 17:09:34 --> Config Class Initialized
+INFO - 2022-02-13 17:09:34 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:09:34 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:09:34 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:09:34 --> URI Class Initialized
+INFO - 2022-02-13 17:09:34 --> Router Class Initialized
+INFO - 2022-02-13 17:09:34 --> Output Class Initialized
+INFO - 2022-02-13 17:09:34 --> Security Class Initialized
+DEBUG - 2022-02-13 17:09:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:09:34 --> Input Class Initialized
+INFO - 2022-02-13 17:09:34 --> Language Class Initialized
+INFO - 2022-02-13 17:09:34 --> Loader Class Initialized
+INFO - 2022-02-13 17:09:34 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:09:34 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:09:34 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:09:34 --> Email Class Initialized
+DEBUG - 2022-02-13 17:09:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:09:34 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:09:34 --> Controller Class Initialized
+INFO - 2022-02-13 17:09:34 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:09:34 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:09:34 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:09:34 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:09:34 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/dashboard.php
+INFO - 2022-02-13 17:09:34 --> Final output sent to browser
+DEBUG - 2022-02-13 17:09:34 --> Total execution time: 0.1301
+INFO - 2022-02-13 17:10:15 --> Config Class Initialized
+INFO - 2022-02-13 17:10:15 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:10:15 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:10:15 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:10:15 --> URI Class Initialized
+INFO - 2022-02-13 17:10:15 --> Router Class Initialized
+INFO - 2022-02-13 17:10:15 --> Output Class Initialized
+INFO - 2022-02-13 17:10:15 --> Security Class Initialized
+DEBUG - 2022-02-13 17:10:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:10:15 --> Input Class Initialized
+INFO - 2022-02-13 17:10:15 --> Language Class Initialized
+INFO - 2022-02-13 17:10:15 --> Loader Class Initialized
+INFO - 2022-02-13 17:10:15 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:10:15 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:10:15 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:10:15 --> Email Class Initialized
+DEBUG - 2022-02-13 17:10:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:10:15 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:10:15 --> Controller Class Initialized
+INFO - 2022-02-13 17:10:15 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:10:15 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:10:15 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:10:15 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:10:15 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:10:15 --> Final output sent to browser
+DEBUG - 2022-02-13 17:10:15 --> Total execution time: 0.1764
+INFO - 2022-02-13 17:17:33 --> Config Class Initialized
+INFO - 2022-02-13 17:17:33 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:17:34 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:17:34 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:17:34 --> URI Class Initialized
+INFO - 2022-02-13 17:17:34 --> Router Class Initialized
+INFO - 2022-02-13 17:17:34 --> Output Class Initialized
+INFO - 2022-02-13 17:17:34 --> Security Class Initialized
+DEBUG - 2022-02-13 17:17:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:17:34 --> Input Class Initialized
+INFO - 2022-02-13 17:17:34 --> Language Class Initialized
+INFO - 2022-02-13 17:17:34 --> Loader Class Initialized
+INFO - 2022-02-13 17:17:34 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:17:34 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:17:34 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:17:34 --> Email Class Initialized
+DEBUG - 2022-02-13 17:17:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:17:34 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:17:34 --> Controller Class Initialized
+INFO - 2022-02-13 17:17:34 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:17:34 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:17:34 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:17:34 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:17:34 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:17:34 --> Final output sent to browser
+DEBUG - 2022-02-13 17:17:34 --> Total execution time: 0.1862
+INFO - 2022-02-13 17:18:09 --> Config Class Initialized
+INFO - 2022-02-13 17:18:09 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:18:09 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:18:09 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:18:09 --> URI Class Initialized
+INFO - 2022-02-13 17:18:09 --> Router Class Initialized
+INFO - 2022-02-13 17:18:09 --> Output Class Initialized
+INFO - 2022-02-13 17:18:09 --> Security Class Initialized
+DEBUG - 2022-02-13 17:18:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:18:09 --> Input Class Initialized
+INFO - 2022-02-13 17:18:09 --> Language Class Initialized
+INFO - 2022-02-13 17:18:09 --> Loader Class Initialized
+INFO - 2022-02-13 17:18:10 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:18:10 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:18:10 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:18:10 --> Email Class Initialized
+DEBUG - 2022-02-13 17:18:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:18:10 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:18:10 --> Controller Class Initialized
+INFO - 2022-02-13 17:18:10 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:18:10 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:18:10 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:18:10 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:18:10 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:18:10 --> Final output sent to browser
+DEBUG - 2022-02-13 17:18:10 --> Total execution time: 0.2003
+INFO - 2022-02-13 17:18:41 --> Config Class Initialized
+INFO - 2022-02-13 17:18:41 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:18:41 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:18:41 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:18:41 --> URI Class Initialized
+INFO - 2022-02-13 17:18:41 --> Router Class Initialized
+INFO - 2022-02-13 17:18:41 --> Output Class Initialized
+INFO - 2022-02-13 17:18:41 --> Security Class Initialized
+DEBUG - 2022-02-13 17:18:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:18:41 --> Input Class Initialized
+INFO - 2022-02-13 17:18:41 --> Language Class Initialized
+INFO - 2022-02-13 17:18:41 --> Loader Class Initialized
+INFO - 2022-02-13 17:18:41 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:18:41 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:18:41 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:18:41 --> Email Class Initialized
+DEBUG - 2022-02-13 17:18:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:18:41 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:18:41 --> Controller Class Initialized
+INFO - 2022-02-13 17:18:41 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:18:41 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:18:41 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:18:41 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:18:41 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:18:41 --> Final output sent to browser
+DEBUG - 2022-02-13 17:18:41 --> Total execution time: 0.1643
+INFO - 2022-02-13 17:19:17 --> Config Class Initialized
+INFO - 2022-02-13 17:19:17 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:19:17 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:19:17 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:19:17 --> URI Class Initialized
+INFO - 2022-02-13 17:19:17 --> Router Class Initialized
+INFO - 2022-02-13 17:19:17 --> Output Class Initialized
+INFO - 2022-02-13 17:19:17 --> Security Class Initialized
+DEBUG - 2022-02-13 17:19:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:19:17 --> Input Class Initialized
+INFO - 2022-02-13 17:19:17 --> Language Class Initialized
+INFO - 2022-02-13 17:19:17 --> Loader Class Initialized
+INFO - 2022-02-13 17:19:17 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:19:17 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:19:17 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:19:17 --> Email Class Initialized
+DEBUG - 2022-02-13 17:19:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:19:17 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:19:17 --> Controller Class Initialized
+INFO - 2022-02-13 17:19:17 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:19:17 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:19:17 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:19:17 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:19:17 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:19:17 --> Final output sent to browser
+DEBUG - 2022-02-13 17:19:17 --> Total execution time: 0.1290
+INFO - 2022-02-13 17:21:36 --> Config Class Initialized
+INFO - 2022-02-13 17:21:36 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:21:36 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:21:36 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:21:36 --> URI Class Initialized
+INFO - 2022-02-13 17:21:36 --> Router Class Initialized
+INFO - 2022-02-13 17:21:36 --> Output Class Initialized
+INFO - 2022-02-13 17:21:36 --> Security Class Initialized
+DEBUG - 2022-02-13 17:21:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:21:36 --> Input Class Initialized
+INFO - 2022-02-13 17:21:36 --> Language Class Initialized
+INFO - 2022-02-13 17:21:36 --> Loader Class Initialized
+INFO - 2022-02-13 17:21:36 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:21:36 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:21:36 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:21:36 --> Email Class Initialized
+DEBUG - 2022-02-13 17:21:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:21:36 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:21:36 --> Controller Class Initialized
+INFO - 2022-02-13 17:21:36 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:21:36 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:21:36 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:21:36 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:21:36 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:21:36 --> Final output sent to browser
+DEBUG - 2022-02-13 17:21:36 --> Total execution time: 0.1757
+INFO - 2022-02-13 17:21:55 --> Config Class Initialized
+INFO - 2022-02-13 17:21:55 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:21:55 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:21:55 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:21:55 --> URI Class Initialized
+INFO - 2022-02-13 17:21:55 --> Router Class Initialized
+INFO - 2022-02-13 17:21:55 --> Output Class Initialized
+INFO - 2022-02-13 17:21:55 --> Security Class Initialized
+DEBUG - 2022-02-13 17:21:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:21:55 --> Input Class Initialized
+INFO - 2022-02-13 17:21:55 --> Language Class Initialized
+INFO - 2022-02-13 17:21:55 --> Loader Class Initialized
+INFO - 2022-02-13 17:21:55 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:21:55 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:21:55 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:21:55 --> Email Class Initialized
+DEBUG - 2022-02-13 17:21:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:21:55 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:21:55 --> Controller Class Initialized
+INFO - 2022-02-13 17:21:55 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:21:55 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:21:55 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:21:55 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:21:55 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:21:55 --> Final output sent to browser
+DEBUG - 2022-02-13 17:21:55 --> Total execution time: 0.1939
+INFO - 2022-02-13 17:22:47 --> Config Class Initialized
+INFO - 2022-02-13 17:22:47 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:22:47 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:22:47 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:22:47 --> URI Class Initialized
+INFO - 2022-02-13 17:22:47 --> Router Class Initialized
+INFO - 2022-02-13 17:22:47 --> Output Class Initialized
+INFO - 2022-02-13 17:22:47 --> Security Class Initialized
+DEBUG - 2022-02-13 17:22:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:22:47 --> Input Class Initialized
+INFO - 2022-02-13 17:22:47 --> Language Class Initialized
+INFO - 2022-02-13 17:22:47 --> Loader Class Initialized
+INFO - 2022-02-13 17:22:47 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:22:47 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:22:47 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:22:47 --> Email Class Initialized
+DEBUG - 2022-02-13 17:22:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:22:47 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:22:47 --> Controller Class Initialized
+INFO - 2022-02-13 17:22:47 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:22:47 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:22:47 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:22:47 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:22:47 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:22:47 --> Final output sent to browser
+DEBUG - 2022-02-13 17:22:47 --> Total execution time: 0.1629
+INFO - 2022-02-13 17:22:59 --> Config Class Initialized
+INFO - 2022-02-13 17:22:59 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:22:59 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:22:59 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:22:59 --> URI Class Initialized
+INFO - 2022-02-13 17:22:59 --> Router Class Initialized
+INFO - 2022-02-13 17:22:59 --> Output Class Initialized
+INFO - 2022-02-13 17:22:59 --> Security Class Initialized
+DEBUG - 2022-02-13 17:22:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:22:59 --> Input Class Initialized
+INFO - 2022-02-13 17:22:59 --> Language Class Initialized
+INFO - 2022-02-13 17:22:59 --> Loader Class Initialized
+INFO - 2022-02-13 17:22:59 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:22:59 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:23:00 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:23:00 --> Email Class Initialized
+DEBUG - 2022-02-13 17:23:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:23:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:23:00 --> Controller Class Initialized
+INFO - 2022-02-13 17:23:00 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:23:00 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:23:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:23:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:23:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:23:00 --> Final output sent to browser
+DEBUG - 2022-02-13 17:23:00 --> Total execution time: 0.2013
+INFO - 2022-02-13 17:23:43 --> Config Class Initialized
+INFO - 2022-02-13 17:23:43 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:23:43 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:23:43 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:23:43 --> URI Class Initialized
+INFO - 2022-02-13 17:23:43 --> Router Class Initialized
+INFO - 2022-02-13 17:23:43 --> Output Class Initialized
+INFO - 2022-02-13 17:23:43 --> Security Class Initialized
+DEBUG - 2022-02-13 17:23:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:23:43 --> Input Class Initialized
+INFO - 2022-02-13 17:23:43 --> Language Class Initialized
+INFO - 2022-02-13 17:23:43 --> Loader Class Initialized
+INFO - 2022-02-13 17:23:43 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:23:43 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:23:43 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:23:43 --> Email Class Initialized
+DEBUG - 2022-02-13 17:23:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:23:43 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:23:43 --> Controller Class Initialized
+INFO - 2022-02-13 17:23:43 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:23:43 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:23:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:23:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:23:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:23:43 --> Final output sent to browser
+DEBUG - 2022-02-13 17:23:43 --> Total execution time: 0.1210
+INFO - 2022-02-13 17:24:00 --> Config Class Initialized
+INFO - 2022-02-13 17:24:00 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:24:00 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:24:00 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:24:00 --> URI Class Initialized
+INFO - 2022-02-13 17:24:00 --> Router Class Initialized
+INFO - 2022-02-13 17:24:00 --> Output Class Initialized
+INFO - 2022-02-13 17:24:00 --> Security Class Initialized
+DEBUG - 2022-02-13 17:24:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:24:00 --> Input Class Initialized
+INFO - 2022-02-13 17:24:00 --> Language Class Initialized
+INFO - 2022-02-13 17:24:00 --> Loader Class Initialized
+INFO - 2022-02-13 17:24:00 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:24:00 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:24:00 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:24:00 --> Email Class Initialized
+DEBUG - 2022-02-13 17:24:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:24:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:24:00 --> Controller Class Initialized
+INFO - 2022-02-13 17:24:00 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:24:00 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:24:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:24:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:24:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:24:00 --> Final output sent to browser
+DEBUG - 2022-02-13 17:24:00 --> Total execution time: 0.1686
+INFO - 2022-02-13 17:24:39 --> Config Class Initialized
+INFO - 2022-02-13 17:24:39 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:24:39 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:24:39 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:24:39 --> URI Class Initialized
+INFO - 2022-02-13 17:24:39 --> Router Class Initialized
+INFO - 2022-02-13 17:24:39 --> Output Class Initialized
+INFO - 2022-02-13 17:24:39 --> Security Class Initialized
+DEBUG - 2022-02-13 17:24:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:24:39 --> Input Class Initialized
+INFO - 2022-02-13 17:24:39 --> Language Class Initialized
+INFO - 2022-02-13 17:24:39 --> Loader Class Initialized
+INFO - 2022-02-13 17:24:39 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:24:39 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:24:39 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:24:39 --> Email Class Initialized
+DEBUG - 2022-02-13 17:24:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:24:39 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:24:39 --> Controller Class Initialized
+INFO - 2022-02-13 17:24:39 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:24:39 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:24:39 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:24:39 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:24:39 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:24:39 --> Final output sent to browser
+DEBUG - 2022-02-13 17:24:39 --> Total execution time: 0.1448
+INFO - 2022-02-13 17:24:58 --> Config Class Initialized
+INFO - 2022-02-13 17:24:58 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:24:58 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:24:58 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:24:58 --> URI Class Initialized
+INFO - 2022-02-13 17:24:58 --> Router Class Initialized
+INFO - 2022-02-13 17:24:58 --> Output Class Initialized
+INFO - 2022-02-13 17:24:58 --> Security Class Initialized
+DEBUG - 2022-02-13 17:24:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:24:58 --> Input Class Initialized
+INFO - 2022-02-13 17:24:58 --> Language Class Initialized
+INFO - 2022-02-13 17:24:58 --> Loader Class Initialized
+INFO - 2022-02-13 17:24:58 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:24:58 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:24:58 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:24:58 --> Email Class Initialized
+DEBUG - 2022-02-13 17:24:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:24:58 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:24:58 --> Controller Class Initialized
+INFO - 2022-02-13 17:24:58 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:24:58 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:24:58 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:24:58 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:24:58 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:24:58 --> Final output sent to browser
+DEBUG - 2022-02-13 17:24:58 --> Total execution time: 0.2149
+INFO - 2022-02-13 17:25:10 --> Config Class Initialized
+INFO - 2022-02-13 17:25:10 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:25:10 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:25:10 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:25:10 --> URI Class Initialized
+INFO - 2022-02-13 17:25:10 --> Router Class Initialized
+INFO - 2022-02-13 17:25:10 --> Output Class Initialized
+INFO - 2022-02-13 17:25:10 --> Security Class Initialized
+DEBUG - 2022-02-13 17:25:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:25:10 --> Input Class Initialized
+INFO - 2022-02-13 17:25:10 --> Language Class Initialized
+INFO - 2022-02-13 17:25:10 --> Loader Class Initialized
+INFO - 2022-02-13 17:25:10 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:25:10 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:25:10 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:25:10 --> Email Class Initialized
+DEBUG - 2022-02-13 17:25:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:25:10 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:25:10 --> Controller Class Initialized
+INFO - 2022-02-13 17:25:10 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:25:10 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:25:10 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:25:10 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:25:10 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:25:10 --> Final output sent to browser
+DEBUG - 2022-02-13 17:25:10 --> Total execution time: 0.1266
+INFO - 2022-02-13 17:25:24 --> Config Class Initialized
+INFO - 2022-02-13 17:25:24 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:25:24 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:25:24 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:25:24 --> URI Class Initialized
+INFO - 2022-02-13 17:25:24 --> Router Class Initialized
+INFO - 2022-02-13 17:25:24 --> Output Class Initialized
+INFO - 2022-02-13 17:25:24 --> Security Class Initialized
+DEBUG - 2022-02-13 17:25:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:25:24 --> Input Class Initialized
+INFO - 2022-02-13 17:25:24 --> Language Class Initialized
+INFO - 2022-02-13 17:25:24 --> Loader Class Initialized
+INFO - 2022-02-13 17:25:24 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:25:24 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:25:24 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:25:24 --> Email Class Initialized
+DEBUG - 2022-02-13 17:25:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:25:24 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:25:24 --> Controller Class Initialized
+INFO - 2022-02-13 17:25:24 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:25:24 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:25:24 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:25:24 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:25:24 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:25:24 --> Final output sent to browser
+DEBUG - 2022-02-13 17:25:24 --> Total execution time: 0.1300
+INFO - 2022-02-13 17:25:59 --> Config Class Initialized
+INFO - 2022-02-13 17:25:59 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:25:59 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:25:59 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:25:59 --> URI Class Initialized
+INFO - 2022-02-13 17:26:00 --> Router Class Initialized
+INFO - 2022-02-13 17:26:00 --> Output Class Initialized
+INFO - 2022-02-13 17:26:00 --> Security Class Initialized
+DEBUG - 2022-02-13 17:26:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:26:00 --> Input Class Initialized
+INFO - 2022-02-13 17:26:00 --> Language Class Initialized
+INFO - 2022-02-13 17:26:00 --> Loader Class Initialized
+INFO - 2022-02-13 17:26:00 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:26:00 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:26:00 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:26:00 --> Email Class Initialized
+DEBUG - 2022-02-13 17:26:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:26:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:26:00 --> Controller Class Initialized
+INFO - 2022-02-13 17:26:00 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:26:00 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:26:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:26:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:26:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:26:00 --> Final output sent to browser
+DEBUG - 2022-02-13 17:26:00 --> Total execution time: 0.1632
+INFO - 2022-02-13 17:29:14 --> Config Class Initialized
+INFO - 2022-02-13 17:29:14 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:29:14 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:29:14 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:29:14 --> URI Class Initialized
+INFO - 2022-02-13 17:29:14 --> Router Class Initialized
+INFO - 2022-02-13 17:29:14 --> Output Class Initialized
+INFO - 2022-02-13 17:29:14 --> Security Class Initialized
+DEBUG - 2022-02-13 17:29:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:29:14 --> Input Class Initialized
+INFO - 2022-02-13 17:29:14 --> Language Class Initialized
+INFO - 2022-02-13 17:29:14 --> Loader Class Initialized
+INFO - 2022-02-13 17:29:14 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:29:14 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:29:14 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:29:14 --> Email Class Initialized
+DEBUG - 2022-02-13 17:29:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:29:14 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:29:14 --> Controller Class Initialized
+INFO - 2022-02-13 17:29:14 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:29:14 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:29:14 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:29:14 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:29:14 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:29:14 --> Final output sent to browser
+DEBUG - 2022-02-13 17:29:14 --> Total execution time: 0.2584
+INFO - 2022-02-13 17:29:29 --> Config Class Initialized
+INFO - 2022-02-13 17:29:29 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:29:29 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:29:29 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:29:29 --> URI Class Initialized
+INFO - 2022-02-13 17:29:29 --> Router Class Initialized
+INFO - 2022-02-13 17:29:29 --> Output Class Initialized
+INFO - 2022-02-13 17:29:29 --> Security Class Initialized
+DEBUG - 2022-02-13 17:29:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:29:29 --> Input Class Initialized
+INFO - 2022-02-13 17:29:29 --> Language Class Initialized
+INFO - 2022-02-13 17:29:29 --> Loader Class Initialized
+INFO - 2022-02-13 17:29:29 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:29:29 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:29:29 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:29:29 --> Email Class Initialized
+DEBUG - 2022-02-13 17:29:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:29:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:29:29 --> Controller Class Initialized
+INFO - 2022-02-13 17:29:29 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:29:29 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:29:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:29:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:29:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:29:29 --> Final output sent to browser
+DEBUG - 2022-02-13 17:29:29 --> Total execution time: 0.1205
+INFO - 2022-02-13 17:31:16 --> Config Class Initialized
+INFO - 2022-02-13 17:31:16 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:31:16 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:31:16 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:31:16 --> URI Class Initialized
+INFO - 2022-02-13 17:31:16 --> Router Class Initialized
+INFO - 2022-02-13 17:31:16 --> Output Class Initialized
+INFO - 2022-02-13 17:31:16 --> Security Class Initialized
+DEBUG - 2022-02-13 17:31:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:31:16 --> Input Class Initialized
+INFO - 2022-02-13 17:31:16 --> Language Class Initialized
+INFO - 2022-02-13 17:31:16 --> Loader Class Initialized
+INFO - 2022-02-13 17:31:16 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:31:16 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:31:16 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:31:16 --> Email Class Initialized
+DEBUG - 2022-02-13 17:31:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:31:16 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:31:16 --> Controller Class Initialized
+INFO - 2022-02-13 17:31:16 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:31:16 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:31:16 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:31:16 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:31:16 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:31:16 --> Final output sent to browser
+DEBUG - 2022-02-13 17:31:16 --> Total execution time: 0.1257
+INFO - 2022-02-13 17:33:17 --> Config Class Initialized
+INFO - 2022-02-13 17:33:17 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:33:17 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:33:17 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:33:17 --> URI Class Initialized
+INFO - 2022-02-13 17:33:17 --> Router Class Initialized
+INFO - 2022-02-13 17:33:17 --> Output Class Initialized
+INFO - 2022-02-13 17:33:17 --> Security Class Initialized
+DEBUG - 2022-02-13 17:33:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:33:17 --> Input Class Initialized
+INFO - 2022-02-13 17:33:17 --> Language Class Initialized
+INFO - 2022-02-13 17:33:17 --> Loader Class Initialized
+INFO - 2022-02-13 17:33:17 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:33:17 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:33:18 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:33:18 --> Email Class Initialized
+DEBUG - 2022-02-13 17:33:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:33:18 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:33:18 --> Controller Class Initialized
+INFO - 2022-02-13 17:33:18 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:33:18 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:33:18 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:33:18 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:33:18 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:33:18 --> Final output sent to browser
+DEBUG - 2022-02-13 17:33:18 --> Total execution time: 0.1519
+INFO - 2022-02-13 17:35:07 --> Config Class Initialized
+INFO - 2022-02-13 17:35:07 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:35:07 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:35:07 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:35:07 --> URI Class Initialized
+INFO - 2022-02-13 17:35:07 --> Router Class Initialized
+INFO - 2022-02-13 17:35:07 --> Output Class Initialized
+INFO - 2022-02-13 17:35:07 --> Security Class Initialized
+DEBUG - 2022-02-13 17:35:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:35:07 --> Input Class Initialized
+INFO - 2022-02-13 17:35:07 --> Language Class Initialized
+INFO - 2022-02-13 17:35:07 --> Loader Class Initialized
+INFO - 2022-02-13 17:35:07 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:35:07 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:35:07 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:35:07 --> Email Class Initialized
+DEBUG - 2022-02-13 17:35:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:35:07 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:35:07 --> Controller Class Initialized
+INFO - 2022-02-13 17:35:07 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:35:07 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:35:07 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:35:07 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:35:07 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:35:07 --> Final output sent to browser
+DEBUG - 2022-02-13 17:35:07 --> Total execution time: 0.1247
+INFO - 2022-02-13 17:37:19 --> Config Class Initialized
+INFO - 2022-02-13 17:37:19 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:37:19 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:37:19 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:37:19 --> URI Class Initialized
+INFO - 2022-02-13 17:37:19 --> Router Class Initialized
+INFO - 2022-02-13 17:37:19 --> Output Class Initialized
+INFO - 2022-02-13 17:37:19 --> Security Class Initialized
+DEBUG - 2022-02-13 17:37:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:37:19 --> Input Class Initialized
+INFO - 2022-02-13 17:37:19 --> Language Class Initialized
+INFO - 2022-02-13 17:37:19 --> Loader Class Initialized
+INFO - 2022-02-13 17:37:19 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:37:19 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:37:19 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:37:19 --> Email Class Initialized
+DEBUG - 2022-02-13 17:37:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:37:19 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:37:19 --> Controller Class Initialized
+INFO - 2022-02-13 17:37:19 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:37:19 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:37:19 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:37:19 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:37:19 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:37:19 --> Final output sent to browser
+DEBUG - 2022-02-13 17:37:19 --> Total execution time: 0.1224
+INFO - 2022-02-13 17:38:22 --> Config Class Initialized
+INFO - 2022-02-13 17:38:22 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:38:22 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:38:22 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:38:22 --> URI Class Initialized
+INFO - 2022-02-13 17:38:22 --> Router Class Initialized
+INFO - 2022-02-13 17:38:22 --> Output Class Initialized
+INFO - 2022-02-13 17:38:22 --> Security Class Initialized
+DEBUG - 2022-02-13 17:38:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:38:22 --> Input Class Initialized
+INFO - 2022-02-13 17:38:22 --> Language Class Initialized
+INFO - 2022-02-13 17:38:22 --> Loader Class Initialized
+INFO - 2022-02-13 17:38:22 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:38:22 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:38:22 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:38:22 --> Email Class Initialized
+DEBUG - 2022-02-13 17:38:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:38:22 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:38:22 --> Controller Class Initialized
+INFO - 2022-02-13 17:38:22 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:38:22 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:38:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:38:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:38:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:38:22 --> Final output sent to browser
+DEBUG - 2022-02-13 17:38:22 --> Total execution time: 0.1955
+INFO - 2022-02-13 17:40:29 --> Config Class Initialized
+INFO - 2022-02-13 17:40:29 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:40:29 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:40:29 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:40:29 --> URI Class Initialized
+INFO - 2022-02-13 17:40:29 --> Router Class Initialized
+INFO - 2022-02-13 17:40:29 --> Output Class Initialized
+INFO - 2022-02-13 17:40:29 --> Security Class Initialized
+DEBUG - 2022-02-13 17:40:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:40:29 --> Input Class Initialized
+INFO - 2022-02-13 17:40:29 --> Language Class Initialized
+INFO - 2022-02-13 17:40:29 --> Loader Class Initialized
+INFO - 2022-02-13 17:40:29 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:40:29 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:40:29 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:40:29 --> Email Class Initialized
+DEBUG - 2022-02-13 17:40:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:40:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:40:29 --> Controller Class Initialized
+INFO - 2022-02-13 17:40:29 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:40:29 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:40:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:40:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:40:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:40:29 --> Final output sent to browser
+DEBUG - 2022-02-13 17:40:29 --> Total execution time: 0.1780
+INFO - 2022-02-13 17:42:41 --> Config Class Initialized
+INFO - 2022-02-13 17:42:41 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:42:41 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:42:41 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:42:41 --> URI Class Initialized
+INFO - 2022-02-13 17:42:41 --> Router Class Initialized
+INFO - 2022-02-13 17:42:41 --> Output Class Initialized
+INFO - 2022-02-13 17:42:41 --> Security Class Initialized
+DEBUG - 2022-02-13 17:42:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:42:41 --> Input Class Initialized
+INFO - 2022-02-13 17:42:41 --> Language Class Initialized
+INFO - 2022-02-13 17:42:41 --> Loader Class Initialized
+INFO - 2022-02-13 17:42:41 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:42:41 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:42:41 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:42:41 --> Email Class Initialized
+DEBUG - 2022-02-13 17:42:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:42:41 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:42:41 --> Controller Class Initialized
+INFO - 2022-02-13 17:42:41 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:42:41 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:42:41 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:42:41 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:42:41 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:42:41 --> Final output sent to browser
+DEBUG - 2022-02-13 17:42:41 --> Total execution time: 0.2092
+INFO - 2022-02-13 17:42:44 --> Config Class Initialized
+INFO - 2022-02-13 17:42:44 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:42:44 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:42:44 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:42:44 --> URI Class Initialized
+INFO - 2022-02-13 17:42:44 --> Router Class Initialized
+INFO - 2022-02-13 17:42:44 --> Output Class Initialized
+INFO - 2022-02-13 17:42:44 --> Security Class Initialized
+DEBUG - 2022-02-13 17:42:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:42:44 --> Input Class Initialized
+INFO - 2022-02-13 17:42:44 --> Language Class Initialized
+ERROR - 2022-02-13 17:42:44 --> 404 Page Not Found: Landlord/index.html
+INFO - 2022-02-13 17:43:35 --> Config Class Initialized
+INFO - 2022-02-13 17:43:35 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:43:35 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:43:35 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:43:35 --> URI Class Initialized
+INFO - 2022-02-13 17:43:35 --> Router Class Initialized
+INFO - 2022-02-13 17:43:35 --> Output Class Initialized
+INFO - 2022-02-13 17:43:35 --> Security Class Initialized
+DEBUG - 2022-02-13 17:43:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:43:35 --> Input Class Initialized
+INFO - 2022-02-13 17:43:35 --> Language Class Initialized
+INFO - 2022-02-13 17:43:35 --> Loader Class Initialized
+INFO - 2022-02-13 17:43:35 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:43:35 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:43:35 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:43:35 --> Email Class Initialized
+DEBUG - 2022-02-13 17:43:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:43:35 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:43:35 --> Controller Class Initialized
+INFO - 2022-02-13 17:43:35 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:43:35 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:43:35 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:43:35 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:43:35 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:43:35 --> Final output sent to browser
+DEBUG - 2022-02-13 17:43:35 --> Total execution time: 0.1155
+INFO - 2022-02-13 17:43:37 --> Config Class Initialized
+INFO - 2022-02-13 17:43:37 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:43:37 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:43:37 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:43:37 --> URI Class Initialized
+INFO - 2022-02-13 17:43:37 --> Router Class Initialized
+INFO - 2022-02-13 17:43:37 --> Output Class Initialized
+INFO - 2022-02-13 17:43:37 --> Security Class Initialized
+DEBUG - 2022-02-13 17:43:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:43:37 --> Input Class Initialized
+INFO - 2022-02-13 17:43:37 --> Language Class Initialized
+ERROR - 2022-02-13 17:43:37 --> 404 Page Not Found: Landlord/index.html
+INFO - 2022-02-13 17:43:49 --> Config Class Initialized
+INFO - 2022-02-13 17:43:49 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:43:49 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:43:49 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:43:49 --> URI Class Initialized
+INFO - 2022-02-13 17:43:49 --> Router Class Initialized
+INFO - 2022-02-13 17:43:49 --> Output Class Initialized
+INFO - 2022-02-13 17:43:49 --> Security Class Initialized
+DEBUG - 2022-02-13 17:43:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:43:49 --> Input Class Initialized
+INFO - 2022-02-13 17:43:49 --> Language Class Initialized
+INFO - 2022-02-13 17:43:49 --> Loader Class Initialized
+INFO - 2022-02-13 17:43:49 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:43:49 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:43:49 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:43:49 --> Email Class Initialized
+DEBUG - 2022-02-13 17:43:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:43:49 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:43:49 --> Controller Class Initialized
+INFO - 2022-02-13 17:43:49 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:43:49 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:43:49 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:43:49 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:43:49 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:43:49 --> Final output sent to browser
+DEBUG - 2022-02-13 17:43:49 --> Total execution time: 0.1698
+INFO - 2022-02-13 17:44:04 --> Config Class Initialized
+INFO - 2022-02-13 17:44:04 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:44:04 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:44:04 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:44:04 --> URI Class Initialized
+INFO - 2022-02-13 17:44:04 --> Router Class Initialized
+INFO - 2022-02-13 17:44:04 --> Output Class Initialized
+INFO - 2022-02-13 17:44:04 --> Security Class Initialized
+DEBUG - 2022-02-13 17:44:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:44:04 --> Input Class Initialized
+INFO - 2022-02-13 17:44:04 --> Language Class Initialized
+INFO - 2022-02-13 17:44:04 --> Loader Class Initialized
+INFO - 2022-02-13 17:44:04 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:44:04 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:44:04 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:44:04 --> Email Class Initialized
+DEBUG - 2022-02-13 17:44:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:44:04 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:44:04 --> Controller Class Initialized
+INFO - 2022-02-13 17:44:04 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:44:04 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:44:04 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:44:04 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:44:04 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:44:04 --> Final output sent to browser
+DEBUG - 2022-02-13 17:44:04 --> Total execution time: 0.2273
+INFO - 2022-02-13 17:44:27 --> Config Class Initialized
+INFO - 2022-02-13 17:44:27 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:44:27 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:44:27 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:44:27 --> URI Class Initialized
+INFO - 2022-02-13 17:44:27 --> Router Class Initialized
+INFO - 2022-02-13 17:44:27 --> Output Class Initialized
+INFO - 2022-02-13 17:44:27 --> Security Class Initialized
+DEBUG - 2022-02-13 17:44:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:44:27 --> Input Class Initialized
+INFO - 2022-02-13 17:44:27 --> Language Class Initialized
+INFO - 2022-02-13 17:44:27 --> Loader Class Initialized
+INFO - 2022-02-13 17:44:27 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:44:27 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:44:27 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:44:27 --> Email Class Initialized
+DEBUG - 2022-02-13 17:44:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:44:27 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:44:27 --> Controller Class Initialized
+INFO - 2022-02-13 17:44:27 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:44:27 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:44:27 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:44:27 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:44:27 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:44:27 --> Final output sent to browser
+DEBUG - 2022-02-13 17:44:27 --> Total execution time: 0.1200
+INFO - 2022-02-13 17:47:58 --> Config Class Initialized
+INFO - 2022-02-13 17:47:58 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:47:58 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:47:58 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:47:58 --> URI Class Initialized
+INFO - 2022-02-13 17:47:59 --> Router Class Initialized
+INFO - 2022-02-13 17:47:59 --> Output Class Initialized
+INFO - 2022-02-13 17:47:59 --> Security Class Initialized
+DEBUG - 2022-02-13 17:47:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:47:59 --> Input Class Initialized
+INFO - 2022-02-13 17:47:59 --> Language Class Initialized
+INFO - 2022-02-13 17:47:59 --> Loader Class Initialized
+INFO - 2022-02-13 17:47:59 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:47:59 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:47:59 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:47:59 --> Email Class Initialized
+DEBUG - 2022-02-13 17:47:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:47:59 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:47:59 --> Controller Class Initialized
+INFO - 2022-02-13 17:47:59 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:47:59 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:47:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:47:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:47:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:47:59 --> Final output sent to browser
+DEBUG - 2022-02-13 17:47:59 --> Total execution time: 0.2179
+INFO - 2022-02-13 17:49:20 --> Config Class Initialized
+INFO - 2022-02-13 17:49:20 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:49:20 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:49:20 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:49:20 --> URI Class Initialized
+INFO - 2022-02-13 17:49:20 --> Router Class Initialized
+INFO - 2022-02-13 17:49:20 --> Output Class Initialized
+INFO - 2022-02-13 17:49:20 --> Security Class Initialized
+DEBUG - 2022-02-13 17:49:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:49:20 --> Input Class Initialized
+INFO - 2022-02-13 17:49:20 --> Language Class Initialized
+INFO - 2022-02-13 17:49:20 --> Loader Class Initialized
+INFO - 2022-02-13 17:49:20 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:49:20 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:49:20 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:49:20 --> Email Class Initialized
+DEBUG - 2022-02-13 17:49:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:49:20 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:49:20 --> Controller Class Initialized
+INFO - 2022-02-13 17:49:20 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:49:20 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:49:20 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:49:20 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:49:20 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:49:20 --> Final output sent to browser
+DEBUG - 2022-02-13 17:49:20 --> Total execution time: 0.2051
+INFO - 2022-02-13 17:50:28 --> Config Class Initialized
+INFO - 2022-02-13 17:50:28 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:50:28 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:50:28 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:50:28 --> URI Class Initialized
+INFO - 2022-02-13 17:50:28 --> Router Class Initialized
+INFO - 2022-02-13 17:50:28 --> Output Class Initialized
+INFO - 2022-02-13 17:50:28 --> Security Class Initialized
+DEBUG - 2022-02-13 17:50:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:50:28 --> Input Class Initialized
+INFO - 2022-02-13 17:50:28 --> Language Class Initialized
+INFO - 2022-02-13 17:50:28 --> Loader Class Initialized
+INFO - 2022-02-13 17:50:28 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:50:28 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:50:28 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:50:28 --> Email Class Initialized
+DEBUG - 2022-02-13 17:50:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:50:28 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:50:28 --> Controller Class Initialized
+INFO - 2022-02-13 17:50:28 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:50:28 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:50:28 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:50:28 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:50:28 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:50:28 --> Final output sent to browser
+DEBUG - 2022-02-13 17:50:28 --> Total execution time: 0.1574
+INFO - 2022-02-13 17:51:00 --> Config Class Initialized
+INFO - 2022-02-13 17:51:00 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:51:00 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:51:00 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:51:00 --> URI Class Initialized
+INFO - 2022-02-13 17:51:00 --> Router Class Initialized
+INFO - 2022-02-13 17:51:00 --> Output Class Initialized
+INFO - 2022-02-13 17:51:00 --> Security Class Initialized
+DEBUG - 2022-02-13 17:51:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:51:00 --> Input Class Initialized
+INFO - 2022-02-13 17:51:00 --> Language Class Initialized
+INFO - 2022-02-13 17:51:00 --> Loader Class Initialized
+INFO - 2022-02-13 17:51:00 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:51:00 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:51:00 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:51:00 --> Email Class Initialized
+DEBUG - 2022-02-13 17:51:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:51:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:51:00 --> Controller Class Initialized
+INFO - 2022-02-13 17:51:00 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:51:00 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:51:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:51:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:51:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:51:00 --> Final output sent to browser
+DEBUG - 2022-02-13 17:51:00 --> Total execution time: 0.2042
+INFO - 2022-02-13 17:54:21 --> Config Class Initialized
+INFO - 2022-02-13 17:54:21 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:54:21 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:54:21 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:54:21 --> URI Class Initialized
+INFO - 2022-02-13 17:54:21 --> Router Class Initialized
+INFO - 2022-02-13 17:54:21 --> Output Class Initialized
+INFO - 2022-02-13 17:54:21 --> Security Class Initialized
+DEBUG - 2022-02-13 17:54:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:54:21 --> Input Class Initialized
+INFO - 2022-02-13 17:54:21 --> Language Class Initialized
+INFO - 2022-02-13 17:54:21 --> Loader Class Initialized
+INFO - 2022-02-13 17:54:21 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:54:21 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:54:21 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:54:21 --> Email Class Initialized
+DEBUG - 2022-02-13 17:54:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:54:21 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:54:21 --> Controller Class Initialized
+INFO - 2022-02-13 17:54:21 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:54:21 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:54:21 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:54:21 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:54:21 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:54:21 --> Final output sent to browser
+DEBUG - 2022-02-13 17:54:21 --> Total execution time: 0.1989
+INFO - 2022-02-13 17:55:43 --> Config Class Initialized
+INFO - 2022-02-13 17:55:43 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:55:43 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:55:43 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:55:43 --> URI Class Initialized
+INFO - 2022-02-13 17:55:43 --> Router Class Initialized
+INFO - 2022-02-13 17:55:43 --> Output Class Initialized
+INFO - 2022-02-13 17:55:43 --> Security Class Initialized
+DEBUG - 2022-02-13 17:55:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:55:43 --> Input Class Initialized
+INFO - 2022-02-13 17:55:43 --> Language Class Initialized
+INFO - 2022-02-13 17:55:43 --> Loader Class Initialized
+INFO - 2022-02-13 17:55:43 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:55:43 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:55:43 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:55:43 --> Email Class Initialized
+DEBUG - 2022-02-13 17:55:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:55:43 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:55:43 --> Controller Class Initialized
+INFO - 2022-02-13 17:55:43 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:55:43 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:55:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:55:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:55:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:55:43 --> Final output sent to browser
+DEBUG - 2022-02-13 17:55:43 --> Total execution time: 0.1203
+INFO - 2022-02-13 17:57:54 --> Config Class Initialized
+INFO - 2022-02-13 17:57:54 --> Hooks Class Initialized
+DEBUG - 2022-02-13 17:57:54 --> UTF-8 Support Enabled
+INFO - 2022-02-13 17:57:54 --> Utf8 Class Initialized
+INFO - 2022-02-13 17:57:54 --> URI Class Initialized
+INFO - 2022-02-13 17:57:54 --> Router Class Initialized
+INFO - 2022-02-13 17:57:54 --> Output Class Initialized
+INFO - 2022-02-13 17:57:54 --> Security Class Initialized
+DEBUG - 2022-02-13 17:57:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 17:57:54 --> Input Class Initialized
+INFO - 2022-02-13 17:57:54 --> Language Class Initialized
+INFO - 2022-02-13 17:57:54 --> Loader Class Initialized
+INFO - 2022-02-13 17:57:54 --> Helper loaded: url_helper
+INFO - 2022-02-13 17:57:54 --> Helper loaded: electro_helper
+INFO - 2022-02-13 17:57:54 --> Database Driver Class Initialized
+INFO - 2022-02-13 17:57:54 --> Email Class Initialized
+DEBUG - 2022-02-13 17:57:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 17:57:54 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 17:57:54 --> Controller Class Initialized
+INFO - 2022-02-13 17:57:54 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 17:57:54 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 17:57:54 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 17:57:54 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 17:57:54 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 17:57:54 --> Final output sent to browser
+DEBUG - 2022-02-13 17:57:54 --> Total execution time: 0.1518
+INFO - 2022-02-13 18:00:21 --> Config Class Initialized
+INFO - 2022-02-13 18:00:21 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:00:21 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:00:21 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:00:21 --> URI Class Initialized
+INFO - 2022-02-13 18:00:21 --> Router Class Initialized
+INFO - 2022-02-13 18:00:21 --> Output Class Initialized
+INFO - 2022-02-13 18:00:21 --> Security Class Initialized
+DEBUG - 2022-02-13 18:00:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:00:21 --> Input Class Initialized
+INFO - 2022-02-13 18:00:21 --> Language Class Initialized
+INFO - 2022-02-13 18:00:21 --> Loader Class Initialized
+INFO - 2022-02-13 18:00:21 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:00:21 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:00:21 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:00:21 --> Email Class Initialized
+DEBUG - 2022-02-13 18:00:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:00:21 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:00:21 --> Controller Class Initialized
+INFO - 2022-02-13 18:00:21 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:00:21 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:00:21 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:00:21 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:00:21 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:00:21 --> Final output sent to browser
+DEBUG - 2022-02-13 18:00:21 --> Total execution time: 0.1835
+INFO - 2022-02-13 18:02:23 --> Config Class Initialized
+INFO - 2022-02-13 18:02:23 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:02:23 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:02:23 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:02:23 --> URI Class Initialized
+INFO - 2022-02-13 18:02:23 --> Router Class Initialized
+INFO - 2022-02-13 18:02:23 --> Output Class Initialized
+INFO - 2022-02-13 18:02:23 --> Security Class Initialized
+DEBUG - 2022-02-13 18:02:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:02:23 --> Input Class Initialized
+INFO - 2022-02-13 18:02:23 --> Language Class Initialized
+INFO - 2022-02-13 18:02:23 --> Loader Class Initialized
+INFO - 2022-02-13 18:02:23 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:02:23 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:02:23 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:02:23 --> Email Class Initialized
+DEBUG - 2022-02-13 18:02:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:02:23 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:02:23 --> Controller Class Initialized
+INFO - 2022-02-13 18:02:23 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:02:23 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:02:23 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:02:23 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:02:23 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:02:23 --> Final output sent to browser
+DEBUG - 2022-02-13 18:02:23 --> Total execution time: 0.1052
+INFO - 2022-02-13 18:04:01 --> Config Class Initialized
+INFO - 2022-02-13 18:04:01 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:04:01 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:04:01 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:04:01 --> URI Class Initialized
+INFO - 2022-02-13 18:04:01 --> Router Class Initialized
+INFO - 2022-02-13 18:04:01 --> Output Class Initialized
+INFO - 2022-02-13 18:04:01 --> Security Class Initialized
+DEBUG - 2022-02-13 18:04:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:04:01 --> Input Class Initialized
+INFO - 2022-02-13 18:04:01 --> Language Class Initialized
+INFO - 2022-02-13 18:04:01 --> Loader Class Initialized
+INFO - 2022-02-13 18:04:01 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:04:01 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:04:01 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:04:01 --> Email Class Initialized
+DEBUG - 2022-02-13 18:04:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:04:01 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:04:01 --> Controller Class Initialized
+INFO - 2022-02-13 18:04:01 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:04:01 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:04:01 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:04:01 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:04:01 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:04:01 --> Final output sent to browser
+DEBUG - 2022-02-13 18:04:01 --> Total execution time: 0.1922
+INFO - 2022-02-13 18:04:14 --> Config Class Initialized
+INFO - 2022-02-13 18:04:14 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:04:14 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:04:14 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:04:14 --> URI Class Initialized
+INFO - 2022-02-13 18:04:14 --> Router Class Initialized
+INFO - 2022-02-13 18:04:14 --> Output Class Initialized
+INFO - 2022-02-13 18:04:14 --> Security Class Initialized
+DEBUG - 2022-02-13 18:04:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:04:14 --> Input Class Initialized
+INFO - 2022-02-13 18:04:14 --> Language Class Initialized
+INFO - 2022-02-13 18:04:14 --> Loader Class Initialized
+INFO - 2022-02-13 18:04:14 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:04:14 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:04:14 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:04:14 --> Email Class Initialized
+DEBUG - 2022-02-13 18:04:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:04:14 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:04:14 --> Controller Class Initialized
+INFO - 2022-02-13 18:04:14 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:04:14 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:04:14 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:04:14 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:04:14 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:04:14 --> Final output sent to browser
+DEBUG - 2022-02-13 18:04:14 --> Total execution time: 0.2329
+INFO - 2022-02-13 18:05:36 --> Config Class Initialized
+INFO - 2022-02-13 18:05:36 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:05:36 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:05:36 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:05:36 --> URI Class Initialized
+INFO - 2022-02-13 18:05:36 --> Router Class Initialized
+INFO - 2022-02-13 18:05:36 --> Output Class Initialized
+INFO - 2022-02-13 18:05:36 --> Security Class Initialized
+DEBUG - 2022-02-13 18:05:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:05:36 --> Input Class Initialized
+INFO - 2022-02-13 18:05:36 --> Language Class Initialized
+INFO - 2022-02-13 18:05:36 --> Loader Class Initialized
+INFO - 2022-02-13 18:05:36 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:05:36 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:05:36 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:05:36 --> Email Class Initialized
+DEBUG - 2022-02-13 18:05:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:05:36 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:05:36 --> Controller Class Initialized
+INFO - 2022-02-13 18:05:36 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:05:36 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:05:36 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:05:36 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:05:36 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:05:36 --> Final output sent to browser
+DEBUG - 2022-02-13 18:05:36 --> Total execution time: 0.2766
+INFO - 2022-02-13 18:05:56 --> Config Class Initialized
+INFO - 2022-02-13 18:05:56 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:05:56 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:05:56 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:05:56 --> URI Class Initialized
+INFO - 2022-02-13 18:05:56 --> Router Class Initialized
+INFO - 2022-02-13 18:05:56 --> Output Class Initialized
+INFO - 2022-02-13 18:05:56 --> Security Class Initialized
+DEBUG - 2022-02-13 18:05:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:05:56 --> Input Class Initialized
+INFO - 2022-02-13 18:05:56 --> Language Class Initialized
+INFO - 2022-02-13 18:05:56 --> Loader Class Initialized
+INFO - 2022-02-13 18:05:56 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:05:56 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:05:56 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:05:56 --> Email Class Initialized
+DEBUG - 2022-02-13 18:05:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:05:56 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:05:56 --> Controller Class Initialized
+INFO - 2022-02-13 18:05:56 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:05:56 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:05:56 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:05:56 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:05:56 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:05:56 --> Final output sent to browser
+DEBUG - 2022-02-13 18:05:56 --> Total execution time: 0.1799
+INFO - 2022-02-13 18:06:33 --> Config Class Initialized
+INFO - 2022-02-13 18:06:33 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:06:33 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:06:33 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:06:33 --> URI Class Initialized
+INFO - 2022-02-13 18:06:33 --> Router Class Initialized
+INFO - 2022-02-13 18:06:33 --> Output Class Initialized
+INFO - 2022-02-13 18:06:33 --> Security Class Initialized
+DEBUG - 2022-02-13 18:06:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:06:33 --> Input Class Initialized
+INFO - 2022-02-13 18:06:33 --> Language Class Initialized
+INFO - 2022-02-13 18:06:33 --> Loader Class Initialized
+INFO - 2022-02-13 18:06:33 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:06:33 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:06:33 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:06:33 --> Email Class Initialized
+DEBUG - 2022-02-13 18:06:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:06:33 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:06:33 --> Controller Class Initialized
+INFO - 2022-02-13 18:06:33 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:06:33 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:06:33 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:06:33 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:06:33 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:06:33 --> Final output sent to browser
+DEBUG - 2022-02-13 18:06:33 --> Total execution time: 0.2389
+INFO - 2022-02-13 18:06:53 --> Config Class Initialized
+INFO - 2022-02-13 18:06:53 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:06:53 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:06:53 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:06:53 --> URI Class Initialized
+INFO - 2022-02-13 18:06:53 --> Router Class Initialized
+INFO - 2022-02-13 18:06:53 --> Output Class Initialized
+INFO - 2022-02-13 18:06:53 --> Security Class Initialized
+DEBUG - 2022-02-13 18:06:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:06:53 --> Input Class Initialized
+INFO - 2022-02-13 18:06:53 --> Language Class Initialized
+INFO - 2022-02-13 18:06:53 --> Loader Class Initialized
+INFO - 2022-02-13 18:06:53 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:06:53 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:06:53 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:06:53 --> Email Class Initialized
+DEBUG - 2022-02-13 18:06:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:06:53 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:06:53 --> Controller Class Initialized
+INFO - 2022-02-13 18:06:53 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:06:53 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:06:53 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:06:53 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:06:53 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:06:53 --> Final output sent to browser
+DEBUG - 2022-02-13 18:06:53 --> Total execution time: 0.1682
+INFO - 2022-02-13 18:07:13 --> Config Class Initialized
+INFO - 2022-02-13 18:07:13 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:07:13 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:07:13 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:07:13 --> URI Class Initialized
+INFO - 2022-02-13 18:07:13 --> Router Class Initialized
+INFO - 2022-02-13 18:07:13 --> Output Class Initialized
+INFO - 2022-02-13 18:07:13 --> Security Class Initialized
+DEBUG - 2022-02-13 18:07:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:07:13 --> Input Class Initialized
+INFO - 2022-02-13 18:07:13 --> Language Class Initialized
+INFO - 2022-02-13 18:07:13 --> Loader Class Initialized
+INFO - 2022-02-13 18:07:13 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:07:13 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:07:13 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:07:13 --> Email Class Initialized
+DEBUG - 2022-02-13 18:07:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:07:13 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:07:13 --> Controller Class Initialized
+INFO - 2022-02-13 18:07:13 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:07:13 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:07:13 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:07:13 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:07:13 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:07:13 --> Final output sent to browser
+DEBUG - 2022-02-13 18:07:13 --> Total execution time: 0.1568
+INFO - 2022-02-13 18:08:59 --> Config Class Initialized
+INFO - 2022-02-13 18:08:59 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:08:59 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:08:59 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:08:59 --> URI Class Initialized
+INFO - 2022-02-13 18:08:59 --> Router Class Initialized
+INFO - 2022-02-13 18:08:59 --> Output Class Initialized
+INFO - 2022-02-13 18:08:59 --> Security Class Initialized
+DEBUG - 2022-02-13 18:08:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:08:59 --> Input Class Initialized
+INFO - 2022-02-13 18:08:59 --> Language Class Initialized
+INFO - 2022-02-13 18:08:59 --> Loader Class Initialized
+INFO - 2022-02-13 18:08:59 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:08:59 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:08:59 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:08:59 --> Email Class Initialized
+DEBUG - 2022-02-13 18:08:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:08:59 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:08:59 --> Controller Class Initialized
+INFO - 2022-02-13 18:08:59 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:08:59 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:08:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:08:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:08:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:08:59 --> Final output sent to browser
+DEBUG - 2022-02-13 18:08:59 --> Total execution time: 0.2309
+INFO - 2022-02-13 18:19:57 --> Config Class Initialized
+INFO - 2022-02-13 18:19:57 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:19:57 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:19:57 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:19:57 --> URI Class Initialized
+INFO - 2022-02-13 18:19:57 --> Router Class Initialized
+INFO - 2022-02-13 18:19:57 --> Output Class Initialized
+INFO - 2022-02-13 18:19:57 --> Security Class Initialized
+DEBUG - 2022-02-13 18:19:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:19:57 --> Input Class Initialized
+INFO - 2022-02-13 18:19:57 --> Language Class Initialized
+INFO - 2022-02-13 18:19:57 --> Loader Class Initialized
+INFO - 2022-02-13 18:19:57 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:19:57 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:19:57 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:19:57 --> Email Class Initialized
+DEBUG - 2022-02-13 18:19:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:19:57 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:19:57 --> Controller Class Initialized
+INFO - 2022-02-13 18:19:57 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:19:57 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:19:57 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:19:57 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:19:57 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:19:57 --> Final output sent to browser
+DEBUG - 2022-02-13 18:19:57 --> Total execution time: 0.1752
+INFO - 2022-02-13 18:36:51 --> Config Class Initialized
+INFO - 2022-02-13 18:36:51 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:36:51 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:36:51 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:36:51 --> URI Class Initialized
+INFO - 2022-02-13 18:36:51 --> Router Class Initialized
+INFO - 2022-02-13 18:36:51 --> Output Class Initialized
+INFO - 2022-02-13 18:36:51 --> Security Class Initialized
+DEBUG - 2022-02-13 18:36:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:36:51 --> Input Class Initialized
+INFO - 2022-02-13 18:36:51 --> Language Class Initialized
+INFO - 2022-02-13 18:36:51 --> Loader Class Initialized
+INFO - 2022-02-13 18:36:51 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:36:51 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:36:51 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:36:52 --> Email Class Initialized
+DEBUG - 2022-02-13 18:36:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:36:52 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:36:52 --> Controller Class Initialized
+INFO - 2022-02-13 18:36:52 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:36:52 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:36:52 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:36:52 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:36:52 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:36:52 --> Final output sent to browser
+DEBUG - 2022-02-13 18:36:52 --> Total execution time: 0.2190
+INFO - 2022-02-13 18:37:43 --> Config Class Initialized
+INFO - 2022-02-13 18:37:43 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:37:43 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:37:43 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:37:43 --> URI Class Initialized
+INFO - 2022-02-13 18:37:43 --> Router Class Initialized
+INFO - 2022-02-13 18:37:43 --> Output Class Initialized
+INFO - 2022-02-13 18:37:43 --> Security Class Initialized
+DEBUG - 2022-02-13 18:37:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:37:43 --> Input Class Initialized
+INFO - 2022-02-13 18:37:43 --> Language Class Initialized
+INFO - 2022-02-13 18:37:43 --> Loader Class Initialized
+INFO - 2022-02-13 18:37:43 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:37:43 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:37:43 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:37:43 --> Email Class Initialized
+DEBUG - 2022-02-13 18:37:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:37:43 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:37:43 --> Controller Class Initialized
+INFO - 2022-02-13 18:37:43 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:37:43 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:37:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:37:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:37:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:37:43 --> Final output sent to browser
+DEBUG - 2022-02-13 18:37:43 --> Total execution time: 0.1378
+INFO - 2022-02-13 18:38:30 --> Config Class Initialized
+INFO - 2022-02-13 18:38:30 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:38:30 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:38:30 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:38:30 --> URI Class Initialized
+INFO - 2022-02-13 18:38:30 --> Router Class Initialized
+INFO - 2022-02-13 18:38:30 --> Output Class Initialized
+INFO - 2022-02-13 18:38:30 --> Security Class Initialized
+DEBUG - 2022-02-13 18:38:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:38:30 --> Input Class Initialized
+INFO - 2022-02-13 18:38:30 --> Language Class Initialized
+INFO - 2022-02-13 18:38:30 --> Loader Class Initialized
+INFO - 2022-02-13 18:38:30 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:38:30 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:38:30 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:38:30 --> Email Class Initialized
+DEBUG - 2022-02-13 18:38:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:38:30 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:38:30 --> Controller Class Initialized
+INFO - 2022-02-13 18:38:30 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:38:30 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:38:30 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:38:30 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:38:30 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:38:30 --> Final output sent to browser
+DEBUG - 2022-02-13 18:38:30 --> Total execution time: 0.1747
+INFO - 2022-02-13 18:38:42 --> Config Class Initialized
+INFO - 2022-02-13 18:38:42 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:38:42 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:38:42 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:38:42 --> URI Class Initialized
+INFO - 2022-02-13 18:38:42 --> Router Class Initialized
+INFO - 2022-02-13 18:38:42 --> Output Class Initialized
+INFO - 2022-02-13 18:38:42 --> Security Class Initialized
+DEBUG - 2022-02-13 18:38:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:38:42 --> Input Class Initialized
+INFO - 2022-02-13 18:38:42 --> Language Class Initialized
+INFO - 2022-02-13 18:38:42 --> Loader Class Initialized
+INFO - 2022-02-13 18:38:42 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:38:42 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:38:42 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:38:42 --> Email Class Initialized
+DEBUG - 2022-02-13 18:38:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:38:42 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:38:42 --> Controller Class Initialized
+INFO - 2022-02-13 18:38:42 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:38:42 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:38:42 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:38:42 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:38:42 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:38:42 --> Final output sent to browser
+DEBUG - 2022-02-13 18:38:42 --> Total execution time: 0.1625
+INFO - 2022-02-13 18:38:49 --> Config Class Initialized
+INFO - 2022-02-13 18:38:49 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:38:49 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:38:49 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:38:49 --> URI Class Initialized
+INFO - 2022-02-13 18:38:49 --> Router Class Initialized
+INFO - 2022-02-13 18:38:49 --> Output Class Initialized
+INFO - 2022-02-13 18:38:49 --> Security Class Initialized
+DEBUG - 2022-02-13 18:38:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:38:49 --> Input Class Initialized
+INFO - 2022-02-13 18:38:49 --> Language Class Initialized
+INFO - 2022-02-13 18:38:49 --> Loader Class Initialized
+INFO - 2022-02-13 18:38:49 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:38:49 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:38:49 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:38:49 --> Email Class Initialized
+DEBUG - 2022-02-13 18:38:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:38:49 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:38:49 --> Controller Class Initialized
+INFO - 2022-02-13 18:38:49 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:38:49 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:38:49 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:38:49 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:38:49 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:38:49 --> Final output sent to browser
+DEBUG - 2022-02-13 18:38:49 --> Total execution time: 0.1579
+INFO - 2022-02-13 18:39:47 --> Config Class Initialized
+INFO - 2022-02-13 18:39:47 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:39:47 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:39:47 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:39:47 --> URI Class Initialized
+INFO - 2022-02-13 18:39:47 --> Router Class Initialized
+INFO - 2022-02-13 18:39:47 --> Output Class Initialized
+INFO - 2022-02-13 18:39:47 --> Security Class Initialized
+DEBUG - 2022-02-13 18:39:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:39:47 --> Input Class Initialized
+INFO - 2022-02-13 18:39:47 --> Language Class Initialized
+INFO - 2022-02-13 18:39:47 --> Loader Class Initialized
+INFO - 2022-02-13 18:39:47 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:39:47 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:39:47 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:39:47 --> Email Class Initialized
+DEBUG - 2022-02-13 18:39:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:39:47 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:39:47 --> Controller Class Initialized
+INFO - 2022-02-13 18:39:47 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:39:47 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:39:47 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:39:47 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:39:47 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:39:47 --> Final output sent to browser
+DEBUG - 2022-02-13 18:39:47 --> Total execution time: 0.1555
+INFO - 2022-02-13 18:40:03 --> Config Class Initialized
+INFO - 2022-02-13 18:40:03 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:40:03 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:40:03 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:40:03 --> URI Class Initialized
+INFO - 2022-02-13 18:40:03 --> Router Class Initialized
+INFO - 2022-02-13 18:40:03 --> Output Class Initialized
+INFO - 2022-02-13 18:40:03 --> Security Class Initialized
+DEBUG - 2022-02-13 18:40:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:40:03 --> Input Class Initialized
+INFO - 2022-02-13 18:40:03 --> Language Class Initialized
+INFO - 2022-02-13 18:40:03 --> Loader Class Initialized
+INFO - 2022-02-13 18:40:03 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:40:03 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:40:03 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:40:03 --> Email Class Initialized
+DEBUG - 2022-02-13 18:40:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:40:03 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:40:03 --> Controller Class Initialized
+INFO - 2022-02-13 18:40:03 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:40:03 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:40:03 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:40:03 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:40:03 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:40:03 --> Final output sent to browser
+DEBUG - 2022-02-13 18:40:03 --> Total execution time: 0.1163
+INFO - 2022-02-13 18:40:15 --> Config Class Initialized
+INFO - 2022-02-13 18:40:15 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:40:15 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:40:15 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:40:15 --> URI Class Initialized
+INFO - 2022-02-13 18:40:15 --> Router Class Initialized
+INFO - 2022-02-13 18:40:15 --> Output Class Initialized
+INFO - 2022-02-13 18:40:15 --> Security Class Initialized
+DEBUG - 2022-02-13 18:40:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:40:15 --> Input Class Initialized
+INFO - 2022-02-13 18:40:15 --> Language Class Initialized
+INFO - 2022-02-13 18:40:15 --> Loader Class Initialized
+INFO - 2022-02-13 18:40:15 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:40:15 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:40:15 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:40:15 --> Email Class Initialized
+DEBUG - 2022-02-13 18:40:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:40:15 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:40:15 --> Controller Class Initialized
+INFO - 2022-02-13 18:40:15 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:40:15 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:40:15 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:40:15 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:40:15 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:40:15 --> Final output sent to browser
+DEBUG - 2022-02-13 18:40:15 --> Total execution time: 0.1996
+INFO - 2022-02-13 18:40:26 --> Config Class Initialized
+INFO - 2022-02-13 18:40:26 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:40:26 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:40:26 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:40:26 --> URI Class Initialized
+INFO - 2022-02-13 18:40:26 --> Router Class Initialized
+INFO - 2022-02-13 18:40:26 --> Output Class Initialized
+INFO - 2022-02-13 18:40:26 --> Security Class Initialized
+DEBUG - 2022-02-13 18:40:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:40:26 --> Input Class Initialized
+INFO - 2022-02-13 18:40:26 --> Language Class Initialized
+INFO - 2022-02-13 18:40:26 --> Loader Class Initialized
+INFO - 2022-02-13 18:40:26 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:40:26 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:40:26 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:40:26 --> Email Class Initialized
+DEBUG - 2022-02-13 18:40:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:40:26 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:40:26 --> Controller Class Initialized
+INFO - 2022-02-13 18:40:26 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:40:26 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:40:26 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:40:26 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:40:26 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:40:26 --> Final output sent to browser
+DEBUG - 2022-02-13 18:40:26 --> Total execution time: 0.1315
+INFO - 2022-02-13 18:41:01 --> Config Class Initialized
+INFO - 2022-02-13 18:41:01 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:41:01 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:41:01 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:41:01 --> URI Class Initialized
+INFO - 2022-02-13 18:41:01 --> Router Class Initialized
+INFO - 2022-02-13 18:41:01 --> Output Class Initialized
+INFO - 2022-02-13 18:41:01 --> Security Class Initialized
+DEBUG - 2022-02-13 18:41:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:41:01 --> Input Class Initialized
+INFO - 2022-02-13 18:41:01 --> Language Class Initialized
+INFO - 2022-02-13 18:41:01 --> Loader Class Initialized
+INFO - 2022-02-13 18:41:01 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:41:01 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:41:01 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:41:01 --> Email Class Initialized
+DEBUG - 2022-02-13 18:41:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:41:01 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:41:01 --> Controller Class Initialized
+INFO - 2022-02-13 18:41:01 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:41:01 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:41:01 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:41:01 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:41:01 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:41:01 --> Final output sent to browser
+DEBUG - 2022-02-13 18:41:01 --> Total execution time: 0.2825
+INFO - 2022-02-13 18:41:15 --> Config Class Initialized
+INFO - 2022-02-13 18:41:15 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:41:15 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:41:15 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:41:15 --> URI Class Initialized
+INFO - 2022-02-13 18:41:15 --> Router Class Initialized
+INFO - 2022-02-13 18:41:15 --> Output Class Initialized
+INFO - 2022-02-13 18:41:15 --> Security Class Initialized
+DEBUG - 2022-02-13 18:41:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:41:15 --> Input Class Initialized
+INFO - 2022-02-13 18:41:15 --> Language Class Initialized
+INFO - 2022-02-13 18:41:15 --> Loader Class Initialized
+INFO - 2022-02-13 18:41:15 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:41:15 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:41:15 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:41:15 --> Email Class Initialized
+DEBUG - 2022-02-13 18:41:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:41:15 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:41:15 --> Controller Class Initialized
+INFO - 2022-02-13 18:41:15 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:41:15 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:41:15 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:41:15 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:41:15 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:41:15 --> Final output sent to browser
+DEBUG - 2022-02-13 18:41:15 --> Total execution time: 0.1585
+INFO - 2022-02-13 18:41:29 --> Config Class Initialized
+INFO - 2022-02-13 18:41:29 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:41:29 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:41:29 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:41:29 --> URI Class Initialized
+INFO - 2022-02-13 18:41:29 --> Router Class Initialized
+INFO - 2022-02-13 18:41:29 --> Output Class Initialized
+INFO - 2022-02-13 18:41:29 --> Security Class Initialized
+DEBUG - 2022-02-13 18:41:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:41:29 --> Input Class Initialized
+INFO - 2022-02-13 18:41:29 --> Language Class Initialized
+INFO - 2022-02-13 18:41:29 --> Loader Class Initialized
+INFO - 2022-02-13 18:41:29 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:41:29 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:41:29 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:41:29 --> Email Class Initialized
+DEBUG - 2022-02-13 18:41:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:41:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:41:29 --> Controller Class Initialized
+INFO - 2022-02-13 18:41:29 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:41:29 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:41:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:41:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:41:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:41:29 --> Final output sent to browser
+DEBUG - 2022-02-13 18:41:29 --> Total execution time: 0.1389
+INFO - 2022-02-13 18:41:59 --> Config Class Initialized
+INFO - 2022-02-13 18:41:59 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:41:59 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:41:59 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:41:59 --> URI Class Initialized
+INFO - 2022-02-13 18:41:59 --> Router Class Initialized
+INFO - 2022-02-13 18:41:59 --> Output Class Initialized
+INFO - 2022-02-13 18:41:59 --> Security Class Initialized
+DEBUG - 2022-02-13 18:41:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:41:59 --> Input Class Initialized
+INFO - 2022-02-13 18:41:59 --> Language Class Initialized
+INFO - 2022-02-13 18:41:59 --> Loader Class Initialized
+INFO - 2022-02-13 18:41:59 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:41:59 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:41:59 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:41:59 --> Email Class Initialized
+DEBUG - 2022-02-13 18:41:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:41:59 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:41:59 --> Controller Class Initialized
+INFO - 2022-02-13 18:41:59 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:41:59 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:41:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:41:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:41:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:41:59 --> Final output sent to browser
+DEBUG - 2022-02-13 18:41:59 --> Total execution time: 0.1455
+INFO - 2022-02-13 18:43:59 --> Config Class Initialized
+INFO - 2022-02-13 18:43:59 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:43:59 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:43:59 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:43:59 --> URI Class Initialized
+INFO - 2022-02-13 18:43:59 --> Router Class Initialized
+INFO - 2022-02-13 18:43:59 --> Output Class Initialized
+INFO - 2022-02-13 18:43:59 --> Security Class Initialized
+DEBUG - 2022-02-13 18:43:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:43:59 --> Input Class Initialized
+INFO - 2022-02-13 18:43:59 --> Language Class Initialized
+INFO - 2022-02-13 18:43:59 --> Loader Class Initialized
+INFO - 2022-02-13 18:43:59 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:43:59 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:43:59 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:43:59 --> Email Class Initialized
+DEBUG - 2022-02-13 18:43:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:43:59 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:43:59 --> Controller Class Initialized
+INFO - 2022-02-13 18:43:59 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:43:59 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:43:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:43:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:43:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:43:59 --> Final output sent to browser
+DEBUG - 2022-02-13 18:43:59 --> Total execution time: 0.1108
+INFO - 2022-02-13 18:44:20 --> Config Class Initialized
+INFO - 2022-02-13 18:44:20 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:44:20 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:44:20 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:44:20 --> URI Class Initialized
+DEBUG - 2022-02-13 18:44:21 --> No URI present. Default controller set.
+INFO - 2022-02-13 18:44:21 --> Router Class Initialized
+INFO - 2022-02-13 18:44:21 --> Output Class Initialized
+INFO - 2022-02-13 18:44:21 --> Security Class Initialized
+DEBUG - 2022-02-13 18:44:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:44:21 --> Input Class Initialized
+INFO - 2022-02-13 18:44:21 --> Language Class Initialized
+INFO - 2022-02-13 18:44:21 --> Loader Class Initialized
+INFO - 2022-02-13 18:44:21 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:44:21 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:44:21 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:44:21 --> Email Class Initialized
+DEBUG - 2022-02-13 18:44:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:44:21 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:44:21 --> Controller Class Initialized
+INFO - 2022-02-13 18:44:21 --> Model "HomeModel" initialized
+INFO - 2022-02-13 18:44:21 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//landing/index.php
+INFO - 2022-02-13 18:44:21 --> Final output sent to browser
+DEBUG - 2022-02-13 18:44:21 --> Total execution time: 0.3499
+INFO - 2022-02-13 18:44:29 --> Config Class Initialized
+INFO - 2022-02-13 18:44:29 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:44:29 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:44:29 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:44:29 --> URI Class Initialized
+INFO - 2022-02-13 18:44:29 --> Router Class Initialized
+INFO - 2022-02-13 18:44:29 --> Output Class Initialized
+INFO - 2022-02-13 18:44:29 --> Security Class Initialized
+DEBUG - 2022-02-13 18:44:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:44:29 --> Input Class Initialized
+INFO - 2022-02-13 18:44:29 --> Language Class Initialized
+INFO - 2022-02-13 18:44:29 --> Loader Class Initialized
+INFO - 2022-02-13 18:44:29 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:44:29 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:44:29 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:44:29 --> Email Class Initialized
+DEBUG - 2022-02-13 18:44:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:44:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:44:29 --> Controller Class Initialized
+INFO - 2022-02-13 18:44:29 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:44:29 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:44:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:44:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:44:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:44:29 --> Final output sent to browser
+DEBUG - 2022-02-13 18:44:29 --> Total execution time: 0.1246
+INFO - 2022-02-13 18:45:55 --> Config Class Initialized
+INFO - 2022-02-13 18:45:55 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:45:55 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:45:55 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:45:55 --> URI Class Initialized
+INFO - 2022-02-13 18:45:55 --> Router Class Initialized
+INFO - 2022-02-13 18:45:55 --> Output Class Initialized
+INFO - 2022-02-13 18:45:55 --> Security Class Initialized
+DEBUG - 2022-02-13 18:45:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:45:55 --> Input Class Initialized
+INFO - 2022-02-13 18:45:55 --> Language Class Initialized
+INFO - 2022-02-13 18:45:55 --> Loader Class Initialized
+INFO - 2022-02-13 18:45:55 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:45:55 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:45:55 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:45:55 --> Email Class Initialized
+DEBUG - 2022-02-13 18:45:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:45:55 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:45:55 --> Controller Class Initialized
+INFO - 2022-02-13 18:45:55 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:45:55 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:45:55 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:45:55 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:45:55 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:45:55 --> Final output sent to browser
+DEBUG - 2022-02-13 18:45:55 --> Total execution time: 0.1943
+INFO - 2022-02-13 18:46:22 --> Config Class Initialized
+INFO - 2022-02-13 18:46:22 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:46:22 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:46:22 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:46:22 --> URI Class Initialized
+INFO - 2022-02-13 18:46:22 --> Router Class Initialized
+INFO - 2022-02-13 18:46:22 --> Output Class Initialized
+INFO - 2022-02-13 18:46:22 --> Security Class Initialized
+DEBUG - 2022-02-13 18:46:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:46:22 --> Input Class Initialized
+INFO - 2022-02-13 18:46:22 --> Language Class Initialized
+INFO - 2022-02-13 18:46:22 --> Loader Class Initialized
+INFO - 2022-02-13 18:46:22 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:46:22 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:46:22 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:46:22 --> Email Class Initialized
+DEBUG - 2022-02-13 18:46:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:46:22 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:46:22 --> Controller Class Initialized
+INFO - 2022-02-13 18:46:22 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:46:22 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:46:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:46:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:46:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:46:22 --> Final output sent to browser
+DEBUG - 2022-02-13 18:46:22 --> Total execution time: 0.1152
+INFO - 2022-02-13 18:46:31 --> Config Class Initialized
+INFO - 2022-02-13 18:46:31 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:46:31 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:46:31 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:46:31 --> URI Class Initialized
+DEBUG - 2022-02-13 18:46:31 --> No URI present. Default controller set.
+INFO - 2022-02-13 18:46:31 --> Router Class Initialized
+INFO - 2022-02-13 18:46:31 --> Output Class Initialized
+INFO - 2022-02-13 18:46:31 --> Security Class Initialized
+DEBUG - 2022-02-13 18:46:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:46:31 --> Input Class Initialized
+INFO - 2022-02-13 18:46:31 --> Language Class Initialized
+INFO - 2022-02-13 18:46:31 --> Loader Class Initialized
+INFO - 2022-02-13 18:46:31 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:46:31 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:46:31 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:46:31 --> Email Class Initialized
+DEBUG - 2022-02-13 18:46:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:46:31 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:46:31 --> Controller Class Initialized
+INFO - 2022-02-13 18:46:31 --> Model "HomeModel" initialized
+INFO - 2022-02-13 18:46:31 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//landing/index.php
+INFO - 2022-02-13 18:46:31 --> Final output sent to browser
+DEBUG - 2022-02-13 18:46:31 --> Total execution time: 0.1329
+INFO - 2022-02-13 18:46:55 --> Config Class Initialized
+INFO - 2022-02-13 18:46:55 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:46:55 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:46:55 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:46:55 --> URI Class Initialized
+INFO - 2022-02-13 18:46:55 --> Router Class Initialized
+INFO - 2022-02-13 18:46:55 --> Output Class Initialized
+INFO - 2022-02-13 18:46:55 --> Security Class Initialized
+DEBUG - 2022-02-13 18:46:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:46:55 --> Input Class Initialized
+INFO - 2022-02-13 18:46:55 --> Language Class Initialized
+INFO - 2022-02-13 18:46:55 --> Loader Class Initialized
+INFO - 2022-02-13 18:46:55 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:46:55 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:46:55 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:46:55 --> Email Class Initialized
+DEBUG - 2022-02-13 18:46:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:46:55 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:46:55 --> Controller Class Initialized
+INFO - 2022-02-13 18:46:55 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:46:55 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:46:55 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:46:55 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:46:55 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:46:55 --> Final output sent to browser
+DEBUG - 2022-02-13 18:46:55 --> Total execution time: 0.1639
+INFO - 2022-02-13 18:46:58 --> Config Class Initialized
+INFO - 2022-02-13 18:46:58 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:46:58 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:46:58 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:46:58 --> URI Class Initialized
+INFO - 2022-02-13 18:46:58 --> Router Class Initialized
+INFO - 2022-02-13 18:46:58 --> Output Class Initialized
+INFO - 2022-02-13 18:46:58 --> Security Class Initialized
+DEBUG - 2022-02-13 18:46:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:46:58 --> Input Class Initialized
+INFO - 2022-02-13 18:46:58 --> Language Class Initialized
+INFO - 2022-02-13 18:46:58 --> Loader Class Initialized
+INFO - 2022-02-13 18:46:58 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:46:58 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:46:58 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:46:58 --> Email Class Initialized
+DEBUG - 2022-02-13 18:46:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:46:58 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:46:58 --> Controller Class Initialized
+INFO - 2022-02-13 18:46:58 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:46:58 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:46:58 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:46:58 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:46:58 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:46:58 --> Final output sent to browser
+DEBUG - 2022-02-13 18:46:58 --> Total execution time: 0.2141
+INFO - 2022-02-13 18:47:06 --> Config Class Initialized
+INFO - 2022-02-13 18:47:06 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:47:06 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:47:06 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:47:06 --> URI Class Initialized
+INFO - 2022-02-13 18:47:06 --> Router Class Initialized
+INFO - 2022-02-13 18:47:06 --> Output Class Initialized
+INFO - 2022-02-13 18:47:06 --> Security Class Initialized
+DEBUG - 2022-02-13 18:47:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:47:06 --> Input Class Initialized
+INFO - 2022-02-13 18:47:06 --> Language Class Initialized
+INFO - 2022-02-13 18:47:06 --> Loader Class Initialized
+INFO - 2022-02-13 18:47:06 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:47:06 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:47:06 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:47:06 --> Email Class Initialized
+DEBUG - 2022-02-13 18:47:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:47:06 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:47:06 --> Controller Class Initialized
+INFO - 2022-02-13 18:47:06 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:47:06 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:47:06 --> Final output sent to browser
+DEBUG - 2022-02-13 18:47:06 --> Total execution time: 0.1650
+INFO - 2022-02-13 18:47:26 --> Config Class Initialized
+INFO - 2022-02-13 18:47:26 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:47:26 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:47:26 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:47:26 --> URI Class Initialized
+INFO - 2022-02-13 18:47:26 --> Router Class Initialized
+INFO - 2022-02-13 18:47:26 --> Output Class Initialized
+INFO - 2022-02-13 18:47:26 --> Security Class Initialized
+DEBUG - 2022-02-13 18:47:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:47:26 --> Input Class Initialized
+INFO - 2022-02-13 18:47:26 --> Language Class Initialized
+INFO - 2022-02-13 18:47:26 --> Loader Class Initialized
+INFO - 2022-02-13 18:47:26 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:47:26 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:47:26 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:47:26 --> Email Class Initialized
+DEBUG - 2022-02-13 18:47:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:47:26 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:47:26 --> Controller Class Initialized
+INFO - 2022-02-13 18:47:26 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:47:26 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:47:26 --> Final output sent to browser
+DEBUG - 2022-02-13 18:47:26 --> Total execution time: 0.1629
+INFO - 2022-02-13 18:52:30 --> Config Class Initialized
+INFO - 2022-02-13 18:52:30 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:52:30 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:52:30 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:52:30 --> URI Class Initialized
+INFO - 2022-02-13 18:52:30 --> Router Class Initialized
+INFO - 2022-02-13 18:52:30 --> Output Class Initialized
+INFO - 2022-02-13 18:52:30 --> Security Class Initialized
+DEBUG - 2022-02-13 18:52:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:52:30 --> Input Class Initialized
+INFO - 2022-02-13 18:52:30 --> Language Class Initialized
+INFO - 2022-02-13 18:52:30 --> Loader Class Initialized
+INFO - 2022-02-13 18:52:30 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:52:30 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:52:30 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:52:30 --> Email Class Initialized
+DEBUG - 2022-02-13 18:52:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:52:30 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:52:30 --> Controller Class Initialized
+INFO - 2022-02-13 18:52:30 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:52:30 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:52:30 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:52:30 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:52:30 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:52:30 --> Final output sent to browser
+DEBUG - 2022-02-13 18:52:30 --> Total execution time: 0.2089
+INFO - 2022-02-13 18:52:38 --> Config Class Initialized
+INFO - 2022-02-13 18:52:38 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:52:38 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:52:38 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:52:38 --> URI Class Initialized
+INFO - 2022-02-13 18:52:38 --> Router Class Initialized
+INFO - 2022-02-13 18:52:38 --> Output Class Initialized
+INFO - 2022-02-13 18:52:38 --> Security Class Initialized
+DEBUG - 2022-02-13 18:52:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:52:38 --> Input Class Initialized
+INFO - 2022-02-13 18:52:38 --> Language Class Initialized
+INFO - 2022-02-13 18:52:38 --> Loader Class Initialized
+INFO - 2022-02-13 18:52:38 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:52:38 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:52:38 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:52:38 --> Email Class Initialized
+DEBUG - 2022-02-13 18:52:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:52:38 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:52:38 --> Controller Class Initialized
+INFO - 2022-02-13 18:52:38 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:52:38 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:52:38 --> Final output sent to browser
+DEBUG - 2022-02-13 18:52:38 --> Total execution time: 0.1338
+INFO - 2022-02-13 18:52:57 --> Config Class Initialized
+INFO - 2022-02-13 18:52:57 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:52:57 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:52:57 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:52:57 --> URI Class Initialized
+INFO - 2022-02-13 18:52:57 --> Router Class Initialized
+INFO - 2022-02-13 18:52:57 --> Output Class Initialized
+INFO - 2022-02-13 18:52:57 --> Security Class Initialized
+DEBUG - 2022-02-13 18:52:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:52:57 --> Input Class Initialized
+INFO - 2022-02-13 18:52:57 --> Language Class Initialized
+INFO - 2022-02-13 18:52:57 --> Loader Class Initialized
+INFO - 2022-02-13 18:52:57 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:52:57 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:52:57 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:52:57 --> Email Class Initialized
+DEBUG - 2022-02-13 18:52:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:52:57 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:52:57 --> Controller Class Initialized
+INFO - 2022-02-13 18:52:57 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:52:57 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:52:57 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:52:57 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:52:57 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:52:57 --> Final output sent to browser
+DEBUG - 2022-02-13 18:52:57 --> Total execution time: 0.1661
+INFO - 2022-02-13 18:53:03 --> Config Class Initialized
+INFO - 2022-02-13 18:53:03 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:53:03 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:53:03 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:53:03 --> URI Class Initialized
+INFO - 2022-02-13 18:53:03 --> Router Class Initialized
+INFO - 2022-02-13 18:53:03 --> Output Class Initialized
+INFO - 2022-02-13 18:53:03 --> Security Class Initialized
+DEBUG - 2022-02-13 18:53:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:53:03 --> Input Class Initialized
+INFO - 2022-02-13 18:53:03 --> Language Class Initialized
+INFO - 2022-02-13 18:53:03 --> Loader Class Initialized
+INFO - 2022-02-13 18:53:03 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:53:03 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:53:03 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:53:03 --> Email Class Initialized
+DEBUG - 2022-02-13 18:53:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:53:03 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:53:03 --> Controller Class Initialized
+INFO - 2022-02-13 18:53:03 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:53:03 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:53:03 --> Final output sent to browser
+DEBUG - 2022-02-13 18:53:03 --> Total execution time: 0.1164
+INFO - 2022-02-13 18:53:21 --> Config Class Initialized
+INFO - 2022-02-13 18:53:21 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:53:21 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:53:21 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:53:21 --> URI Class Initialized
+INFO - 2022-02-13 18:53:21 --> Router Class Initialized
+INFO - 2022-02-13 18:53:21 --> Output Class Initialized
+INFO - 2022-02-13 18:53:21 --> Security Class Initialized
+DEBUG - 2022-02-13 18:53:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:53:21 --> Input Class Initialized
+INFO - 2022-02-13 18:53:21 --> Language Class Initialized
+INFO - 2022-02-13 18:53:21 --> Loader Class Initialized
+INFO - 2022-02-13 18:53:21 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:53:21 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:53:21 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:53:21 --> Email Class Initialized
+DEBUG - 2022-02-13 18:53:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:53:21 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:53:21 --> Controller Class Initialized
+INFO - 2022-02-13 18:53:21 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:53:21 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:53:21 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:53:21 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:53:21 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:53:21 --> Final output sent to browser
+DEBUG - 2022-02-13 18:53:21 --> Total execution time: 0.1104
+INFO - 2022-02-13 18:53:25 --> Config Class Initialized
+INFO - 2022-02-13 18:53:25 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:53:25 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:53:25 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:53:25 --> URI Class Initialized
+INFO - 2022-02-13 18:53:25 --> Router Class Initialized
+INFO - 2022-02-13 18:53:25 --> Output Class Initialized
+INFO - 2022-02-13 18:53:25 --> Security Class Initialized
+DEBUG - 2022-02-13 18:53:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:53:25 --> Input Class Initialized
+INFO - 2022-02-13 18:53:25 --> Language Class Initialized
+INFO - 2022-02-13 18:53:25 --> Loader Class Initialized
+INFO - 2022-02-13 18:53:25 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:53:25 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:53:25 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:53:25 --> Email Class Initialized
+DEBUG - 2022-02-13 18:53:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:53:25 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:53:25 --> Controller Class Initialized
+INFO - 2022-02-13 18:53:25 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:53:25 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:53:25 --> Final output sent to browser
+DEBUG - 2022-02-13 18:53:25 --> Total execution time: 0.1371
+INFO - 2022-02-13 18:54:52 --> Config Class Initialized
+INFO - 2022-02-13 18:54:52 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:54:52 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:54:52 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:54:52 --> URI Class Initialized
+INFO - 2022-02-13 18:54:52 --> Router Class Initialized
+INFO - 2022-02-13 18:54:52 --> Output Class Initialized
+INFO - 2022-02-13 18:54:52 --> Security Class Initialized
+DEBUG - 2022-02-13 18:54:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:54:52 --> Input Class Initialized
+INFO - 2022-02-13 18:54:52 --> Language Class Initialized
+INFO - 2022-02-13 18:54:52 --> Loader Class Initialized
+INFO - 2022-02-13 18:54:52 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:54:52 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:54:52 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:54:52 --> Email Class Initialized
+DEBUG - 2022-02-13 18:54:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:54:52 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:54:52 --> Controller Class Initialized
+INFO - 2022-02-13 18:54:52 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:54:52 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:54:52 --> Final output sent to browser
+DEBUG - 2022-02-13 18:54:52 --> Total execution time: 0.1278
+INFO - 2022-02-13 18:54:54 --> Config Class Initialized
+INFO - 2022-02-13 18:54:54 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:54:54 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:54:54 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:54:54 --> URI Class Initialized
+INFO - 2022-02-13 18:54:54 --> Router Class Initialized
+INFO - 2022-02-13 18:54:54 --> Output Class Initialized
+INFO - 2022-02-13 18:54:54 --> Security Class Initialized
+DEBUG - 2022-02-13 18:54:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:54:54 --> Input Class Initialized
+INFO - 2022-02-13 18:54:54 --> Language Class Initialized
+INFO - 2022-02-13 18:54:54 --> Loader Class Initialized
+INFO - 2022-02-13 18:54:54 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:54:54 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:54:54 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:54:54 --> Email Class Initialized
+DEBUG - 2022-02-13 18:54:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:54:54 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:54:54 --> Controller Class Initialized
+INFO - 2022-02-13 18:54:54 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:54:54 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:54:54 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:54:54 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:54:54 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:54:54 --> Final output sent to browser
+DEBUG - 2022-02-13 18:54:54 --> Total execution time: 0.1322
+INFO - 2022-02-13 18:54:58 --> Config Class Initialized
+INFO - 2022-02-13 18:54:58 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:54:58 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:54:58 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:54:58 --> URI Class Initialized
+INFO - 2022-02-13 18:54:58 --> Router Class Initialized
+INFO - 2022-02-13 18:54:58 --> Output Class Initialized
+INFO - 2022-02-13 18:54:58 --> Security Class Initialized
+DEBUG - 2022-02-13 18:54:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:54:58 --> Input Class Initialized
+INFO - 2022-02-13 18:54:58 --> Language Class Initialized
+INFO - 2022-02-13 18:54:58 --> Loader Class Initialized
+INFO - 2022-02-13 18:54:58 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:54:58 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:54:58 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:54:58 --> Email Class Initialized
+DEBUG - 2022-02-13 18:54:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:54:58 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:54:58 --> Controller Class Initialized
+INFO - 2022-02-13 18:54:58 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:54:58 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:54:58 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:54:58 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:54:58 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:54:58 --> Final output sent to browser
+DEBUG - 2022-02-13 18:54:58 --> Total execution time: 0.1465
+INFO - 2022-02-13 18:55:04 --> Config Class Initialized
+INFO - 2022-02-13 18:55:04 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:55:04 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:55:04 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:55:04 --> URI Class Initialized
+INFO - 2022-02-13 18:55:04 --> Router Class Initialized
+INFO - 2022-02-13 18:55:04 --> Output Class Initialized
+INFO - 2022-02-13 18:55:04 --> Security Class Initialized
+DEBUG - 2022-02-13 18:55:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:55:04 --> Input Class Initialized
+INFO - 2022-02-13 18:55:04 --> Language Class Initialized
+INFO - 2022-02-13 18:55:04 --> Loader Class Initialized
+INFO - 2022-02-13 18:55:04 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:55:04 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:55:04 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:55:05 --> Email Class Initialized
+DEBUG - 2022-02-13 18:55:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:55:05 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:55:05 --> Controller Class Initialized
+INFO - 2022-02-13 18:55:05 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:55:05 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:55:05 --> Final output sent to browser
+DEBUG - 2022-02-13 18:55:05 --> Total execution time: 0.2708
+INFO - 2022-02-13 18:55:44 --> Config Class Initialized
+INFO - 2022-02-13 18:55:44 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:55:44 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:55:44 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:55:44 --> URI Class Initialized
+INFO - 2022-02-13 18:55:44 --> Router Class Initialized
+INFO - 2022-02-13 18:55:44 --> Output Class Initialized
+INFO - 2022-02-13 18:55:44 --> Security Class Initialized
+DEBUG - 2022-02-13 18:55:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:55:44 --> Input Class Initialized
+INFO - 2022-02-13 18:55:44 --> Language Class Initialized
+INFO - 2022-02-13 18:55:44 --> Loader Class Initialized
+INFO - 2022-02-13 18:55:44 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:55:44 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:55:44 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:55:44 --> Email Class Initialized
+DEBUG - 2022-02-13 18:55:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:55:44 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:55:44 --> Controller Class Initialized
+INFO - 2022-02-13 18:55:44 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:55:44 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:55:44 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:55:44 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:55:44 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:55:44 --> Final output sent to browser
+DEBUG - 2022-02-13 18:55:44 --> Total execution time: 0.1654
+INFO - 2022-02-13 18:55:48 --> Config Class Initialized
+INFO - 2022-02-13 18:55:48 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:55:48 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:55:48 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:55:48 --> URI Class Initialized
+INFO - 2022-02-13 18:55:48 --> Router Class Initialized
+INFO - 2022-02-13 18:55:48 --> Output Class Initialized
+INFO - 2022-02-13 18:55:48 --> Security Class Initialized
+DEBUG - 2022-02-13 18:55:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:55:48 --> Input Class Initialized
+INFO - 2022-02-13 18:55:48 --> Language Class Initialized
+INFO - 2022-02-13 18:55:48 --> Loader Class Initialized
+INFO - 2022-02-13 18:55:48 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:55:48 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:55:48 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:55:48 --> Email Class Initialized
+DEBUG - 2022-02-13 18:55:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:55:48 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:55:48 --> Controller Class Initialized
+INFO - 2022-02-13 18:55:48 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:55:48 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:55:48 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:55:48 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:55:48 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:55:48 --> Final output sent to browser
+DEBUG - 2022-02-13 18:55:48 --> Total execution time: 0.1030
+INFO - 2022-02-13 18:55:54 --> Config Class Initialized
+INFO - 2022-02-13 18:55:54 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:55:54 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:55:54 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:55:54 --> URI Class Initialized
+INFO - 2022-02-13 18:55:54 --> Router Class Initialized
+INFO - 2022-02-13 18:55:54 --> Output Class Initialized
+INFO - 2022-02-13 18:55:54 --> Security Class Initialized
+DEBUG - 2022-02-13 18:55:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:55:54 --> Input Class Initialized
+INFO - 2022-02-13 18:55:54 --> Language Class Initialized
+INFO - 2022-02-13 18:55:54 --> Loader Class Initialized
+INFO - 2022-02-13 18:55:54 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:55:54 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:55:55 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:55:55 --> Email Class Initialized
+DEBUG - 2022-02-13 18:55:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:55:55 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:55:55 --> Controller Class Initialized
+INFO - 2022-02-13 18:55:55 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:55:55 --> Model "parcelasModel" initialized
+ERROR - 2022-02-13 18:55:55 --> Severity: Notice --> Undefined index: image C:\xampp\htdocs\wannafarmapirest\application\controllers\Landlord.php 36
+INFO - 2022-02-13 18:55:55 --> Final output sent to browser
+DEBUG - 2022-02-13 18:55:55 --> Total execution time: 0.2477
+INFO - 2022-02-13 18:56:08 --> Config Class Initialized
+INFO - 2022-02-13 18:56:08 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:56:08 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:56:08 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:56:08 --> URI Class Initialized
+INFO - 2022-02-13 18:56:08 --> Router Class Initialized
+INFO - 2022-02-13 18:56:08 --> Output Class Initialized
+INFO - 2022-02-13 18:56:08 --> Security Class Initialized
+DEBUG - 2022-02-13 18:56:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:56:08 --> Input Class Initialized
+INFO - 2022-02-13 18:56:08 --> Language Class Initialized
+INFO - 2022-02-13 18:56:08 --> Loader Class Initialized
+INFO - 2022-02-13 18:56:08 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:56:08 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:56:08 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:56:08 --> Email Class Initialized
+DEBUG - 2022-02-13 18:56:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:56:08 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:56:08 --> Controller Class Initialized
+INFO - 2022-02-13 18:56:08 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:56:08 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:56:08 --> Final output sent to browser
+DEBUG - 2022-02-13 18:56:08 --> Total execution time: 0.1188
+INFO - 2022-02-13 18:56:10 --> Config Class Initialized
+INFO - 2022-02-13 18:56:10 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:56:10 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:56:10 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:56:10 --> URI Class Initialized
+INFO - 2022-02-13 18:56:10 --> Router Class Initialized
+INFO - 2022-02-13 18:56:10 --> Output Class Initialized
+INFO - 2022-02-13 18:56:10 --> Security Class Initialized
+DEBUG - 2022-02-13 18:56:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:56:10 --> Input Class Initialized
+INFO - 2022-02-13 18:56:10 --> Language Class Initialized
+INFO - 2022-02-13 18:56:10 --> Loader Class Initialized
+INFO - 2022-02-13 18:56:10 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:56:10 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:56:10 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:56:10 --> Email Class Initialized
+DEBUG - 2022-02-13 18:56:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:56:10 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:56:10 --> Controller Class Initialized
+INFO - 2022-02-13 18:56:10 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:56:10 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:56:10 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:56:10 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:56:10 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:56:10 --> Final output sent to browser
+DEBUG - 2022-02-13 18:56:10 --> Total execution time: 0.1286
+INFO - 2022-02-13 18:56:16 --> Config Class Initialized
+INFO - 2022-02-13 18:56:16 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:56:16 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:56:16 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:56:16 --> URI Class Initialized
+INFO - 2022-02-13 18:56:16 --> Router Class Initialized
+INFO - 2022-02-13 18:56:16 --> Output Class Initialized
+INFO - 2022-02-13 18:56:16 --> Security Class Initialized
+DEBUG - 2022-02-13 18:56:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:56:16 --> Input Class Initialized
+INFO - 2022-02-13 18:56:16 --> Language Class Initialized
+INFO - 2022-02-13 18:56:16 --> Loader Class Initialized
+INFO - 2022-02-13 18:56:16 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:56:16 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:56:16 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:56:16 --> Email Class Initialized
+DEBUG - 2022-02-13 18:56:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:56:16 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:56:16 --> Controller Class Initialized
+INFO - 2022-02-13 18:56:16 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:56:16 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:56:16 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:56:16 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:56:16 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:56:16 --> Final output sent to browser
+DEBUG - 2022-02-13 18:56:16 --> Total execution time: 0.1645
+INFO - 2022-02-13 18:56:22 --> Config Class Initialized
+INFO - 2022-02-13 18:56:22 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:56:22 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:56:22 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:56:22 --> URI Class Initialized
+INFO - 2022-02-13 18:56:22 --> Router Class Initialized
+INFO - 2022-02-13 18:56:22 --> Output Class Initialized
+INFO - 2022-02-13 18:56:22 --> Security Class Initialized
+DEBUG - 2022-02-13 18:56:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:56:22 --> Input Class Initialized
+INFO - 2022-02-13 18:56:22 --> Language Class Initialized
+INFO - 2022-02-13 18:56:22 --> Loader Class Initialized
+INFO - 2022-02-13 18:56:22 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:56:22 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:56:22 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:56:22 --> Email Class Initialized
+DEBUG - 2022-02-13 18:56:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:56:22 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:56:22 --> Controller Class Initialized
+INFO - 2022-02-13 18:56:22 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:56:22 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:56:22 --> Final output sent to browser
+DEBUG - 2022-02-13 18:56:22 --> Total execution time: 0.1596
+INFO - 2022-02-13 18:56:59 --> Config Class Initialized
+INFO - 2022-02-13 18:56:59 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:56:59 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:56:59 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:56:59 --> URI Class Initialized
+INFO - 2022-02-13 18:56:59 --> Router Class Initialized
+INFO - 2022-02-13 18:56:59 --> Output Class Initialized
+INFO - 2022-02-13 18:56:59 --> Security Class Initialized
+DEBUG - 2022-02-13 18:56:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:56:59 --> Input Class Initialized
+INFO - 2022-02-13 18:56:59 --> Language Class Initialized
+INFO - 2022-02-13 18:56:59 --> Loader Class Initialized
+INFO - 2022-02-13 18:56:59 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:56:59 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:56:59 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:56:59 --> Email Class Initialized
+DEBUG - 2022-02-13 18:56:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:56:59 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:56:59 --> Controller Class Initialized
+INFO - 2022-02-13 18:56:59 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:56:59 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:56:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:56:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:56:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:56:59 --> Final output sent to browser
+DEBUG - 2022-02-13 18:56:59 --> Total execution time: 0.1770
+INFO - 2022-02-13 18:57:02 --> Config Class Initialized
+INFO - 2022-02-13 18:57:02 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:57:02 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:57:02 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:57:02 --> URI Class Initialized
+INFO - 2022-02-13 18:57:02 --> Router Class Initialized
+INFO - 2022-02-13 18:57:02 --> Output Class Initialized
+INFO - 2022-02-13 18:57:02 --> Security Class Initialized
+DEBUG - 2022-02-13 18:57:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:57:02 --> Input Class Initialized
+INFO - 2022-02-13 18:57:02 --> Language Class Initialized
+INFO - 2022-02-13 18:57:02 --> Loader Class Initialized
+INFO - 2022-02-13 18:57:02 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:57:02 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:57:02 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:57:02 --> Email Class Initialized
+DEBUG - 2022-02-13 18:57:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:57:02 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:57:02 --> Controller Class Initialized
+INFO - 2022-02-13 18:57:02 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:57:02 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:57:02 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:57:02 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:57:02 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:57:02 --> Final output sent to browser
+DEBUG - 2022-02-13 18:57:02 --> Total execution time: 0.1150
+INFO - 2022-02-13 18:57:10 --> Config Class Initialized
+INFO - 2022-02-13 18:57:10 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:57:10 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:57:10 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:57:10 --> URI Class Initialized
+INFO - 2022-02-13 18:57:10 --> Router Class Initialized
+INFO - 2022-02-13 18:57:10 --> Output Class Initialized
+INFO - 2022-02-13 18:57:10 --> Security Class Initialized
+DEBUG - 2022-02-13 18:57:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:57:10 --> Input Class Initialized
+INFO - 2022-02-13 18:57:10 --> Language Class Initialized
+INFO - 2022-02-13 18:57:10 --> Loader Class Initialized
+INFO - 2022-02-13 18:57:10 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:57:10 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:57:10 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:57:10 --> Email Class Initialized
+DEBUG - 2022-02-13 18:57:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:57:10 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:57:10 --> Controller Class Initialized
+INFO - 2022-02-13 18:57:10 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:57:10 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:57:10 --> Final output sent to browser
+DEBUG - 2022-02-13 18:57:10 --> Total execution time: 0.1944
+INFO - 2022-02-13 18:57:24 --> Config Class Initialized
+INFO - 2022-02-13 18:57:24 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:57:24 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:57:24 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:57:24 --> URI Class Initialized
+INFO - 2022-02-13 18:57:24 --> Router Class Initialized
+INFO - 2022-02-13 18:57:24 --> Output Class Initialized
+INFO - 2022-02-13 18:57:24 --> Security Class Initialized
+DEBUG - 2022-02-13 18:57:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:57:24 --> Input Class Initialized
+INFO - 2022-02-13 18:57:24 --> Language Class Initialized
+INFO - 2022-02-13 18:57:24 --> Loader Class Initialized
+INFO - 2022-02-13 18:57:24 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:57:24 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:57:24 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:57:24 --> Email Class Initialized
+DEBUG - 2022-02-13 18:57:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:57:24 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:57:24 --> Controller Class Initialized
+INFO - 2022-02-13 18:57:24 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:57:24 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:57:24 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:57:24 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:57:24 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:57:24 --> Final output sent to browser
+DEBUG - 2022-02-13 18:57:24 --> Total execution time: 0.1445
+INFO - 2022-02-13 18:57:28 --> Config Class Initialized
+INFO - 2022-02-13 18:57:28 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:57:28 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:57:28 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:57:28 --> URI Class Initialized
+INFO - 2022-02-13 18:57:28 --> Router Class Initialized
+INFO - 2022-02-13 18:57:28 --> Output Class Initialized
+INFO - 2022-02-13 18:57:28 --> Security Class Initialized
+DEBUG - 2022-02-13 18:57:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:57:28 --> Input Class Initialized
+INFO - 2022-02-13 18:57:28 --> Language Class Initialized
+INFO - 2022-02-13 18:57:28 --> Loader Class Initialized
+INFO - 2022-02-13 18:57:28 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:57:28 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:57:29 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:57:29 --> Email Class Initialized
+DEBUG - 2022-02-13 18:57:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:57:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:57:29 --> Controller Class Initialized
+INFO - 2022-02-13 18:57:29 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:57:29 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:57:29 --> Final output sent to browser
+DEBUG - 2022-02-13 18:57:29 --> Total execution time: 0.2035
+INFO - 2022-02-13 18:57:30 --> Config Class Initialized
+INFO - 2022-02-13 18:57:30 --> Hooks Class Initialized
+DEBUG - 2022-02-13 18:57:30 --> UTF-8 Support Enabled
+INFO - 2022-02-13 18:57:30 --> Utf8 Class Initialized
+INFO - 2022-02-13 18:57:30 --> URI Class Initialized
+INFO - 2022-02-13 18:57:30 --> Router Class Initialized
+INFO - 2022-02-13 18:57:30 --> Output Class Initialized
+INFO - 2022-02-13 18:57:30 --> Security Class Initialized
+DEBUG - 2022-02-13 18:57:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 18:57:30 --> Input Class Initialized
+INFO - 2022-02-13 18:57:30 --> Language Class Initialized
+INFO - 2022-02-13 18:57:30 --> Loader Class Initialized
+INFO - 2022-02-13 18:57:30 --> Helper loaded: url_helper
+INFO - 2022-02-13 18:57:30 --> Helper loaded: electro_helper
+INFO - 2022-02-13 18:57:30 --> Database Driver Class Initialized
+INFO - 2022-02-13 18:57:30 --> Email Class Initialized
+DEBUG - 2022-02-13 18:57:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 18:57:30 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 18:57:30 --> Controller Class Initialized
+INFO - 2022-02-13 18:57:30 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 18:57:30 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 18:57:30 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 18:57:30 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 18:57:30 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 18:57:30 --> Final output sent to browser
+DEBUG - 2022-02-13 18:57:30 --> Total execution time: 0.2155
+INFO - 2022-02-13 19:54:56 --> Config Class Initialized
+INFO - 2022-02-13 19:54:56 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:54:57 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:54:57 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:54:57 --> URI Class Initialized
+INFO - 2022-02-13 19:54:57 --> Router Class Initialized
+INFO - 2022-02-13 19:54:57 --> Output Class Initialized
+INFO - 2022-02-13 19:54:57 --> Security Class Initialized
+DEBUG - 2022-02-13 19:54:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:54:57 --> Input Class Initialized
+INFO - 2022-02-13 19:54:57 --> Language Class Initialized
+INFO - 2022-02-13 19:54:57 --> Loader Class Initialized
+INFO - 2022-02-13 19:54:57 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:54:57 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:54:57 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:54:57 --> Email Class Initialized
+DEBUG - 2022-02-13 19:54:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:54:57 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:54:57 --> Controller Class Initialized
+INFO - 2022-02-13 19:54:57 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:54:57 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:54:57 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 19:54:57 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 19:54:57 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 19:54:57 --> Final output sent to browser
+DEBUG - 2022-02-13 19:54:57 --> Total execution time: 0.1739
+INFO - 2022-02-13 19:55:04 --> Config Class Initialized
+INFO - 2022-02-13 19:55:04 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:55:04 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:55:04 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:55:04 --> URI Class Initialized
+INFO - 2022-02-13 19:55:04 --> Router Class Initialized
+INFO - 2022-02-13 19:55:04 --> Output Class Initialized
+INFO - 2022-02-13 19:55:04 --> Security Class Initialized
+DEBUG - 2022-02-13 19:55:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:55:04 --> Input Class Initialized
+INFO - 2022-02-13 19:55:04 --> Language Class Initialized
+INFO - 2022-02-13 19:55:04 --> Loader Class Initialized
+INFO - 2022-02-13 19:55:04 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:55:04 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:55:04 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:55:04 --> Email Class Initialized
+DEBUG - 2022-02-13 19:55:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:55:04 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:55:04 --> Controller Class Initialized
+INFO - 2022-02-13 19:55:04 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:55:04 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:55:04 --> Final output sent to browser
+DEBUG - 2022-02-13 19:55:04 --> Total execution time: 0.1313
+INFO - 2022-02-13 19:55:40 --> Config Class Initialized
+INFO - 2022-02-13 19:55:40 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:55:40 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:55:40 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:55:40 --> URI Class Initialized
+INFO - 2022-02-13 19:55:40 --> Router Class Initialized
+INFO - 2022-02-13 19:55:40 --> Output Class Initialized
+INFO - 2022-02-13 19:55:40 --> Security Class Initialized
+DEBUG - 2022-02-13 19:55:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:55:40 --> Input Class Initialized
+INFO - 2022-02-13 19:55:40 --> Language Class Initialized
+INFO - 2022-02-13 19:55:40 --> Loader Class Initialized
+INFO - 2022-02-13 19:55:40 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:55:40 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:55:40 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:55:40 --> Email Class Initialized
+DEBUG - 2022-02-13 19:55:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:55:40 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:55:40 --> Controller Class Initialized
+INFO - 2022-02-13 19:55:40 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:55:40 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:55:40 --> Final output sent to browser
+DEBUG - 2022-02-13 19:55:40 --> Total execution time: 0.1548
+INFO - 2022-02-13 19:55:41 --> Config Class Initialized
+INFO - 2022-02-13 19:55:41 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:55:41 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:55:41 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:55:41 --> URI Class Initialized
+INFO - 2022-02-13 19:55:41 --> Router Class Initialized
+INFO - 2022-02-13 19:55:41 --> Output Class Initialized
+INFO - 2022-02-13 19:55:41 --> Security Class Initialized
+DEBUG - 2022-02-13 19:55:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:55:41 --> Input Class Initialized
+INFO - 2022-02-13 19:55:41 --> Language Class Initialized
+INFO - 2022-02-13 19:55:41 --> Loader Class Initialized
+INFO - 2022-02-13 19:55:41 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:55:41 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:55:41 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:55:41 --> Email Class Initialized
+DEBUG - 2022-02-13 19:55:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:55:41 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:55:41 --> Controller Class Initialized
+INFO - 2022-02-13 19:55:42 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:55:42 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:55:42 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 19:55:42 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 19:55:42 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 19:55:42 --> Final output sent to browser
+DEBUG - 2022-02-13 19:55:42 --> Total execution time: 0.1181
+INFO - 2022-02-13 19:55:45 --> Config Class Initialized
+INFO - 2022-02-13 19:55:45 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:55:45 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:55:45 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:55:45 --> URI Class Initialized
+INFO - 2022-02-13 19:55:45 --> Router Class Initialized
+INFO - 2022-02-13 19:55:45 --> Output Class Initialized
+INFO - 2022-02-13 19:55:45 --> Security Class Initialized
+DEBUG - 2022-02-13 19:55:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:55:45 --> Input Class Initialized
+INFO - 2022-02-13 19:55:45 --> Language Class Initialized
+INFO - 2022-02-13 19:55:45 --> Loader Class Initialized
+INFO - 2022-02-13 19:55:45 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:55:45 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:55:45 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:55:45 --> Email Class Initialized
+DEBUG - 2022-02-13 19:55:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:55:45 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:55:45 --> Controller Class Initialized
+INFO - 2022-02-13 19:55:45 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:55:45 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:55:45 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 19:55:45 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 19:55:45 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 19:55:45 --> Final output sent to browser
+DEBUG - 2022-02-13 19:55:45 --> Total execution time: 0.1195
+INFO - 2022-02-13 19:55:52 --> Config Class Initialized
+INFO - 2022-02-13 19:55:52 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:55:52 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:55:52 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:55:52 --> URI Class Initialized
+INFO - 2022-02-13 19:55:52 --> Router Class Initialized
+INFO - 2022-02-13 19:55:52 --> Output Class Initialized
+INFO - 2022-02-13 19:55:52 --> Security Class Initialized
+DEBUG - 2022-02-13 19:55:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:55:52 --> Input Class Initialized
+INFO - 2022-02-13 19:55:52 --> Language Class Initialized
+INFO - 2022-02-13 19:55:52 --> Loader Class Initialized
+INFO - 2022-02-13 19:55:52 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:55:52 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:55:52 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:55:52 --> Email Class Initialized
+DEBUG - 2022-02-13 19:55:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:55:53 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:55:53 --> Controller Class Initialized
+INFO - 2022-02-13 19:55:53 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:55:53 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:55:53 --> Final output sent to browser
+DEBUG - 2022-02-13 19:55:53 --> Total execution time: 0.1070
+INFO - 2022-02-13 19:57:34 --> Config Class Initialized
+INFO - 2022-02-13 19:57:34 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:57:34 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:57:34 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:57:34 --> URI Class Initialized
+INFO - 2022-02-13 19:57:34 --> Router Class Initialized
+INFO - 2022-02-13 19:57:34 --> Output Class Initialized
+INFO - 2022-02-13 19:57:34 --> Security Class Initialized
+DEBUG - 2022-02-13 19:57:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:57:34 --> Input Class Initialized
+INFO - 2022-02-13 19:57:34 --> Language Class Initialized
+INFO - 2022-02-13 19:57:34 --> Loader Class Initialized
+INFO - 2022-02-13 19:57:34 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:57:34 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:57:34 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:57:34 --> Email Class Initialized
+DEBUG - 2022-02-13 19:57:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:57:34 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:57:34 --> Controller Class Initialized
+INFO - 2022-02-13 19:57:34 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:57:34 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:57:34 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 19:57:34 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 19:57:34 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 19:57:34 --> Final output sent to browser
+DEBUG - 2022-02-13 19:57:34 --> Total execution time: 0.1858
+INFO - 2022-02-13 19:57:37 --> Config Class Initialized
+INFO - 2022-02-13 19:57:37 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:57:37 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:57:37 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:57:37 --> URI Class Initialized
+INFO - 2022-02-13 19:57:37 --> Router Class Initialized
+INFO - 2022-02-13 19:57:37 --> Output Class Initialized
+INFO - 2022-02-13 19:57:37 --> Security Class Initialized
+DEBUG - 2022-02-13 19:57:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:57:37 --> Input Class Initialized
+INFO - 2022-02-13 19:57:37 --> Language Class Initialized
+INFO - 2022-02-13 19:57:37 --> Loader Class Initialized
+INFO - 2022-02-13 19:57:37 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:57:37 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:57:37 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:57:37 --> Email Class Initialized
+DEBUG - 2022-02-13 19:57:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:57:37 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:57:37 --> Controller Class Initialized
+INFO - 2022-02-13 19:57:37 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:57:37 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:57:37 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 19:57:37 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 19:57:37 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 19:57:37 --> Final output sent to browser
+DEBUG - 2022-02-13 19:57:37 --> Total execution time: 0.1098
+INFO - 2022-02-13 19:57:42 --> Config Class Initialized
+INFO - 2022-02-13 19:57:42 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:57:42 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:57:42 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:57:42 --> URI Class Initialized
+INFO - 2022-02-13 19:57:42 --> Router Class Initialized
+INFO - 2022-02-13 19:57:42 --> Output Class Initialized
+INFO - 2022-02-13 19:57:42 --> Security Class Initialized
+DEBUG - 2022-02-13 19:57:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:57:42 --> Input Class Initialized
+INFO - 2022-02-13 19:57:42 --> Language Class Initialized
+INFO - 2022-02-13 19:57:42 --> Loader Class Initialized
+INFO - 2022-02-13 19:57:42 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:57:42 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:57:42 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:57:42 --> Email Class Initialized
+DEBUG - 2022-02-13 19:57:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:57:42 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:57:42 --> Controller Class Initialized
+INFO - 2022-02-13 19:57:42 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:57:42 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:57:42 --> Final output sent to browser
+DEBUG - 2022-02-13 19:57:42 --> Total execution time: 0.1511
+INFO - 2022-02-13 19:57:45 --> Config Class Initialized
+INFO - 2022-02-13 19:57:45 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:57:45 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:57:45 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:57:45 --> URI Class Initialized
+INFO - 2022-02-13 19:57:45 --> Router Class Initialized
+INFO - 2022-02-13 19:57:45 --> Output Class Initialized
+INFO - 2022-02-13 19:57:45 --> Security Class Initialized
+DEBUG - 2022-02-13 19:57:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:57:45 --> Input Class Initialized
+INFO - 2022-02-13 19:57:45 --> Language Class Initialized
+INFO - 2022-02-13 19:57:45 --> Loader Class Initialized
+INFO - 2022-02-13 19:57:45 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:57:45 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:57:45 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:57:45 --> Email Class Initialized
+DEBUG - 2022-02-13 19:57:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:57:45 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:57:45 --> Controller Class Initialized
+INFO - 2022-02-13 19:57:45 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:57:45 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:57:45 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 19:57:45 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 19:57:45 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 19:57:45 --> Final output sent to browser
+DEBUG - 2022-02-13 19:57:45 --> Total execution time: 0.1951
+INFO - 2022-02-13 19:57:48 --> Config Class Initialized
+INFO - 2022-02-13 19:57:48 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:57:48 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:57:48 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:57:48 --> URI Class Initialized
+INFO - 2022-02-13 19:57:48 --> Router Class Initialized
+INFO - 2022-02-13 19:57:48 --> Output Class Initialized
+INFO - 2022-02-13 19:57:48 --> Security Class Initialized
+DEBUG - 2022-02-13 19:57:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:57:48 --> Input Class Initialized
+INFO - 2022-02-13 19:57:48 --> Language Class Initialized
+INFO - 2022-02-13 19:57:48 --> Loader Class Initialized
+INFO - 2022-02-13 19:57:48 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:57:48 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:57:48 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:57:48 --> Email Class Initialized
+DEBUG - 2022-02-13 19:57:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:57:48 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:57:48 --> Controller Class Initialized
+INFO - 2022-02-13 19:57:48 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:57:48 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:57:48 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 19:57:48 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 19:57:48 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 19:57:48 --> Final output sent to browser
+DEBUG - 2022-02-13 19:57:48 --> Total execution time: 0.2796
+INFO - 2022-02-13 19:57:55 --> Config Class Initialized
+INFO - 2022-02-13 19:57:55 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:57:55 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:57:55 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:57:55 --> URI Class Initialized
+INFO - 2022-02-13 19:57:55 --> Router Class Initialized
+INFO - 2022-02-13 19:57:55 --> Output Class Initialized
+INFO - 2022-02-13 19:57:55 --> Security Class Initialized
+DEBUG - 2022-02-13 19:57:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:57:56 --> Input Class Initialized
+INFO - 2022-02-13 19:57:56 --> Language Class Initialized
+INFO - 2022-02-13 19:57:56 --> Loader Class Initialized
+INFO - 2022-02-13 19:57:56 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:57:56 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:57:56 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:57:56 --> Email Class Initialized
+DEBUG - 2022-02-13 19:57:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:57:56 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:57:56 --> Controller Class Initialized
+INFO - 2022-02-13 19:57:56 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:57:56 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:57:56 --> Final output sent to browser
+DEBUG - 2022-02-13 19:57:56 --> Total execution time: 0.1709
+INFO - 2022-02-13 19:58:11 --> Config Class Initialized
+INFO - 2022-02-13 19:58:11 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:58:11 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:58:11 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:58:11 --> URI Class Initialized
+INFO - 2022-02-13 19:58:11 --> Router Class Initialized
+INFO - 2022-02-13 19:58:11 --> Output Class Initialized
+INFO - 2022-02-13 19:58:11 --> Security Class Initialized
+DEBUG - 2022-02-13 19:58:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:58:11 --> Input Class Initialized
+INFO - 2022-02-13 19:58:11 --> Language Class Initialized
+INFO - 2022-02-13 19:58:11 --> Loader Class Initialized
+INFO - 2022-02-13 19:58:11 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:58:11 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:58:11 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:58:11 --> Email Class Initialized
+DEBUG - 2022-02-13 19:58:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:58:11 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:58:11 --> Controller Class Initialized
+INFO - 2022-02-13 19:58:11 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:58:11 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:58:11 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 19:58:11 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 19:58:11 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 19:58:11 --> Final output sent to browser
+DEBUG - 2022-02-13 19:58:11 --> Total execution time: 0.1659
+INFO - 2022-02-13 19:59:51 --> Config Class Initialized
+INFO - 2022-02-13 19:59:51 --> Hooks Class Initialized
+DEBUG - 2022-02-13 19:59:51 --> UTF-8 Support Enabled
+INFO - 2022-02-13 19:59:51 --> Utf8 Class Initialized
+INFO - 2022-02-13 19:59:51 --> URI Class Initialized
+INFO - 2022-02-13 19:59:51 --> Router Class Initialized
+INFO - 2022-02-13 19:59:51 --> Output Class Initialized
+INFO - 2022-02-13 19:59:51 --> Security Class Initialized
+DEBUG - 2022-02-13 19:59:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 19:59:51 --> Input Class Initialized
+INFO - 2022-02-13 19:59:51 --> Language Class Initialized
+INFO - 2022-02-13 19:59:51 --> Loader Class Initialized
+INFO - 2022-02-13 19:59:51 --> Helper loaded: url_helper
+INFO - 2022-02-13 19:59:51 --> Helper loaded: electro_helper
+INFO - 2022-02-13 19:59:51 --> Database Driver Class Initialized
+INFO - 2022-02-13 19:59:51 --> Email Class Initialized
+DEBUG - 2022-02-13 19:59:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 19:59:51 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 19:59:52 --> Controller Class Initialized
+INFO - 2022-02-13 19:59:52 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 19:59:52 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 19:59:52 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 19:59:52 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 19:59:52 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 19:59:52 --> Final output sent to browser
+DEBUG - 2022-02-13 19:59:52 --> Total execution time: 0.1721
+INFO - 2022-02-13 20:01:13 --> Config Class Initialized
+INFO - 2022-02-13 20:01:13 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:01:13 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:01:13 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:01:13 --> URI Class Initialized
+INFO - 2022-02-13 20:01:13 --> Router Class Initialized
+INFO - 2022-02-13 20:01:13 --> Output Class Initialized
+INFO - 2022-02-13 20:01:13 --> Security Class Initialized
+DEBUG - 2022-02-13 20:01:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:01:13 --> Input Class Initialized
+INFO - 2022-02-13 20:01:13 --> Language Class Initialized
+INFO - 2022-02-13 20:01:13 --> Loader Class Initialized
+INFO - 2022-02-13 20:01:13 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:01:13 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:01:13 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:01:13 --> Email Class Initialized
+DEBUG - 2022-02-13 20:01:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:01:13 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:01:13 --> Controller Class Initialized
+INFO - 2022-02-13 20:01:13 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:01:13 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:01:13 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:01:13 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:01:13 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:01:13 --> Final output sent to browser
+DEBUG - 2022-02-13 20:01:13 --> Total execution time: 0.2113
+INFO - 2022-02-13 20:01:22 --> Config Class Initialized
+INFO - 2022-02-13 20:01:22 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:01:22 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:01:22 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:01:22 --> URI Class Initialized
+INFO - 2022-02-13 20:01:22 --> Router Class Initialized
+INFO - 2022-02-13 20:01:22 --> Output Class Initialized
+INFO - 2022-02-13 20:01:22 --> Security Class Initialized
+DEBUG - 2022-02-13 20:01:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:01:22 --> Input Class Initialized
+INFO - 2022-02-13 20:01:22 --> Language Class Initialized
+INFO - 2022-02-13 20:01:22 --> Loader Class Initialized
+INFO - 2022-02-13 20:01:22 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:01:22 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:01:22 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:01:22 --> Email Class Initialized
+DEBUG - 2022-02-13 20:01:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:01:22 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:01:22 --> Controller Class Initialized
+INFO - 2022-02-13 20:01:22 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:01:22 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:01:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:01:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:01:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/dashboard.php
+INFO - 2022-02-13 20:01:22 --> Final output sent to browser
+DEBUG - 2022-02-13 20:01:22 --> Total execution time: 0.1461
+INFO - 2022-02-13 20:01:25 --> Config Class Initialized
+INFO - 2022-02-13 20:01:25 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:01:25 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:01:25 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:01:25 --> URI Class Initialized
+INFO - 2022-02-13 20:01:25 --> Router Class Initialized
+INFO - 2022-02-13 20:01:25 --> Output Class Initialized
+INFO - 2022-02-13 20:01:25 --> Security Class Initialized
+DEBUG - 2022-02-13 20:01:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:01:25 --> Input Class Initialized
+INFO - 2022-02-13 20:01:25 --> Language Class Initialized
+INFO - 2022-02-13 20:01:25 --> Loader Class Initialized
+INFO - 2022-02-13 20:01:25 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:01:25 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:01:25 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:01:25 --> Email Class Initialized
+DEBUG - 2022-02-13 20:01:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:01:25 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:01:25 --> Controller Class Initialized
+INFO - 2022-02-13 20:01:25 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:01:25 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:01:25 --> Final output sent to browser
+DEBUG - 2022-02-13 20:01:25 --> Total execution time: 0.1821
+INFO - 2022-02-13 20:01:29 --> Config Class Initialized
+INFO - 2022-02-13 20:01:29 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:01:29 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:01:29 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:01:29 --> URI Class Initialized
+INFO - 2022-02-13 20:01:29 --> Router Class Initialized
+INFO - 2022-02-13 20:01:29 --> Output Class Initialized
+INFO - 2022-02-13 20:01:29 --> Security Class Initialized
+DEBUG - 2022-02-13 20:01:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:01:29 --> Input Class Initialized
+INFO - 2022-02-13 20:01:29 --> Language Class Initialized
+INFO - 2022-02-13 20:01:29 --> Loader Class Initialized
+INFO - 2022-02-13 20:01:29 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:01:29 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:01:29 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:01:29 --> Email Class Initialized
+DEBUG - 2022-02-13 20:01:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:01:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:01:29 --> Controller Class Initialized
+INFO - 2022-02-13 20:01:29 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:01:29 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:01:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:01:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:01:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:01:29 --> Final output sent to browser
+DEBUG - 2022-02-13 20:01:29 --> Total execution time: 0.1837
+INFO - 2022-02-13 20:01:37 --> Config Class Initialized
+INFO - 2022-02-13 20:01:37 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:01:37 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:01:37 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:01:37 --> URI Class Initialized
+INFO - 2022-02-13 20:01:37 --> Router Class Initialized
+INFO - 2022-02-13 20:01:37 --> Output Class Initialized
+INFO - 2022-02-13 20:01:37 --> Security Class Initialized
+DEBUG - 2022-02-13 20:01:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:01:37 --> Input Class Initialized
+INFO - 2022-02-13 20:01:37 --> Language Class Initialized
+INFO - 2022-02-13 20:01:37 --> Loader Class Initialized
+INFO - 2022-02-13 20:01:37 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:01:37 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:01:37 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:01:37 --> Email Class Initialized
+DEBUG - 2022-02-13 20:01:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:01:37 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:01:37 --> Controller Class Initialized
+INFO - 2022-02-13 20:01:37 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:01:37 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:01:37 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:01:37 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:01:37 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/dashboard.php
+INFO - 2022-02-13 20:01:37 --> Final output sent to browser
+DEBUG - 2022-02-13 20:01:37 --> Total execution time: 0.1534
+INFO - 2022-02-13 20:01:39 --> Config Class Initialized
+INFO - 2022-02-13 20:01:39 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:01:39 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:01:39 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:01:39 --> URI Class Initialized
+INFO - 2022-02-13 20:01:39 --> Router Class Initialized
+INFO - 2022-02-13 20:01:39 --> Output Class Initialized
+INFO - 2022-02-13 20:01:39 --> Security Class Initialized
+DEBUG - 2022-02-13 20:01:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:01:39 --> Input Class Initialized
+INFO - 2022-02-13 20:01:39 --> Language Class Initialized
+INFO - 2022-02-13 20:01:39 --> Loader Class Initialized
+INFO - 2022-02-13 20:01:39 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:01:39 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:01:40 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:01:40 --> Email Class Initialized
+DEBUG - 2022-02-13 20:01:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:01:40 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:01:40 --> Controller Class Initialized
+INFO - 2022-02-13 20:01:40 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:01:40 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:01:40 --> Final output sent to browser
+DEBUG - 2022-02-13 20:01:40 --> Total execution time: 0.1089
+INFO - 2022-02-13 20:01:43 --> Config Class Initialized
+INFO - 2022-02-13 20:01:43 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:01:43 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:01:43 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:01:43 --> URI Class Initialized
+INFO - 2022-02-13 20:01:43 --> Router Class Initialized
+INFO - 2022-02-13 20:01:43 --> Output Class Initialized
+INFO - 2022-02-13 20:01:43 --> Security Class Initialized
+DEBUG - 2022-02-13 20:01:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:01:43 --> Input Class Initialized
+INFO - 2022-02-13 20:01:43 --> Language Class Initialized
+INFO - 2022-02-13 20:01:43 --> Loader Class Initialized
+INFO - 2022-02-13 20:01:43 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:01:43 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:01:43 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:01:43 --> Email Class Initialized
+DEBUG - 2022-02-13 20:01:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:01:43 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:01:43 --> Controller Class Initialized
+INFO - 2022-02-13 20:01:43 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:01:43 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:01:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:01:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:01:43 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:01:43 --> Final output sent to browser
+DEBUG - 2022-02-13 20:01:43 --> Total execution time: 0.2259
+INFO - 2022-02-13 20:01:59 --> Config Class Initialized
+INFO - 2022-02-13 20:01:59 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:01:59 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:01:59 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:01:59 --> URI Class Initialized
+INFO - 2022-02-13 20:01:59 --> Router Class Initialized
+INFO - 2022-02-13 20:01:59 --> Output Class Initialized
+INFO - 2022-02-13 20:02:00 --> Security Class Initialized
+DEBUG - 2022-02-13 20:02:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:02:00 --> Input Class Initialized
+INFO - 2022-02-13 20:02:00 --> Language Class Initialized
+INFO - 2022-02-13 20:02:00 --> Loader Class Initialized
+INFO - 2022-02-13 20:02:00 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:02:00 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:02:00 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:02:00 --> Email Class Initialized
+DEBUG - 2022-02-13 20:02:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:02:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:02:00 --> Controller Class Initialized
+INFO - 2022-02-13 20:02:00 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:02:00 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:02:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:02:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:02:00 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:02:00 --> Final output sent to browser
+DEBUG - 2022-02-13 20:02:00 --> Total execution time: 0.1250
+INFO - 2022-02-13 20:02:16 --> Config Class Initialized
+INFO - 2022-02-13 20:02:16 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:02:16 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:02:16 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:02:16 --> URI Class Initialized
+INFO - 2022-02-13 20:02:16 --> Router Class Initialized
+INFO - 2022-02-13 20:02:16 --> Output Class Initialized
+INFO - 2022-02-13 20:02:16 --> Security Class Initialized
+DEBUG - 2022-02-13 20:02:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:02:16 --> Input Class Initialized
+INFO - 2022-02-13 20:02:16 --> Language Class Initialized
+INFO - 2022-02-13 20:02:16 --> Loader Class Initialized
+INFO - 2022-02-13 20:02:16 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:02:16 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:02:16 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:02:16 --> Email Class Initialized
+DEBUG - 2022-02-13 20:02:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:02:16 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:02:16 --> Controller Class Initialized
+INFO - 2022-02-13 20:02:16 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:02:16 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:02:16 --> Final output sent to browser
+DEBUG - 2022-02-13 20:02:16 --> Total execution time: 0.1943
+INFO - 2022-02-13 20:02:25 --> Config Class Initialized
+INFO - 2022-02-13 20:02:25 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:02:25 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:02:25 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:02:25 --> URI Class Initialized
+INFO - 2022-02-13 20:02:25 --> Router Class Initialized
+INFO - 2022-02-13 20:02:25 --> Output Class Initialized
+INFO - 2022-02-13 20:02:25 --> Security Class Initialized
+DEBUG - 2022-02-13 20:02:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:02:25 --> Input Class Initialized
+INFO - 2022-02-13 20:02:25 --> Language Class Initialized
+INFO - 2022-02-13 20:02:25 --> Loader Class Initialized
+INFO - 2022-02-13 20:02:25 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:02:25 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:02:25 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:02:25 --> Email Class Initialized
+DEBUG - 2022-02-13 20:02:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:02:25 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:02:25 --> Controller Class Initialized
+INFO - 2022-02-13 20:02:25 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:02:25 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:02:25 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:02:25 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:02:25 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:02:25 --> Final output sent to browser
+DEBUG - 2022-02-13 20:02:25 --> Total execution time: 0.2002
+INFO - 2022-02-13 20:02:32 --> Config Class Initialized
+INFO - 2022-02-13 20:02:32 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:02:32 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:02:32 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:02:32 --> URI Class Initialized
+INFO - 2022-02-13 20:02:32 --> Router Class Initialized
+INFO - 2022-02-13 20:02:32 --> Output Class Initialized
+INFO - 2022-02-13 20:02:32 --> Security Class Initialized
+DEBUG - 2022-02-13 20:02:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:02:32 --> Input Class Initialized
+INFO - 2022-02-13 20:02:32 --> Language Class Initialized
+INFO - 2022-02-13 20:02:32 --> Loader Class Initialized
+INFO - 2022-02-13 20:02:32 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:02:32 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:02:32 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:02:32 --> Email Class Initialized
+DEBUG - 2022-02-13 20:02:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:02:32 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:02:32 --> Controller Class Initialized
+INFO - 2022-02-13 20:02:32 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:02:32 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:02:32 --> Final output sent to browser
+DEBUG - 2022-02-13 20:02:32 --> Total execution time: 0.1853
+INFO - 2022-02-13 20:02:35 --> Config Class Initialized
+INFO - 2022-02-13 20:02:35 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:02:35 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:02:35 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:02:35 --> URI Class Initialized
+INFO - 2022-02-13 20:02:35 --> Router Class Initialized
+INFO - 2022-02-13 20:02:35 --> Output Class Initialized
+INFO - 2022-02-13 20:02:35 --> Security Class Initialized
+DEBUG - 2022-02-13 20:02:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:02:35 --> Input Class Initialized
+INFO - 2022-02-13 20:02:35 --> Language Class Initialized
+INFO - 2022-02-13 20:02:35 --> Loader Class Initialized
+INFO - 2022-02-13 20:02:35 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:02:35 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:02:35 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:02:35 --> Email Class Initialized
+DEBUG - 2022-02-13 20:02:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:02:35 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:02:35 --> Controller Class Initialized
+INFO - 2022-02-13 20:02:35 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:02:35 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:02:35 --> Final output sent to browser
+DEBUG - 2022-02-13 20:02:35 --> Total execution time: 0.1469
+INFO - 2022-02-13 20:03:40 --> Config Class Initialized
+INFO - 2022-02-13 20:03:40 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:03:40 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:03:40 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:03:40 --> URI Class Initialized
+INFO - 2022-02-13 20:03:40 --> Router Class Initialized
+INFO - 2022-02-13 20:03:40 --> Output Class Initialized
+INFO - 2022-02-13 20:03:40 --> Security Class Initialized
+DEBUG - 2022-02-13 20:03:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:03:40 --> Input Class Initialized
+INFO - 2022-02-13 20:03:40 --> Language Class Initialized
+INFO - 2022-02-13 20:03:40 --> Loader Class Initialized
+INFO - 2022-02-13 20:03:40 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:03:40 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:03:40 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:03:40 --> Email Class Initialized
+DEBUG - 2022-02-13 20:03:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:03:40 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:03:40 --> Controller Class Initialized
+INFO - 2022-02-13 20:03:40 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:03:40 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:03:40 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:03:40 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:03:40 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:03:40 --> Final output sent to browser
+DEBUG - 2022-02-13 20:03:40 --> Total execution time: 0.1177
+INFO - 2022-02-13 20:03:54 --> Config Class Initialized
+INFO - 2022-02-13 20:03:54 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:03:54 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:03:54 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:03:54 --> URI Class Initialized
+INFO - 2022-02-13 20:03:54 --> Router Class Initialized
+INFO - 2022-02-13 20:03:54 --> Output Class Initialized
+INFO - 2022-02-13 20:03:54 --> Security Class Initialized
+DEBUG - 2022-02-13 20:03:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:03:54 --> Input Class Initialized
+INFO - 2022-02-13 20:03:54 --> Config Class Initialized
+INFO - 2022-02-13 20:03:54 --> Hooks Class Initialized
+INFO - 2022-02-13 20:03:54 --> Language Class Initialized
+INFO - 2022-02-13 20:03:54 --> Loader Class Initialized
+DEBUG - 2022-02-13 20:03:54 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:03:54 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:03:54 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:03:54 --> URI Class Initialized
+INFO - 2022-02-13 20:03:54 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:03:54 --> Router Class Initialized
+INFO - 2022-02-13 20:03:54 --> Output Class Initialized
+INFO - 2022-02-13 20:03:54 --> Security Class Initialized
+DEBUG - 2022-02-13 20:03:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:03:54 --> Input Class Initialized
+INFO - 2022-02-13 20:03:54 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:03:54 --> Language Class Initialized
+INFO - 2022-02-13 20:03:54 --> Email Class Initialized
+DEBUG - 2022-02-13 20:03:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:03:54 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:03:54 --> Controller Class Initialized
+INFO - 2022-02-13 20:03:54 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:03:54 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:03:54 --> Final output sent to browser
+DEBUG - 2022-02-13 20:03:54 --> Total execution time: 0.1292
+INFO - 2022-02-13 20:03:54 --> Loader Class Initialized
+INFO - 2022-02-13 20:03:54 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:03:54 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:03:54 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:03:54 --> Email Class Initialized
+DEBUG - 2022-02-13 20:03:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:03:54 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:03:54 --> Controller Class Initialized
+INFO - 2022-02-13 20:03:54 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:03:54 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:03:54 --> Final output sent to browser
+DEBUG - 2022-02-13 20:03:54 --> Total execution time: 0.1934
+INFO - 2022-02-13 20:03:56 --> Config Class Initialized
+INFO - 2022-02-13 20:03:56 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:03:56 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:03:56 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:03:56 --> URI Class Initialized
+INFO - 2022-02-13 20:03:56 --> Config Class Initialized
+INFO - 2022-02-13 20:03:56 --> Hooks Class Initialized
+INFO - 2022-02-13 20:03:56 --> Router Class Initialized
+INFO - 2022-02-13 20:03:56 --> Output Class Initialized
+DEBUG - 2022-02-13 20:03:56 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:03:56 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:03:57 --> Security Class Initialized
+DEBUG - 2022-02-13 20:03:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:03:57 --> Input Class Initialized
+INFO - 2022-02-13 20:03:57 --> URI Class Initialized
+INFO - 2022-02-13 20:03:57 --> Language Class Initialized
+INFO - 2022-02-13 20:03:57 --> Router Class Initialized
+INFO - 2022-02-13 20:03:57 --> Output Class Initialized
+INFO - 2022-02-13 20:03:57 --> Loader Class Initialized
+INFO - 2022-02-13 20:03:57 --> Security Class Initialized
+DEBUG - 2022-02-13 20:03:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:03:57 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:03:57 --> Input Class Initialized
+INFO - 2022-02-13 20:03:57 --> Language Class Initialized
+INFO - 2022-02-13 20:03:57 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:03:57 --> Loader Class Initialized
+INFO - 2022-02-13 20:03:57 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:03:57 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:03:57 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:03:57 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:03:57 --> Email Class Initialized
+INFO - 2022-02-13 20:03:57 --> Email Class Initialized
+DEBUG - 2022-02-13 20:03:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2022-02-13 20:03:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:03:57 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:03:57 --> Controller Class Initialized
+INFO - 2022-02-13 20:03:57 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:03:57 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:03:57 --> Final output sent to browser
+DEBUG - 2022-02-13 20:03:57 --> Total execution time: 0.1679
+INFO - 2022-02-13 20:03:57 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:03:57 --> Controller Class Initialized
+INFO - 2022-02-13 20:03:57 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:03:57 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:03:57 --> Final output sent to browser
+DEBUG - 2022-02-13 20:03:57 --> Total execution time: 0.1724
+INFO - 2022-02-13 20:04:00 --> Config Class Initialized
+INFO - 2022-02-13 20:04:00 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:04:00 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:04:00 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:04:00 --> URI Class Initialized
+INFO - 2022-02-13 20:04:00 --> Router Class Initialized
+INFO - 2022-02-13 20:04:00 --> Output Class Initialized
+INFO - 2022-02-13 20:04:00 --> Security Class Initialized
+DEBUG - 2022-02-13 20:04:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:04:00 --> Input Class Initialized
+INFO - 2022-02-13 20:04:00 --> Language Class Initialized
+INFO - 2022-02-13 20:04:00 --> Loader Class Initialized
+INFO - 2022-02-13 20:04:00 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:04:00 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:04:00 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:04:00 --> Email Class Initialized
+DEBUG - 2022-02-13 20:04:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:04:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:04:00 --> Controller Class Initialized
+INFO - 2022-02-13 20:04:00 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:04:00 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:04:00 --> Final output sent to browser
+DEBUG - 2022-02-13 20:04:00 --> Total execution time: 0.1752
+INFO - 2022-02-13 20:04:29 --> Config Class Initialized
+INFO - 2022-02-13 20:04:29 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:04:29 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:04:29 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:04:29 --> URI Class Initialized
+INFO - 2022-02-13 20:04:29 --> Router Class Initialized
+INFO - 2022-02-13 20:04:29 --> Output Class Initialized
+INFO - 2022-02-13 20:04:29 --> Security Class Initialized
+DEBUG - 2022-02-13 20:04:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:04:29 --> Input Class Initialized
+INFO - 2022-02-13 20:04:29 --> Language Class Initialized
+INFO - 2022-02-13 20:04:29 --> Loader Class Initialized
+INFO - 2022-02-13 20:04:29 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:04:29 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:04:29 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:04:29 --> Email Class Initialized
+DEBUG - 2022-02-13 20:04:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:04:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:04:29 --> Controller Class Initialized
+INFO - 2022-02-13 20:04:29 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:04:29 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:04:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:04:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:04:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:04:29 --> Final output sent to browser
+DEBUG - 2022-02-13 20:04:29 --> Total execution time: 0.0960
+INFO - 2022-02-13 20:04:33 --> Config Class Initialized
+INFO - 2022-02-13 20:04:33 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:04:33 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:04:33 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:04:33 --> URI Class Initialized
+INFO - 2022-02-13 20:04:33 --> Router Class Initialized
+INFO - 2022-02-13 20:04:33 --> Output Class Initialized
+INFO - 2022-02-13 20:04:33 --> Security Class Initialized
+DEBUG - 2022-02-13 20:04:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:04:33 --> Input Class Initialized
+INFO - 2022-02-13 20:04:33 --> Language Class Initialized
+INFO - 2022-02-13 20:04:33 --> Loader Class Initialized
+INFO - 2022-02-13 20:04:33 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:04:33 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:04:33 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:04:33 --> Email Class Initialized
+DEBUG - 2022-02-13 20:04:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:04:33 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:04:33 --> Controller Class Initialized
+INFO - 2022-02-13 20:04:33 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:04:33 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:04:33 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:04:33 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:04:33 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:04:33 --> Final output sent to browser
+DEBUG - 2022-02-13 20:04:33 --> Total execution time: 0.1560
+INFO - 2022-02-13 20:04:45 --> Config Class Initialized
+INFO - 2022-02-13 20:04:45 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:04:45 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:04:45 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:04:45 --> URI Class Initialized
+INFO - 2022-02-13 20:04:45 --> Router Class Initialized
+INFO - 2022-02-13 20:04:45 --> Config Class Initialized
+INFO - 2022-02-13 20:04:45 --> Hooks Class Initialized
+INFO - 2022-02-13 20:04:45 --> Output Class Initialized
+INFO - 2022-02-13 20:04:45 --> Security Class Initialized
+DEBUG - 2022-02-13 20:04:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:04:45 --> Input Class Initialized
+INFO - 2022-02-13 20:04:45 --> Language Class Initialized
+INFO - 2022-02-13 20:04:45 --> Loader Class Initialized
+DEBUG - 2022-02-13 20:04:45 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:04:45 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:04:45 --> URI Class Initialized
+INFO - 2022-02-13 20:04:45 --> Router Class Initialized
+INFO - 2022-02-13 20:04:45 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:04:45 --> Output Class Initialized
+INFO - 2022-02-13 20:04:45 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:04:45 --> Security Class Initialized
+INFO - 2022-02-13 20:04:45 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:04:45 --> Email Class Initialized
+DEBUG - 2022-02-13 20:04:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:04:45 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:04:45 --> Controller Class Initialized
+INFO - 2022-02-13 20:04:45 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:04:45 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:04:45 --> Final output sent to browser
+DEBUG - 2022-02-13 20:04:45 --> Total execution time: 0.1761
+DEBUG - 2022-02-13 20:04:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:04:45 --> Input Class Initialized
+INFO - 2022-02-13 20:04:45 --> Language Class Initialized
+INFO - 2022-02-13 20:04:45 --> Loader Class Initialized
+INFO - 2022-02-13 20:04:45 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:04:45 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:04:45 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:04:45 --> Email Class Initialized
+DEBUG - 2022-02-13 20:04:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:04:45 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:04:45 --> Controller Class Initialized
+INFO - 2022-02-13 20:04:45 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:04:45 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:04:45 --> Final output sent to browser
+DEBUG - 2022-02-13 20:04:45 --> Total execution time: 0.3244
+INFO - 2022-02-13 20:04:46 --> Config Class Initialized
+INFO - 2022-02-13 20:04:46 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:04:46 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:04:46 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:04:46 --> URI Class Initialized
+INFO - 2022-02-13 20:04:46 --> Router Class Initialized
+INFO - 2022-02-13 20:04:46 --> Output Class Initialized
+INFO - 2022-02-13 20:04:46 --> Security Class Initialized
+DEBUG - 2022-02-13 20:04:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:04:46 --> Input Class Initialized
+INFO - 2022-02-13 20:04:46 --> Language Class Initialized
+INFO - 2022-02-13 20:04:46 --> Loader Class Initialized
+INFO - 2022-02-13 20:04:46 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:04:46 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:04:46 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:04:46 --> Email Class Initialized
+DEBUG - 2022-02-13 20:04:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:04:46 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:04:46 --> Controller Class Initialized
+INFO - 2022-02-13 20:04:46 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:04:46 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:04:46 --> Final output sent to browser
+DEBUG - 2022-02-13 20:04:46 --> Total execution time: 0.1046
+INFO - 2022-02-13 20:04:46 --> Config Class Initialized
+INFO - 2022-02-13 20:04:46 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:04:46 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:04:46 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:04:46 --> URI Class Initialized
+INFO - 2022-02-13 20:04:46 --> Router Class Initialized
+INFO - 2022-02-13 20:04:46 --> Output Class Initialized
+INFO - 2022-02-13 20:04:46 --> Security Class Initialized
+DEBUG - 2022-02-13 20:04:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:04:46 --> Input Class Initialized
+INFO - 2022-02-13 20:04:46 --> Language Class Initialized
+INFO - 2022-02-13 20:04:46 --> Loader Class Initialized
+INFO - 2022-02-13 20:04:46 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:04:46 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:04:46 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:04:47 --> Email Class Initialized
+DEBUG - 2022-02-13 20:04:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:04:47 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:04:47 --> Controller Class Initialized
+INFO - 2022-02-13 20:04:47 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:04:47 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:04:47 --> Final output sent to browser
+DEBUG - 2022-02-13 20:04:47 --> Total execution time: 0.1588
+INFO - 2022-02-13 20:04:51 --> Config Class Initialized
+INFO - 2022-02-13 20:04:51 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:04:51 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:04:51 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:04:51 --> URI Class Initialized
+INFO - 2022-02-13 20:04:51 --> Router Class Initialized
+INFO - 2022-02-13 20:04:51 --> Output Class Initialized
+INFO - 2022-02-13 20:04:51 --> Security Class Initialized
+DEBUG - 2022-02-13 20:04:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:04:51 --> Input Class Initialized
+INFO - 2022-02-13 20:04:51 --> Language Class Initialized
+INFO - 2022-02-13 20:04:51 --> Loader Class Initialized
+INFO - 2022-02-13 20:04:51 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:04:51 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:04:51 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:04:51 --> Email Class Initialized
+DEBUG - 2022-02-13 20:04:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:04:51 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:04:51 --> Controller Class Initialized
+INFO - 2022-02-13 20:04:51 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:04:51 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:04:51 --> Final output sent to browser
+DEBUG - 2022-02-13 20:04:51 --> Total execution time: 0.2077
+INFO - 2022-02-13 20:05:23 --> Config Class Initialized
+INFO - 2022-02-13 20:05:23 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:05:23 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:05:23 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:05:23 --> URI Class Initialized
+INFO - 2022-02-13 20:05:23 --> Router Class Initialized
+INFO - 2022-02-13 20:05:23 --> Output Class Initialized
+INFO - 2022-02-13 20:05:23 --> Security Class Initialized
+DEBUG - 2022-02-13 20:05:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:05:23 --> Input Class Initialized
+INFO - 2022-02-13 20:05:23 --> Language Class Initialized
+INFO - 2022-02-13 20:05:23 --> Loader Class Initialized
+INFO - 2022-02-13 20:05:23 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:05:23 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:05:23 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:05:23 --> Email Class Initialized
+DEBUG - 2022-02-13 20:05:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:05:23 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:05:23 --> Controller Class Initialized
+INFO - 2022-02-13 20:05:23 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:05:23 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:05:24 --> Final output sent to browser
+DEBUG - 2022-02-13 20:05:24 --> Total execution time: 0.2214
+INFO - 2022-02-13 20:05:34 --> Config Class Initialized
+INFO - 2022-02-13 20:05:34 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:05:34 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:05:34 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:05:34 --> URI Class Initialized
+INFO - 2022-02-13 20:05:34 --> Router Class Initialized
+INFO - 2022-02-13 20:05:34 --> Output Class Initialized
+INFO - 2022-02-13 20:05:34 --> Security Class Initialized
+DEBUG - 2022-02-13 20:05:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:05:34 --> Input Class Initialized
+INFO - 2022-02-13 20:05:34 --> Language Class Initialized
+INFO - 2022-02-13 20:05:34 --> Loader Class Initialized
+INFO - 2022-02-13 20:05:34 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:05:34 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:05:34 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:05:34 --> Email Class Initialized
+DEBUG - 2022-02-13 20:05:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:05:34 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:05:34 --> Controller Class Initialized
+INFO - 2022-02-13 20:05:34 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:05:34 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:05:34 --> Final output sent to browser
+DEBUG - 2022-02-13 20:05:34 --> Total execution time: 0.1431
+INFO - 2022-02-13 20:07:06 --> Config Class Initialized
+INFO - 2022-02-13 20:07:06 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:07:06 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:07:06 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:07:06 --> URI Class Initialized
+INFO - 2022-02-13 20:07:06 --> Router Class Initialized
+INFO - 2022-02-13 20:07:06 --> Output Class Initialized
+INFO - 2022-02-13 20:07:06 --> Security Class Initialized
+DEBUG - 2022-02-13 20:07:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:07:06 --> Input Class Initialized
+INFO - 2022-02-13 20:07:06 --> Language Class Initialized
+INFO - 2022-02-13 20:07:06 --> Loader Class Initialized
+INFO - 2022-02-13 20:07:06 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:07:06 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:07:06 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:07:06 --> Email Class Initialized
+DEBUG - 2022-02-13 20:07:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:07:06 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:07:06 --> Controller Class Initialized
+INFO - 2022-02-13 20:07:06 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:07:06 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:07:06 --> Final output sent to browser
+DEBUG - 2022-02-13 20:07:06 --> Total execution time: 0.1506
+INFO - 2022-02-13 20:07:08 --> Config Class Initialized
+INFO - 2022-02-13 20:07:08 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:07:08 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:07:08 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:07:08 --> URI Class Initialized
+INFO - 2022-02-13 20:07:08 --> Router Class Initialized
+INFO - 2022-02-13 20:07:08 --> Output Class Initialized
+INFO - 2022-02-13 20:07:08 --> Security Class Initialized
+DEBUG - 2022-02-13 20:07:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:07:08 --> Input Class Initialized
+INFO - 2022-02-13 20:07:08 --> Language Class Initialized
+INFO - 2022-02-13 20:07:08 --> Loader Class Initialized
+INFO - 2022-02-13 20:07:08 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:07:08 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:07:08 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:07:08 --> Email Class Initialized
+DEBUG - 2022-02-13 20:07:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:07:08 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:07:08 --> Controller Class Initialized
+INFO - 2022-02-13 20:07:08 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:07:08 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:07:08 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:07:08 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:07:08 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:07:08 --> Final output sent to browser
+DEBUG - 2022-02-13 20:07:08 --> Total execution time: 0.1054
+INFO - 2022-02-13 20:07:17 --> Config Class Initialized
+INFO - 2022-02-13 20:07:17 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:07:17 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:07:17 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:07:17 --> URI Class Initialized
+INFO - 2022-02-13 20:07:17 --> Router Class Initialized
+INFO - 2022-02-13 20:07:17 --> Output Class Initialized
+INFO - 2022-02-13 20:07:17 --> Security Class Initialized
+DEBUG - 2022-02-13 20:07:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:07:17 --> Input Class Initialized
+INFO - 2022-02-13 20:07:17 --> Language Class Initialized
+INFO - 2022-02-13 20:07:18 --> Loader Class Initialized
+INFO - 2022-02-13 20:07:18 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:07:18 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:07:18 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:07:18 --> Email Class Initialized
+DEBUG - 2022-02-13 20:07:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:07:18 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:07:18 --> Controller Class Initialized
+INFO - 2022-02-13 20:07:18 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:07:18 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:07:18 --> Final output sent to browser
+DEBUG - 2022-02-13 20:07:18 --> Total execution time: 0.1673
+INFO - 2022-02-13 20:07:23 --> Config Class Initialized
+INFO - 2022-02-13 20:07:23 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:07:23 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:07:23 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:07:23 --> URI Class Initialized
+INFO - 2022-02-13 20:07:23 --> Router Class Initialized
+INFO - 2022-02-13 20:07:23 --> Output Class Initialized
+INFO - 2022-02-13 20:07:23 --> Security Class Initialized
+DEBUG - 2022-02-13 20:07:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:07:23 --> Input Class Initialized
+INFO - 2022-02-13 20:07:23 --> Language Class Initialized
+INFO - 2022-02-13 20:07:23 --> Loader Class Initialized
+INFO - 2022-02-13 20:07:23 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:07:23 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:07:23 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:07:23 --> Email Class Initialized
+DEBUG - 2022-02-13 20:07:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:07:23 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:07:23 --> Controller Class Initialized
+INFO - 2022-02-13 20:07:23 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:07:23 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:07:23 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:07:23 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:07:23 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:07:23 --> Final output sent to browser
+DEBUG - 2022-02-13 20:07:23 --> Total execution time: 0.1795
+INFO - 2022-02-13 20:07:29 --> Config Class Initialized
+INFO - 2022-02-13 20:07:29 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:07:29 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:07:29 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:07:29 --> URI Class Initialized
+INFO - 2022-02-13 20:07:29 --> Router Class Initialized
+INFO - 2022-02-13 20:07:29 --> Output Class Initialized
+INFO - 2022-02-13 20:07:29 --> Security Class Initialized
+DEBUG - 2022-02-13 20:07:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:07:29 --> Input Class Initialized
+INFO - 2022-02-13 20:07:29 --> Language Class Initialized
+INFO - 2022-02-13 20:07:29 --> Loader Class Initialized
+INFO - 2022-02-13 20:07:29 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:07:29 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:07:29 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:07:29 --> Email Class Initialized
+DEBUG - 2022-02-13 20:07:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:07:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:07:29 --> Controller Class Initialized
+INFO - 2022-02-13 20:07:29 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:07:29 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:07:29 --> Final output sent to browser
+DEBUG - 2022-02-13 20:07:29 --> Total execution time: 0.2808
+INFO - 2022-02-13 20:07:31 --> Config Class Initialized
+INFO - 2022-02-13 20:07:31 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:07:32 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:07:32 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:07:32 --> URI Class Initialized
+INFO - 2022-02-13 20:07:32 --> Router Class Initialized
+INFO - 2022-02-13 20:07:32 --> Output Class Initialized
+INFO - 2022-02-13 20:07:32 --> Security Class Initialized
+DEBUG - 2022-02-13 20:07:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:07:32 --> Input Class Initialized
+INFO - 2022-02-13 20:07:32 --> Language Class Initialized
+INFO - 2022-02-13 20:07:32 --> Loader Class Initialized
+INFO - 2022-02-13 20:07:32 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:07:32 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:07:32 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:07:32 --> Email Class Initialized
+DEBUG - 2022-02-13 20:07:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:07:32 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:07:32 --> Controller Class Initialized
+INFO - 2022-02-13 20:07:32 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:07:32 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:07:32 --> Final output sent to browser
+DEBUG - 2022-02-13 20:07:32 --> Total execution time: 0.2062
+INFO - 2022-02-13 20:07:38 --> Config Class Initialized
+INFO - 2022-02-13 20:07:38 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:07:38 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:07:38 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:07:38 --> URI Class Initialized
+INFO - 2022-02-13 20:07:38 --> Router Class Initialized
+INFO - 2022-02-13 20:07:38 --> Output Class Initialized
+INFO - 2022-02-13 20:07:38 --> Security Class Initialized
+DEBUG - 2022-02-13 20:07:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:07:38 --> Input Class Initialized
+INFO - 2022-02-13 20:07:38 --> Language Class Initialized
+INFO - 2022-02-13 20:07:38 --> Loader Class Initialized
+INFO - 2022-02-13 20:07:38 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:07:38 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:07:38 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:07:38 --> Email Class Initialized
+DEBUG - 2022-02-13 20:07:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:07:38 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:07:38 --> Controller Class Initialized
+INFO - 2022-02-13 20:07:38 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:07:38 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:07:38 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:07:38 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:07:38 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:07:38 --> Final output sent to browser
+DEBUG - 2022-02-13 20:07:38 --> Total execution time: 0.1132
+INFO - 2022-02-13 20:07:41 --> Config Class Initialized
+INFO - 2022-02-13 20:07:41 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:07:41 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:07:41 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:07:41 --> URI Class Initialized
+INFO - 2022-02-13 20:07:41 --> Router Class Initialized
+INFO - 2022-02-13 20:07:41 --> Output Class Initialized
+INFO - 2022-02-13 20:07:41 --> Security Class Initialized
+DEBUG - 2022-02-13 20:07:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:07:41 --> Input Class Initialized
+INFO - 2022-02-13 20:07:41 --> Language Class Initialized
+INFO - 2022-02-13 20:07:41 --> Loader Class Initialized
+INFO - 2022-02-13 20:07:41 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:07:41 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:07:41 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:07:41 --> Email Class Initialized
+DEBUG - 2022-02-13 20:07:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:07:41 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:07:41 --> Controller Class Initialized
+INFO - 2022-02-13 20:07:41 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:07:41 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:07:41 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:07:41 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:07:41 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:07:41 --> Final output sent to browser
+DEBUG - 2022-02-13 20:07:41 --> Total execution time: 0.1973
+INFO - 2022-02-13 20:07:49 --> Config Class Initialized
+INFO - 2022-02-13 20:07:49 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:07:49 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:07:49 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:07:49 --> URI Class Initialized
+INFO - 2022-02-13 20:07:49 --> Router Class Initialized
+INFO - 2022-02-13 20:07:49 --> Output Class Initialized
+INFO - 2022-02-13 20:07:49 --> Security Class Initialized
+DEBUG - 2022-02-13 20:07:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:07:49 --> Input Class Initialized
+INFO - 2022-02-13 20:07:49 --> Language Class Initialized
+INFO - 2022-02-13 20:07:49 --> Loader Class Initialized
+INFO - 2022-02-13 20:07:49 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:07:49 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:07:49 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:07:49 --> Email Class Initialized
+DEBUG - 2022-02-13 20:07:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:07:49 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:07:49 --> Controller Class Initialized
+INFO - 2022-02-13 20:07:49 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:07:49 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:07:49 --> Final output sent to browser
+DEBUG - 2022-02-13 20:07:49 --> Total execution time: 0.1043
+INFO - 2022-02-13 20:07:53 --> Config Class Initialized
+INFO - 2022-02-13 20:07:53 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:07:53 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:07:53 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:07:53 --> URI Class Initialized
+INFO - 2022-02-13 20:07:53 --> Router Class Initialized
+INFO - 2022-02-13 20:07:53 --> Output Class Initialized
+INFO - 2022-02-13 20:07:53 --> Security Class Initialized
+DEBUG - 2022-02-13 20:07:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:07:53 --> Input Class Initialized
+INFO - 2022-02-13 20:07:53 --> Language Class Initialized
+INFO - 2022-02-13 20:07:53 --> Loader Class Initialized
+INFO - 2022-02-13 20:07:53 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:07:53 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:07:53 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:07:53 --> Email Class Initialized
+DEBUG - 2022-02-13 20:07:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:07:53 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:07:53 --> Controller Class Initialized
+INFO - 2022-02-13 20:07:53 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:07:53 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:07:53 --> Final output sent to browser
+DEBUG - 2022-02-13 20:07:53 --> Total execution time: 0.1678
+INFO - 2022-02-13 20:08:07 --> Config Class Initialized
+INFO - 2022-02-13 20:08:07 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:08:07 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:08:07 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:08:07 --> URI Class Initialized
+INFO - 2022-02-13 20:08:07 --> Router Class Initialized
+INFO - 2022-02-13 20:08:07 --> Output Class Initialized
+INFO - 2022-02-13 20:08:07 --> Security Class Initialized
+DEBUG - 2022-02-13 20:08:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:08:07 --> Input Class Initialized
+INFO - 2022-02-13 20:08:07 --> Language Class Initialized
+INFO - 2022-02-13 20:08:07 --> Loader Class Initialized
+INFO - 2022-02-13 20:08:07 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:08:07 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:08:07 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:08:07 --> Email Class Initialized
+DEBUG - 2022-02-13 20:08:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:08:07 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:08:07 --> Controller Class Initialized
+INFO - 2022-02-13 20:08:07 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:08:07 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:08:07 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:08:07 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:08:07 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:08:07 --> Final output sent to browser
+DEBUG - 2022-02-13 20:08:07 --> Total execution time: 0.1429
+INFO - 2022-02-13 20:08:10 --> Config Class Initialized
+INFO - 2022-02-13 20:08:10 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:08:10 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:08:10 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:08:10 --> URI Class Initialized
+INFO - 2022-02-13 20:08:10 --> Router Class Initialized
+INFO - 2022-02-13 20:08:10 --> Output Class Initialized
+INFO - 2022-02-13 20:08:10 --> Security Class Initialized
+DEBUG - 2022-02-13 20:08:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:08:10 --> Input Class Initialized
+INFO - 2022-02-13 20:08:10 --> Language Class Initialized
+INFO - 2022-02-13 20:08:10 --> Loader Class Initialized
+INFO - 2022-02-13 20:08:10 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:08:10 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:08:10 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:08:10 --> Email Class Initialized
+DEBUG - 2022-02-13 20:08:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:08:10 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:08:10 --> Controller Class Initialized
+INFO - 2022-02-13 20:08:10 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:08:10 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:08:10 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:08:10 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:08:10 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:08:10 --> Final output sent to browser
+DEBUG - 2022-02-13 20:08:10 --> Total execution time: 0.1549
+INFO - 2022-02-13 20:08:17 --> Config Class Initialized
+INFO - 2022-02-13 20:08:17 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:08:17 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:08:17 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:08:17 --> URI Class Initialized
+INFO - 2022-02-13 20:08:17 --> Router Class Initialized
+INFO - 2022-02-13 20:08:17 --> Output Class Initialized
+INFO - 2022-02-13 20:08:17 --> Security Class Initialized
+DEBUG - 2022-02-13 20:08:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:08:17 --> Input Class Initialized
+INFO - 2022-02-13 20:08:17 --> Language Class Initialized
+INFO - 2022-02-13 20:08:17 --> Loader Class Initialized
+INFO - 2022-02-13 20:08:17 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:08:17 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:08:17 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:08:17 --> Email Class Initialized
+DEBUG - 2022-02-13 20:08:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:08:17 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:08:17 --> Controller Class Initialized
+INFO - 2022-02-13 20:08:17 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:08:17 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:08:17 --> Final output sent to browser
+DEBUG - 2022-02-13 20:08:17 --> Total execution time: 0.1432
+INFO - 2022-02-13 20:08:21 --> Config Class Initialized
+INFO - 2022-02-13 20:08:21 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:08:21 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:08:21 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:08:21 --> URI Class Initialized
+INFO - 2022-02-13 20:08:21 --> Router Class Initialized
+INFO - 2022-02-13 20:08:21 --> Output Class Initialized
+INFO - 2022-02-13 20:08:21 --> Security Class Initialized
+DEBUG - 2022-02-13 20:08:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:08:21 --> Input Class Initialized
+INFO - 2022-02-13 20:08:21 --> Language Class Initialized
+INFO - 2022-02-13 20:08:21 --> Loader Class Initialized
+INFO - 2022-02-13 20:08:21 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:08:21 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:08:21 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:08:21 --> Email Class Initialized
+DEBUG - 2022-02-13 20:08:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:08:21 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:08:21 --> Controller Class Initialized
+INFO - 2022-02-13 20:08:21 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:08:21 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:08:21 --> Final output sent to browser
+DEBUG - 2022-02-13 20:08:21 --> Total execution time: 0.1372
+INFO - 2022-02-13 20:08:40 --> Config Class Initialized
+INFO - 2022-02-13 20:08:40 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:08:40 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:08:40 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:08:40 --> URI Class Initialized
+INFO - 2022-02-13 20:08:40 --> Router Class Initialized
+INFO - 2022-02-13 20:08:40 --> Output Class Initialized
+INFO - 2022-02-13 20:08:40 --> Security Class Initialized
+DEBUG - 2022-02-13 20:08:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:08:40 --> Input Class Initialized
+INFO - 2022-02-13 20:08:40 --> Language Class Initialized
+INFO - 2022-02-13 20:08:40 --> Loader Class Initialized
+INFO - 2022-02-13 20:08:40 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:08:40 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:08:40 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:08:40 --> Email Class Initialized
+DEBUG - 2022-02-13 20:08:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:08:40 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:08:40 --> Controller Class Initialized
+INFO - 2022-02-13 20:08:40 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:08:40 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:08:40 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:08:40 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:08:40 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:08:40 --> Final output sent to browser
+DEBUG - 2022-02-13 20:08:40 --> Total execution time: 0.1402
+INFO - 2022-02-13 20:08:51 --> Config Class Initialized
+INFO - 2022-02-13 20:08:51 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:08:51 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:08:51 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:08:51 --> URI Class Initialized
+INFO - 2022-02-13 20:08:51 --> Router Class Initialized
+INFO - 2022-02-13 20:08:51 --> Output Class Initialized
+INFO - 2022-02-13 20:08:51 --> Security Class Initialized
+DEBUG - 2022-02-13 20:08:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:08:51 --> Input Class Initialized
+INFO - 2022-02-13 20:08:51 --> Language Class Initialized
+INFO - 2022-02-13 20:08:51 --> Loader Class Initialized
+INFO - 2022-02-13 20:08:51 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:08:51 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:08:51 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:08:51 --> Email Class Initialized
+DEBUG - 2022-02-13 20:08:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:08:51 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:08:51 --> Controller Class Initialized
+INFO - 2022-02-13 20:08:51 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:08:51 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:08:51 --> Final output sent to browser
+DEBUG - 2022-02-13 20:08:51 --> Total execution time: 0.1139
+INFO - 2022-02-13 20:08:53 --> Config Class Initialized
+INFO - 2022-02-13 20:08:53 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:08:53 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:08:53 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:08:53 --> URI Class Initialized
+INFO - 2022-02-13 20:08:53 --> Router Class Initialized
+INFO - 2022-02-13 20:08:53 --> Output Class Initialized
+INFO - 2022-02-13 20:08:53 --> Security Class Initialized
+DEBUG - 2022-02-13 20:08:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:08:53 --> Input Class Initialized
+INFO - 2022-02-13 20:08:53 --> Language Class Initialized
+INFO - 2022-02-13 20:08:53 --> Loader Class Initialized
+INFO - 2022-02-13 20:08:53 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:08:53 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:08:53 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:08:53 --> Email Class Initialized
+DEBUG - 2022-02-13 20:08:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:08:53 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:08:53 --> Controller Class Initialized
+INFO - 2022-02-13 20:08:53 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:08:53 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:08:53 --> Final output sent to browser
+DEBUG - 2022-02-13 20:08:53 --> Total execution time: 0.1344
+INFO - 2022-02-13 20:09:24 --> Config Class Initialized
+INFO - 2022-02-13 20:09:24 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:09:24 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:09:24 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:09:24 --> URI Class Initialized
+INFO - 2022-02-13 20:09:24 --> Router Class Initialized
+INFO - 2022-02-13 20:09:24 --> Output Class Initialized
+INFO - 2022-02-13 20:09:24 --> Security Class Initialized
+DEBUG - 2022-02-13 20:09:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:09:24 --> Input Class Initialized
+INFO - 2022-02-13 20:09:24 --> Language Class Initialized
+INFO - 2022-02-13 20:09:24 --> Loader Class Initialized
+INFO - 2022-02-13 20:09:24 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:09:24 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:09:24 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:09:24 --> Email Class Initialized
+DEBUG - 2022-02-13 20:09:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:09:24 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:09:24 --> Controller Class Initialized
+INFO - 2022-02-13 20:09:24 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:09:24 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:09:24 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:09:24 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:09:24 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:09:24 --> Final output sent to browser
+DEBUG - 2022-02-13 20:09:24 --> Total execution time: 0.1833
+INFO - 2022-02-13 20:09:32 --> Config Class Initialized
+INFO - 2022-02-13 20:09:32 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:09:32 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:09:32 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:09:32 --> URI Class Initialized
+INFO - 2022-02-13 20:09:32 --> Router Class Initialized
+INFO - 2022-02-13 20:09:32 --> Output Class Initialized
+INFO - 2022-02-13 20:09:32 --> Security Class Initialized
+DEBUG - 2022-02-13 20:09:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:09:32 --> Input Class Initialized
+INFO - 2022-02-13 20:09:32 --> Language Class Initialized
+INFO - 2022-02-13 20:09:32 --> Loader Class Initialized
+INFO - 2022-02-13 20:09:32 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:09:32 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:09:32 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:09:32 --> Email Class Initialized
+DEBUG - 2022-02-13 20:09:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:09:32 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:09:32 --> Controller Class Initialized
+INFO - 2022-02-13 20:09:32 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:09:32 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:09:32 --> Final output sent to browser
+DEBUG - 2022-02-13 20:09:32 --> Total execution time: 0.1566
+INFO - 2022-02-13 20:09:34 --> Config Class Initialized
+INFO - 2022-02-13 20:09:34 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:09:34 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:09:34 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:09:34 --> URI Class Initialized
+INFO - 2022-02-13 20:09:34 --> Router Class Initialized
+INFO - 2022-02-13 20:09:34 --> Output Class Initialized
+INFO - 2022-02-13 20:09:34 --> Security Class Initialized
+DEBUG - 2022-02-13 20:09:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:09:34 --> Input Class Initialized
+INFO - 2022-02-13 20:09:34 --> Language Class Initialized
+INFO - 2022-02-13 20:09:34 --> Loader Class Initialized
+INFO - 2022-02-13 20:09:34 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:09:34 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:09:34 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:09:34 --> Email Class Initialized
+DEBUG - 2022-02-13 20:09:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:09:34 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:09:34 --> Controller Class Initialized
+INFO - 2022-02-13 20:09:34 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:09:34 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:09:34 --> Final output sent to browser
+DEBUG - 2022-02-13 20:09:34 --> Total execution time: 0.1204
+INFO - 2022-02-13 20:10:29 --> Config Class Initialized
+INFO - 2022-02-13 20:10:29 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:10:29 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:10:29 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:10:29 --> URI Class Initialized
+INFO - 2022-02-13 20:10:29 --> Router Class Initialized
+INFO - 2022-02-13 20:10:29 --> Output Class Initialized
+INFO - 2022-02-13 20:10:29 --> Security Class Initialized
+DEBUG - 2022-02-13 20:10:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:10:29 --> Input Class Initialized
+INFO - 2022-02-13 20:10:29 --> Language Class Initialized
+INFO - 2022-02-13 20:10:29 --> Loader Class Initialized
+INFO - 2022-02-13 20:10:29 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:10:29 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:10:29 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:10:29 --> Email Class Initialized
+DEBUG - 2022-02-13 20:10:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:10:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:10:29 --> Controller Class Initialized
+INFO - 2022-02-13 20:10:29 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:10:29 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:10:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:10:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:10:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:10:29 --> Final output sent to browser
+DEBUG - 2022-02-13 20:10:29 --> Total execution time: 0.2080
+INFO - 2022-02-13 20:10:31 --> Config Class Initialized
+INFO - 2022-02-13 20:10:31 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:10:31 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:10:31 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:10:31 --> URI Class Initialized
+INFO - 2022-02-13 20:10:32 --> Router Class Initialized
+INFO - 2022-02-13 20:10:32 --> Output Class Initialized
+INFO - 2022-02-13 20:10:32 --> Security Class Initialized
+DEBUG - 2022-02-13 20:10:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:10:32 --> Input Class Initialized
+INFO - 2022-02-13 20:10:32 --> Language Class Initialized
+INFO - 2022-02-13 20:10:32 --> Loader Class Initialized
+INFO - 2022-02-13 20:10:32 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:10:32 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:10:32 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:10:32 --> Email Class Initialized
+DEBUG - 2022-02-13 20:10:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:10:32 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:10:32 --> Controller Class Initialized
+INFO - 2022-02-13 20:10:32 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:10:32 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:10:32 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:10:32 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:10:32 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:10:32 --> Final output sent to browser
+DEBUG - 2022-02-13 20:10:32 --> Total execution time: 0.1216
+INFO - 2022-02-13 20:10:37 --> Config Class Initialized
+INFO - 2022-02-13 20:10:37 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:10:37 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:10:37 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:10:37 --> URI Class Initialized
+INFO - 2022-02-13 20:10:37 --> Router Class Initialized
+INFO - 2022-02-13 20:10:37 --> Output Class Initialized
+INFO - 2022-02-13 20:10:37 --> Security Class Initialized
+DEBUG - 2022-02-13 20:10:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:10:37 --> Input Class Initialized
+INFO - 2022-02-13 20:10:37 --> Language Class Initialized
+INFO - 2022-02-13 20:10:37 --> Loader Class Initialized
+INFO - 2022-02-13 20:10:37 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:10:37 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:10:37 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:10:37 --> Email Class Initialized
+DEBUG - 2022-02-13 20:10:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:10:37 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:10:37 --> Controller Class Initialized
+INFO - 2022-02-13 20:10:37 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:10:37 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:10:37 --> Final output sent to browser
+DEBUG - 2022-02-13 20:10:37 --> Total execution time: 0.1725
+INFO - 2022-02-13 20:11:00 --> Config Class Initialized
+INFO - 2022-02-13 20:11:00 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:11:00 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:11:00 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:11:00 --> URI Class Initialized
+INFO - 2022-02-13 20:11:00 --> Router Class Initialized
+INFO - 2022-02-13 20:11:00 --> Output Class Initialized
+INFO - 2022-02-13 20:11:00 --> Security Class Initialized
+DEBUG - 2022-02-13 20:11:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:11:00 --> Input Class Initialized
+INFO - 2022-02-13 20:11:00 --> Language Class Initialized
+INFO - 2022-02-13 20:11:00 --> Loader Class Initialized
+INFO - 2022-02-13 20:11:00 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:11:00 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:11:00 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:11:00 --> Email Class Initialized
+DEBUG - 2022-02-13 20:11:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:11:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:11:00 --> Controller Class Initialized
+INFO - 2022-02-13 20:11:00 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:11:00 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:11:00 --> Final output sent to browser
+DEBUG - 2022-02-13 20:11:00 --> Total execution time: 0.1713
+INFO - 2022-02-13 20:11:17 --> Config Class Initialized
+INFO - 2022-02-13 20:11:17 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:11:17 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:11:17 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:11:17 --> URI Class Initialized
+INFO - 2022-02-13 20:11:17 --> Router Class Initialized
+INFO - 2022-02-13 20:11:17 --> Output Class Initialized
+INFO - 2022-02-13 20:11:17 --> Security Class Initialized
+DEBUG - 2022-02-13 20:11:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:11:17 --> Input Class Initialized
+INFO - 2022-02-13 20:11:17 --> Language Class Initialized
+INFO - 2022-02-13 20:11:17 --> Loader Class Initialized
+INFO - 2022-02-13 20:11:17 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:11:17 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:11:17 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:11:17 --> Email Class Initialized
+DEBUG - 2022-02-13 20:11:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:11:17 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:11:17 --> Controller Class Initialized
+INFO - 2022-02-13 20:11:17 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:11:17 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:11:17 --> Final output sent to browser
+DEBUG - 2022-02-13 20:11:17 --> Total execution time: 0.1985
+INFO - 2022-02-13 20:11:33 --> Config Class Initialized
+INFO - 2022-02-13 20:11:33 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:11:33 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:11:33 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:11:33 --> URI Class Initialized
+INFO - 2022-02-13 20:11:33 --> Router Class Initialized
+INFO - 2022-02-13 20:11:33 --> Output Class Initialized
+INFO - 2022-02-13 20:11:33 --> Security Class Initialized
+DEBUG - 2022-02-13 20:11:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:11:33 --> Input Class Initialized
+INFO - 2022-02-13 20:11:33 --> Language Class Initialized
+INFO - 2022-02-13 20:11:34 --> Loader Class Initialized
+INFO - 2022-02-13 20:11:34 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:11:34 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:11:34 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:11:34 --> Email Class Initialized
+DEBUG - 2022-02-13 20:11:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:11:34 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:11:34 --> Controller Class Initialized
+INFO - 2022-02-13 20:11:34 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:11:34 --> Model "parcelasModel" initialized
+ERROR - 2022-02-13 20:11:34 --> Severity: Notice --> Undefined index: tmp_name C:\xampp\htdocs\wannafarmapirest\application\controllers\Landlord.php 38
+INFO - 2022-02-13 20:11:34 --> Final output sent to browser
+DEBUG - 2022-02-13 20:11:34 --> Total execution time: 0.2232
+INFO - 2022-02-13 20:11:43 --> Config Class Initialized
+INFO - 2022-02-13 20:11:43 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:11:43 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:11:43 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:11:43 --> URI Class Initialized
+INFO - 2022-02-13 20:11:43 --> Router Class Initialized
+INFO - 2022-02-13 20:11:43 --> Output Class Initialized
+INFO - 2022-02-13 20:11:43 --> Security Class Initialized
+DEBUG - 2022-02-13 20:11:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:11:43 --> Input Class Initialized
+INFO - 2022-02-13 20:11:43 --> Language Class Initialized
+INFO - 2022-02-13 20:11:43 --> Loader Class Initialized
+INFO - 2022-02-13 20:11:43 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:11:43 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:11:43 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:11:43 --> Email Class Initialized
+DEBUG - 2022-02-13 20:11:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:11:43 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:11:43 --> Controller Class Initialized
+INFO - 2022-02-13 20:11:43 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:11:43 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:11:43 --> Final output sent to browser
+DEBUG - 2022-02-13 20:11:43 --> Total execution time: 0.1579
+INFO - 2022-02-13 20:12:00 --> Config Class Initialized
+INFO - 2022-02-13 20:12:00 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:12:00 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:12:00 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:12:00 --> URI Class Initialized
+INFO - 2022-02-13 20:12:00 --> Router Class Initialized
+INFO - 2022-02-13 20:12:00 --> Output Class Initialized
+INFO - 2022-02-13 20:12:00 --> Security Class Initialized
+DEBUG - 2022-02-13 20:12:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:12:00 --> Input Class Initialized
+INFO - 2022-02-13 20:12:00 --> Language Class Initialized
+INFO - 2022-02-13 20:12:00 --> Loader Class Initialized
+INFO - 2022-02-13 20:12:00 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:12:00 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:12:00 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:12:00 --> Email Class Initialized
+DEBUG - 2022-02-13 20:12:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:12:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:12:00 --> Controller Class Initialized
+INFO - 2022-02-13 20:12:00 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:12:00 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:12:00 --> Final output sent to browser
+DEBUG - 2022-02-13 20:12:00 --> Total execution time: 0.1480
+INFO - 2022-02-13 20:18:22 --> Config Class Initialized
+INFO - 2022-02-13 20:18:22 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:18:22 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:18:22 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:18:22 --> URI Class Initialized
+INFO - 2022-02-13 20:18:22 --> Router Class Initialized
+INFO - 2022-02-13 20:18:22 --> Output Class Initialized
+INFO - 2022-02-13 20:18:22 --> Security Class Initialized
+DEBUG - 2022-02-13 20:18:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:18:22 --> Input Class Initialized
+INFO - 2022-02-13 20:18:22 --> Language Class Initialized
+INFO - 2022-02-13 20:18:22 --> Loader Class Initialized
+INFO - 2022-02-13 20:18:22 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:18:22 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:18:22 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:18:22 --> Email Class Initialized
+DEBUG - 2022-02-13 20:18:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:18:22 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:18:22 --> Controller Class Initialized
+INFO - 2022-02-13 20:18:22 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:18:22 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:18:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:18:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:18:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:18:22 --> Final output sent to browser
+DEBUG - 2022-02-13 20:18:22 --> Total execution time: 0.1419
+INFO - 2022-02-13 20:18:25 --> Config Class Initialized
+INFO - 2022-02-13 20:18:25 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:18:25 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:18:25 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:18:25 --> URI Class Initialized
+INFO - 2022-02-13 20:18:25 --> Router Class Initialized
+INFO - 2022-02-13 20:18:25 --> Output Class Initialized
+INFO - 2022-02-13 20:18:25 --> Security Class Initialized
+DEBUG - 2022-02-13 20:18:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:18:25 --> Input Class Initialized
+INFO - 2022-02-13 20:18:25 --> Language Class Initialized
+INFO - 2022-02-13 20:18:25 --> Loader Class Initialized
+INFO - 2022-02-13 20:18:25 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:18:25 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:18:25 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:18:25 --> Email Class Initialized
+DEBUG - 2022-02-13 20:18:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:18:25 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:18:25 --> Controller Class Initialized
+INFO - 2022-02-13 20:18:25 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:18:25 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:18:25 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:18:25 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:18:25 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:18:25 --> Final output sent to browser
+DEBUG - 2022-02-13 20:18:25 --> Total execution time: 0.2121
+INFO - 2022-02-13 20:18:30 --> Config Class Initialized
+INFO - 2022-02-13 20:18:30 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:18:30 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:18:30 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:18:30 --> URI Class Initialized
+INFO - 2022-02-13 20:18:30 --> Router Class Initialized
+INFO - 2022-02-13 20:18:30 --> Output Class Initialized
+INFO - 2022-02-13 20:18:30 --> Security Class Initialized
+DEBUG - 2022-02-13 20:18:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:18:30 --> Input Class Initialized
+INFO - 2022-02-13 20:18:30 --> Language Class Initialized
+INFO - 2022-02-13 20:18:30 --> Loader Class Initialized
+INFO - 2022-02-13 20:18:30 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:18:30 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:18:30 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:18:30 --> Email Class Initialized
+DEBUG - 2022-02-13 20:18:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:18:30 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:18:30 --> Controller Class Initialized
+INFO - 2022-02-13 20:18:30 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:18:30 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:18:30 --> Final output sent to browser
+DEBUG - 2022-02-13 20:18:30 --> Total execution time: 0.1554
+INFO - 2022-02-13 20:18:43 --> Config Class Initialized
+INFO - 2022-02-13 20:18:43 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:18:43 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:18:43 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:18:43 --> URI Class Initialized
+INFO - 2022-02-13 20:18:43 --> Router Class Initialized
+INFO - 2022-02-13 20:18:43 --> Output Class Initialized
+INFO - 2022-02-13 20:18:43 --> Security Class Initialized
+DEBUG - 2022-02-13 20:18:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:18:43 --> Input Class Initialized
+INFO - 2022-02-13 20:18:43 --> Language Class Initialized
+INFO - 2022-02-13 20:18:43 --> Loader Class Initialized
+INFO - 2022-02-13 20:18:43 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:18:43 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:18:43 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:18:43 --> Email Class Initialized
+DEBUG - 2022-02-13 20:18:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:18:43 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:18:43 --> Controller Class Initialized
+INFO - 2022-02-13 20:18:43 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:18:43 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:18:43 --> Final output sent to browser
+DEBUG - 2022-02-13 20:18:43 --> Total execution time: 0.1745
+INFO - 2022-02-13 20:19:11 --> Config Class Initialized
+INFO - 2022-02-13 20:19:11 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:19:11 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:19:11 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:19:11 --> URI Class Initialized
+INFO - 2022-02-13 20:19:11 --> Router Class Initialized
+INFO - 2022-02-13 20:19:11 --> Output Class Initialized
+INFO - 2022-02-13 20:19:11 --> Security Class Initialized
+DEBUG - 2022-02-13 20:19:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:19:11 --> Input Class Initialized
+INFO - 2022-02-13 20:19:11 --> Language Class Initialized
+INFO - 2022-02-13 20:19:11 --> Loader Class Initialized
+INFO - 2022-02-13 20:19:11 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:19:11 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:19:11 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:19:11 --> Email Class Initialized
+DEBUG - 2022-02-13 20:19:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:19:11 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:19:11 --> Controller Class Initialized
+INFO - 2022-02-13 20:19:11 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:19:11 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:19:11 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:19:11 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:19:11 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:19:11 --> Final output sent to browser
+DEBUG - 2022-02-13 20:19:11 --> Total execution time: 0.1569
+INFO - 2022-02-13 20:19:16 --> Config Class Initialized
+INFO - 2022-02-13 20:19:16 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:19:16 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:19:16 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:19:16 --> URI Class Initialized
+INFO - 2022-02-13 20:19:16 --> Router Class Initialized
+INFO - 2022-02-13 20:19:16 --> Output Class Initialized
+INFO - 2022-02-13 20:19:16 --> Security Class Initialized
+DEBUG - 2022-02-13 20:19:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:19:16 --> Input Class Initialized
+INFO - 2022-02-13 20:19:16 --> Language Class Initialized
+INFO - 2022-02-13 20:19:16 --> Loader Class Initialized
+INFO - 2022-02-13 20:19:16 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:19:16 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:19:16 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:19:16 --> Email Class Initialized
+DEBUG - 2022-02-13 20:19:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:19:16 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:19:16 --> Controller Class Initialized
+INFO - 2022-02-13 20:19:16 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:19:16 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:19:16 --> Final output sent to browser
+DEBUG - 2022-02-13 20:19:16 --> Total execution time: 0.1504
+INFO - 2022-02-13 20:19:37 --> Config Class Initialized
+INFO - 2022-02-13 20:19:37 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:19:37 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:19:37 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:19:37 --> URI Class Initialized
+INFO - 2022-02-13 20:19:37 --> Router Class Initialized
+INFO - 2022-02-13 20:19:37 --> Output Class Initialized
+INFO - 2022-02-13 20:19:37 --> Security Class Initialized
+DEBUG - 2022-02-13 20:19:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:19:37 --> Input Class Initialized
+INFO - 2022-02-13 20:19:37 --> Language Class Initialized
+INFO - 2022-02-13 20:19:37 --> Loader Class Initialized
+INFO - 2022-02-13 20:19:37 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:19:37 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:19:37 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:19:37 --> Email Class Initialized
+DEBUG - 2022-02-13 20:19:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:19:37 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:19:37 --> Controller Class Initialized
+INFO - 2022-02-13 20:19:37 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:19:37 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:19:37 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:19:37 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:19:37 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:19:37 --> Final output sent to browser
+DEBUG - 2022-02-13 20:19:37 --> Total execution time: 0.1610
+INFO - 2022-02-13 20:19:45 --> Config Class Initialized
+INFO - 2022-02-13 20:19:45 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:19:45 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:19:45 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:19:45 --> URI Class Initialized
+INFO - 2022-02-13 20:19:45 --> Router Class Initialized
+INFO - 2022-02-13 20:19:45 --> Output Class Initialized
+INFO - 2022-02-13 20:19:45 --> Security Class Initialized
+DEBUG - 2022-02-13 20:19:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:19:45 --> Input Class Initialized
+INFO - 2022-02-13 20:19:45 --> Language Class Initialized
+INFO - 2022-02-13 20:19:45 --> Loader Class Initialized
+INFO - 2022-02-13 20:19:45 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:19:45 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:19:45 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:19:45 --> Email Class Initialized
+DEBUG - 2022-02-13 20:19:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:19:45 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:19:45 --> Controller Class Initialized
+INFO - 2022-02-13 20:19:45 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:19:45 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:19:45 --> Final output sent to browser
+DEBUG - 2022-02-13 20:19:45 --> Total execution time: 0.1026
+INFO - 2022-02-13 20:19:47 --> Config Class Initialized
+INFO - 2022-02-13 20:19:47 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:19:47 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:19:47 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:19:47 --> URI Class Initialized
+INFO - 2022-02-13 20:19:47 --> Router Class Initialized
+INFO - 2022-02-13 20:19:47 --> Output Class Initialized
+INFO - 2022-02-13 20:19:47 --> Security Class Initialized
+DEBUG - 2022-02-13 20:19:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:19:47 --> Input Class Initialized
+INFO - 2022-02-13 20:19:47 --> Language Class Initialized
+INFO - 2022-02-13 20:19:47 --> Loader Class Initialized
+INFO - 2022-02-13 20:19:47 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:19:47 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:19:47 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:19:47 --> Email Class Initialized
+DEBUG - 2022-02-13 20:19:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:19:47 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:19:47 --> Controller Class Initialized
+INFO - 2022-02-13 20:19:47 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:19:47 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:19:47 --> Final output sent to browser
+DEBUG - 2022-02-13 20:19:47 --> Total execution time: 0.1203
+INFO - 2022-02-13 20:20:01 --> Config Class Initialized
+INFO - 2022-02-13 20:20:01 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:20:01 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:20:01 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:20:01 --> URI Class Initialized
+INFO - 2022-02-13 20:20:01 --> Router Class Initialized
+INFO - 2022-02-13 20:20:01 --> Output Class Initialized
+INFO - 2022-02-13 20:20:01 --> Security Class Initialized
+DEBUG - 2022-02-13 20:20:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:20:01 --> Input Class Initialized
+INFO - 2022-02-13 20:20:01 --> Language Class Initialized
+INFO - 2022-02-13 20:20:01 --> Loader Class Initialized
+INFO - 2022-02-13 20:20:01 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:20:01 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:20:01 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:20:01 --> Email Class Initialized
+DEBUG - 2022-02-13 20:20:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:20:01 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:20:01 --> Controller Class Initialized
+INFO - 2022-02-13 20:20:01 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:20:01 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:20:01 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:20:01 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:20:01 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:20:01 --> Final output sent to browser
+DEBUG - 2022-02-13 20:20:01 --> Total execution time: 0.2285
+INFO - 2022-02-13 20:20:04 --> Config Class Initialized
+INFO - 2022-02-13 20:20:04 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:20:04 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:20:04 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:20:04 --> URI Class Initialized
+INFO - 2022-02-13 20:20:04 --> Router Class Initialized
+INFO - 2022-02-13 20:20:04 --> Output Class Initialized
+INFO - 2022-02-13 20:20:04 --> Security Class Initialized
+DEBUG - 2022-02-13 20:20:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:20:04 --> Input Class Initialized
+INFO - 2022-02-13 20:20:04 --> Language Class Initialized
+INFO - 2022-02-13 20:20:04 --> Loader Class Initialized
+INFO - 2022-02-13 20:20:04 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:20:04 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:20:04 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:20:04 --> Email Class Initialized
+DEBUG - 2022-02-13 20:20:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:20:04 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:20:04 --> Controller Class Initialized
+INFO - 2022-02-13 20:20:04 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:20:04 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:20:04 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:20:04 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:20:04 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:20:04 --> Final output sent to browser
+DEBUG - 2022-02-13 20:20:04 --> Total execution time: 0.1263
+INFO - 2022-02-13 20:20:11 --> Config Class Initialized
+INFO - 2022-02-13 20:20:11 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:20:11 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:20:11 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:20:11 --> URI Class Initialized
+INFO - 2022-02-13 20:20:11 --> Router Class Initialized
+INFO - 2022-02-13 20:20:11 --> Output Class Initialized
+INFO - 2022-02-13 20:20:11 --> Security Class Initialized
+DEBUG - 2022-02-13 20:20:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:20:11 --> Input Class Initialized
+INFO - 2022-02-13 20:20:11 --> Language Class Initialized
+INFO - 2022-02-13 20:20:11 --> Loader Class Initialized
+INFO - 2022-02-13 20:20:11 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:20:11 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:20:11 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:20:11 --> Email Class Initialized
+DEBUG - 2022-02-13 20:20:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:20:11 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:20:11 --> Controller Class Initialized
+INFO - 2022-02-13 20:20:11 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:20:11 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:20:11 --> Final output sent to browser
+DEBUG - 2022-02-13 20:20:11 --> Total execution time: 0.1950
+INFO - 2022-02-13 20:20:13 --> Config Class Initialized
+INFO - 2022-02-13 20:20:13 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:20:13 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:20:13 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:20:13 --> URI Class Initialized
+INFO - 2022-02-13 20:20:13 --> Router Class Initialized
+INFO - 2022-02-13 20:20:13 --> Output Class Initialized
+INFO - 2022-02-13 20:20:13 --> Security Class Initialized
+DEBUG - 2022-02-13 20:20:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:20:13 --> Input Class Initialized
+INFO - 2022-02-13 20:20:13 --> Language Class Initialized
+INFO - 2022-02-13 20:20:13 --> Loader Class Initialized
+INFO - 2022-02-13 20:20:13 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:20:13 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:20:13 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:20:13 --> Email Class Initialized
+DEBUG - 2022-02-13 20:20:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:20:13 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:20:13 --> Controller Class Initialized
+INFO - 2022-02-13 20:20:13 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:20:13 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:20:13 --> Final output sent to browser
+DEBUG - 2022-02-13 20:20:13 --> Total execution time: 0.1917
+INFO - 2022-02-13 20:20:23 --> Config Class Initialized
+INFO - 2022-02-13 20:20:23 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:20:23 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:20:23 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:20:23 --> URI Class Initialized
+INFO - 2022-02-13 20:20:23 --> Router Class Initialized
+INFO - 2022-02-13 20:20:23 --> Output Class Initialized
+INFO - 2022-02-13 20:20:23 --> Security Class Initialized
+DEBUG - 2022-02-13 20:20:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:20:23 --> Input Class Initialized
+INFO - 2022-02-13 20:20:23 --> Language Class Initialized
+INFO - 2022-02-13 20:20:23 --> Loader Class Initialized
+INFO - 2022-02-13 20:20:23 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:20:23 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:20:23 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:20:23 --> Email Class Initialized
+DEBUG - 2022-02-13 20:20:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:20:23 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:20:23 --> Controller Class Initialized
+INFO - 2022-02-13 20:20:23 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:20:23 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:20:23 --> Final output sent to browser
+DEBUG - 2022-02-13 20:20:23 --> Total execution time: 0.1667
+INFO - 2022-02-13 20:20:25 --> Config Class Initialized
+INFO - 2022-02-13 20:20:25 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:20:25 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:20:25 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:20:25 --> URI Class Initialized
+INFO - 2022-02-13 20:20:25 --> Router Class Initialized
+INFO - 2022-02-13 20:20:25 --> Output Class Initialized
+INFO - 2022-02-13 20:20:25 --> Security Class Initialized
+DEBUG - 2022-02-13 20:20:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:20:25 --> Input Class Initialized
+INFO - 2022-02-13 20:20:25 --> Language Class Initialized
+INFO - 2022-02-13 20:20:25 --> Loader Class Initialized
+INFO - 2022-02-13 20:20:25 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:20:25 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:20:25 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:20:25 --> Email Class Initialized
+DEBUG - 2022-02-13 20:20:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:20:25 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:20:25 --> Controller Class Initialized
+INFO - 2022-02-13 20:20:25 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:20:25 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:20:25 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:20:25 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:20:25 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:20:25 --> Final output sent to browser
+DEBUG - 2022-02-13 20:20:25 --> Total execution time: 0.1043
+INFO - 2022-02-13 20:20:28 --> Config Class Initialized
+INFO - 2022-02-13 20:20:28 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:20:28 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:20:28 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:20:28 --> URI Class Initialized
+INFO - 2022-02-13 20:20:29 --> Router Class Initialized
+INFO - 2022-02-13 20:20:29 --> Output Class Initialized
+INFO - 2022-02-13 20:20:29 --> Security Class Initialized
+DEBUG - 2022-02-13 20:20:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:20:29 --> Input Class Initialized
+INFO - 2022-02-13 20:20:29 --> Language Class Initialized
+INFO - 2022-02-13 20:20:29 --> Loader Class Initialized
+INFO - 2022-02-13 20:20:29 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:20:29 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:20:29 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:20:29 --> Email Class Initialized
+DEBUG - 2022-02-13 20:20:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:20:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:20:29 --> Controller Class Initialized
+INFO - 2022-02-13 20:20:29 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:20:29 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:20:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:20:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:20:29 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:20:29 --> Final output sent to browser
+DEBUG - 2022-02-13 20:20:29 --> Total execution time: 0.1379
+INFO - 2022-02-13 20:20:35 --> Config Class Initialized
+INFO - 2022-02-13 20:20:35 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:20:35 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:20:35 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:20:35 --> URI Class Initialized
+INFO - 2022-02-13 20:20:35 --> Router Class Initialized
+INFO - 2022-02-13 20:20:35 --> Output Class Initialized
+INFO - 2022-02-13 20:20:35 --> Security Class Initialized
+DEBUG - 2022-02-13 20:20:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:20:35 --> Input Class Initialized
+INFO - 2022-02-13 20:20:35 --> Language Class Initialized
+INFO - 2022-02-13 20:20:35 --> Loader Class Initialized
+INFO - 2022-02-13 20:20:35 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:20:35 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:20:35 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:20:35 --> Email Class Initialized
+DEBUG - 2022-02-13 20:20:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:20:35 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:20:35 --> Controller Class Initialized
+INFO - 2022-02-13 20:20:35 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:20:35 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:20:35 --> Final output sent to browser
+DEBUG - 2022-02-13 20:20:35 --> Total execution time: 0.1452
+INFO - 2022-02-13 20:20:38 --> Config Class Initialized
+INFO - 2022-02-13 20:20:38 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:20:38 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:20:38 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:20:38 --> URI Class Initialized
+INFO - 2022-02-13 20:20:38 --> Router Class Initialized
+INFO - 2022-02-13 20:20:38 --> Output Class Initialized
+INFO - 2022-02-13 20:20:38 --> Security Class Initialized
+DEBUG - 2022-02-13 20:20:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:20:38 --> Input Class Initialized
+INFO - 2022-02-13 20:20:38 --> Language Class Initialized
+INFO - 2022-02-13 20:20:38 --> Loader Class Initialized
+INFO - 2022-02-13 20:20:38 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:20:38 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:20:38 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:20:38 --> Email Class Initialized
+DEBUG - 2022-02-13 20:20:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:20:38 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:20:38 --> Controller Class Initialized
+INFO - 2022-02-13 20:20:38 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:20:38 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:20:38 --> Final output sent to browser
+DEBUG - 2022-02-13 20:20:38 --> Total execution time: 0.1817
+INFO - 2022-02-13 20:20:52 --> Config Class Initialized
+INFO - 2022-02-13 20:20:52 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:20:52 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:20:52 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:20:52 --> URI Class Initialized
+INFO - 2022-02-13 20:20:52 --> Router Class Initialized
+INFO - 2022-02-13 20:20:52 --> Output Class Initialized
+INFO - 2022-02-13 20:20:52 --> Security Class Initialized
+DEBUG - 2022-02-13 20:20:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:20:52 --> Input Class Initialized
+INFO - 2022-02-13 20:20:52 --> Language Class Initialized
+INFO - 2022-02-13 20:20:52 --> Loader Class Initialized
+INFO - 2022-02-13 20:20:52 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:20:52 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:20:52 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:20:52 --> Email Class Initialized
+DEBUG - 2022-02-13 20:20:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:20:52 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:20:52 --> Controller Class Initialized
+INFO - 2022-02-13 20:20:52 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:20:52 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:20:52 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:20:52 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:20:52 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:20:52 --> Final output sent to browser
+DEBUG - 2022-02-13 20:20:52 --> Total execution time: 0.1708
+INFO - 2022-02-13 20:21:00 --> Config Class Initialized
+INFO - 2022-02-13 20:21:00 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:21:00 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:21:00 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:21:00 --> URI Class Initialized
+INFO - 2022-02-13 20:21:00 --> Router Class Initialized
+INFO - 2022-02-13 20:21:00 --> Output Class Initialized
+INFO - 2022-02-13 20:21:00 --> Security Class Initialized
+DEBUG - 2022-02-13 20:21:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:21:00 --> Input Class Initialized
+INFO - 2022-02-13 20:21:00 --> Language Class Initialized
+INFO - 2022-02-13 20:21:00 --> Loader Class Initialized
+INFO - 2022-02-13 20:21:00 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:21:00 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:21:00 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:21:00 --> Email Class Initialized
+DEBUG - 2022-02-13 20:21:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:21:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:21:00 --> Controller Class Initialized
+INFO - 2022-02-13 20:21:00 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:21:00 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:21:00 --> Final output sent to browser
+DEBUG - 2022-02-13 20:21:00 --> Total execution time: 0.1533
+INFO - 2022-02-13 20:21:02 --> Config Class Initialized
+INFO - 2022-02-13 20:21:02 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:21:02 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:21:02 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:21:02 --> URI Class Initialized
+INFO - 2022-02-13 20:21:02 --> Router Class Initialized
+INFO - 2022-02-13 20:21:02 --> Output Class Initialized
+INFO - 2022-02-13 20:21:02 --> Security Class Initialized
+DEBUG - 2022-02-13 20:21:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:21:02 --> Input Class Initialized
+INFO - 2022-02-13 20:21:02 --> Language Class Initialized
+INFO - 2022-02-13 20:21:02 --> Loader Class Initialized
+INFO - 2022-02-13 20:21:02 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:21:02 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:21:02 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:21:02 --> Email Class Initialized
+DEBUG - 2022-02-13 20:21:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:21:02 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:21:02 --> Controller Class Initialized
+INFO - 2022-02-13 20:21:02 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:21:02 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:21:02 --> Final output sent to browser
+DEBUG - 2022-02-13 20:21:02 --> Total execution time: 0.0960
+INFO - 2022-02-13 20:21:11 --> Config Class Initialized
+INFO - 2022-02-13 20:21:11 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:21:11 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:21:11 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:21:11 --> URI Class Initialized
+INFO - 2022-02-13 20:21:11 --> Router Class Initialized
+INFO - 2022-02-13 20:21:11 --> Output Class Initialized
+INFO - 2022-02-13 20:21:11 --> Security Class Initialized
+DEBUG - 2022-02-13 20:21:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:21:11 --> Input Class Initialized
+INFO - 2022-02-13 20:21:11 --> Language Class Initialized
+INFO - 2022-02-13 20:21:11 --> Loader Class Initialized
+INFO - 2022-02-13 20:21:11 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:21:11 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:21:11 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:21:11 --> Email Class Initialized
+DEBUG - 2022-02-13 20:21:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:21:11 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:21:11 --> Controller Class Initialized
+INFO - 2022-02-13 20:21:11 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:21:11 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:21:11 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:21:11 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:21:11 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:21:11 --> Final output sent to browser
+DEBUG - 2022-02-13 20:21:11 --> Total execution time: 0.1220
+INFO - 2022-02-13 20:21:14 --> Config Class Initialized
+INFO - 2022-02-13 20:21:14 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:21:14 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:21:14 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:21:14 --> URI Class Initialized
+INFO - 2022-02-13 20:21:14 --> Router Class Initialized
+INFO - 2022-02-13 20:21:14 --> Output Class Initialized
+INFO - 2022-02-13 20:21:14 --> Security Class Initialized
+DEBUG - 2022-02-13 20:21:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:21:14 --> Input Class Initialized
+INFO - 2022-02-13 20:21:14 --> Language Class Initialized
+INFO - 2022-02-13 20:21:14 --> Loader Class Initialized
+INFO - 2022-02-13 20:21:14 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:21:14 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:21:14 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:21:14 --> Email Class Initialized
+DEBUG - 2022-02-13 20:21:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:21:14 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:21:14 --> Controller Class Initialized
+INFO - 2022-02-13 20:21:14 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:21:14 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:21:14 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:21:14 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:21:14 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:21:14 --> Final output sent to browser
+DEBUG - 2022-02-13 20:21:14 --> Total execution time: 0.1603
+INFO - 2022-02-13 20:21:21 --> Config Class Initialized
+INFO - 2022-02-13 20:21:21 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:21:21 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:21:21 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:21:21 --> URI Class Initialized
+INFO - 2022-02-13 20:21:21 --> Router Class Initialized
+INFO - 2022-02-13 20:21:21 --> Output Class Initialized
+INFO - 2022-02-13 20:21:21 --> Security Class Initialized
+DEBUG - 2022-02-13 20:21:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:21:21 --> Input Class Initialized
+INFO - 2022-02-13 20:21:21 --> Language Class Initialized
+INFO - 2022-02-13 20:21:21 --> Loader Class Initialized
+INFO - 2022-02-13 20:21:21 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:21:21 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:21:21 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:21:21 --> Email Class Initialized
+DEBUG - 2022-02-13 20:21:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:21:21 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:21:21 --> Controller Class Initialized
+INFO - 2022-02-13 20:21:21 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:21:22 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:21:22 --> Final output sent to browser
+DEBUG - 2022-02-13 20:21:22 --> Total execution time: 0.1128
+INFO - 2022-02-13 20:21:23 --> Config Class Initialized
+INFO - 2022-02-13 20:21:23 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:21:23 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:21:23 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:21:23 --> URI Class Initialized
+INFO - 2022-02-13 20:21:23 --> Router Class Initialized
+INFO - 2022-02-13 20:21:23 --> Output Class Initialized
+INFO - 2022-02-13 20:21:23 --> Security Class Initialized
+DEBUG - 2022-02-13 20:21:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:21:23 --> Input Class Initialized
+INFO - 2022-02-13 20:21:23 --> Language Class Initialized
+INFO - 2022-02-13 20:21:23 --> Loader Class Initialized
+INFO - 2022-02-13 20:21:23 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:21:23 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:21:24 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:21:24 --> Email Class Initialized
+DEBUG - 2022-02-13 20:21:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:21:24 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:21:24 --> Controller Class Initialized
+INFO - 2022-02-13 20:21:24 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:21:24 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:21:24 --> Final output sent to browser
+DEBUG - 2022-02-13 20:21:24 --> Total execution time: 0.1395
+INFO - 2022-02-13 20:21:58 --> Config Class Initialized
+INFO - 2022-02-13 20:21:58 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:21:58 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:21:58 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:21:58 --> URI Class Initialized
+INFO - 2022-02-13 20:21:58 --> Router Class Initialized
+INFO - 2022-02-13 20:21:58 --> Output Class Initialized
+INFO - 2022-02-13 20:21:58 --> Security Class Initialized
+DEBUG - 2022-02-13 20:21:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:21:58 --> Input Class Initialized
+INFO - 2022-02-13 20:21:58 --> Language Class Initialized
+INFO - 2022-02-13 20:21:58 --> Loader Class Initialized
+INFO - 2022-02-13 20:21:58 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:21:58 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:21:58 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:21:58 --> Email Class Initialized
+DEBUG - 2022-02-13 20:21:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:21:58 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:21:58 --> Controller Class Initialized
+INFO - 2022-02-13 20:21:58 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:21:58 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:21:58 --> Final output sent to browser
+DEBUG - 2022-02-13 20:21:58 --> Total execution time: 0.1619
+INFO - 2022-02-13 20:22:01 --> Config Class Initialized
+INFO - 2022-02-13 20:22:01 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:22:01 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:22:01 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:22:01 --> URI Class Initialized
+INFO - 2022-02-13 20:22:01 --> Router Class Initialized
+INFO - 2022-02-13 20:22:01 --> Output Class Initialized
+INFO - 2022-02-13 20:22:01 --> Security Class Initialized
+DEBUG - 2022-02-13 20:22:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:22:01 --> Input Class Initialized
+INFO - 2022-02-13 20:22:01 --> Language Class Initialized
+INFO - 2022-02-13 20:22:01 --> Loader Class Initialized
+INFO - 2022-02-13 20:22:01 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:22:01 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:22:01 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:22:01 --> Email Class Initialized
+DEBUG - 2022-02-13 20:22:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:22:01 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:22:01 --> Controller Class Initialized
+INFO - 2022-02-13 20:22:01 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:22:01 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:22:01 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:22:01 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:22:01 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:22:01 --> Final output sent to browser
+DEBUG - 2022-02-13 20:22:01 --> Total execution time: 0.1050
+INFO - 2022-02-13 20:22:08 --> Config Class Initialized
+INFO - 2022-02-13 20:22:08 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:22:08 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:22:08 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:22:08 --> URI Class Initialized
+INFO - 2022-02-13 20:22:08 --> Router Class Initialized
+INFO - 2022-02-13 20:22:08 --> Output Class Initialized
+INFO - 2022-02-13 20:22:08 --> Security Class Initialized
+DEBUG - 2022-02-13 20:22:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:22:08 --> Input Class Initialized
+INFO - 2022-02-13 20:22:08 --> Language Class Initialized
+INFO - 2022-02-13 20:22:08 --> Loader Class Initialized
+INFO - 2022-02-13 20:22:08 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:22:08 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:22:08 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:22:08 --> Email Class Initialized
+DEBUG - 2022-02-13 20:22:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:22:08 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:22:08 --> Controller Class Initialized
+INFO - 2022-02-13 20:22:08 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:22:08 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:22:08 --> Final output sent to browser
+DEBUG - 2022-02-13 20:22:08 --> Total execution time: 0.1486
+INFO - 2022-02-13 20:22:10 --> Config Class Initialized
+INFO - 2022-02-13 20:22:10 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:22:10 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:22:10 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:22:10 --> URI Class Initialized
+INFO - 2022-02-13 20:22:10 --> Router Class Initialized
+INFO - 2022-02-13 20:22:10 --> Output Class Initialized
+INFO - 2022-02-13 20:22:10 --> Security Class Initialized
+DEBUG - 2022-02-13 20:22:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:22:10 --> Input Class Initialized
+INFO - 2022-02-13 20:22:10 --> Language Class Initialized
+INFO - 2022-02-13 20:22:10 --> Loader Class Initialized
+INFO - 2022-02-13 20:22:10 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:22:10 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:22:10 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:22:10 --> Email Class Initialized
+DEBUG - 2022-02-13 20:22:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:22:10 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:22:10 --> Controller Class Initialized
+INFO - 2022-02-13 20:22:10 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:22:10 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:22:10 --> Final output sent to browser
+DEBUG - 2022-02-13 20:22:10 --> Total execution time: 0.1345
+INFO - 2022-02-13 20:22:24 --> Config Class Initialized
+INFO - 2022-02-13 20:22:24 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:22:24 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:22:24 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:22:24 --> URI Class Initialized
+INFO - 2022-02-13 20:22:24 --> Router Class Initialized
+INFO - 2022-02-13 20:22:24 --> Output Class Initialized
+INFO - 2022-02-13 20:22:24 --> Security Class Initialized
+DEBUG - 2022-02-13 20:22:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:22:24 --> Input Class Initialized
+INFO - 2022-02-13 20:22:24 --> Language Class Initialized
+INFO - 2022-02-13 20:22:24 --> Loader Class Initialized
+INFO - 2022-02-13 20:22:24 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:22:24 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:22:24 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:22:24 --> Email Class Initialized
+DEBUG - 2022-02-13 20:22:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:22:24 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:22:24 --> Controller Class Initialized
+INFO - 2022-02-13 20:22:24 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:22:24 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:22:24 --> Final output sent to browser
+DEBUG - 2022-02-13 20:22:24 --> Total execution time: 0.1323
+INFO - 2022-02-13 20:22:39 --> Config Class Initialized
+INFO - 2022-02-13 20:22:39 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:22:39 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:22:39 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:22:39 --> URI Class Initialized
+INFO - 2022-02-13 20:22:39 --> Router Class Initialized
+INFO - 2022-02-13 20:22:39 --> Output Class Initialized
+INFO - 2022-02-13 20:22:39 --> Security Class Initialized
+DEBUG - 2022-02-13 20:22:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:22:39 --> Input Class Initialized
+INFO - 2022-02-13 20:22:39 --> Language Class Initialized
+INFO - 2022-02-13 20:22:39 --> Loader Class Initialized
+INFO - 2022-02-13 20:22:39 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:22:39 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:22:39 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:22:39 --> Email Class Initialized
+DEBUG - 2022-02-13 20:22:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:22:39 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:22:39 --> Controller Class Initialized
+INFO - 2022-02-13 20:22:39 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:22:39 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:22:39 --> Final output sent to browser
+DEBUG - 2022-02-13 20:22:39 --> Total execution time: 0.1481
+INFO - 2022-02-13 20:23:39 --> Config Class Initialized
+INFO - 2022-02-13 20:23:39 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:23:39 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:23:39 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:23:39 --> URI Class Initialized
+INFO - 2022-02-13 20:23:39 --> Router Class Initialized
+INFO - 2022-02-13 20:23:39 --> Output Class Initialized
+INFO - 2022-02-13 20:23:39 --> Security Class Initialized
+DEBUG - 2022-02-13 20:23:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:23:39 --> Input Class Initialized
+INFO - 2022-02-13 20:23:39 --> Language Class Initialized
+INFO - 2022-02-13 20:23:39 --> Loader Class Initialized
+INFO - 2022-02-13 20:23:39 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:23:39 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:23:39 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:23:39 --> Email Class Initialized
+DEBUG - 2022-02-13 20:23:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:23:39 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:23:39 --> Controller Class Initialized
+INFO - 2022-02-13 20:23:39 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:23:39 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:23:39 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:23:39 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:23:39 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:23:39 --> Final output sent to browser
+DEBUG - 2022-02-13 20:23:39 --> Total execution time: 0.1778
+INFO - 2022-02-13 20:26:36 --> Config Class Initialized
+INFO - 2022-02-13 20:26:36 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:26:36 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:26:36 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:26:36 --> URI Class Initialized
+INFO - 2022-02-13 20:26:36 --> Router Class Initialized
+INFO - 2022-02-13 20:26:36 --> Output Class Initialized
+INFO - 2022-02-13 20:26:36 --> Security Class Initialized
+DEBUG - 2022-02-13 20:26:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:26:36 --> Input Class Initialized
+INFO - 2022-02-13 20:26:36 --> Language Class Initialized
+INFO - 2022-02-13 20:26:36 --> Loader Class Initialized
+INFO - 2022-02-13 20:26:36 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:26:36 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:26:36 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:26:36 --> Email Class Initialized
+DEBUG - 2022-02-13 20:26:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:26:36 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:26:36 --> Controller Class Initialized
+INFO - 2022-02-13 20:26:36 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:26:36 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:26:36 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:26:36 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:26:36 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:26:36 --> Final output sent to browser
+DEBUG - 2022-02-13 20:26:36 --> Total execution time: 0.1593
+INFO - 2022-02-13 20:26:44 --> Config Class Initialized
+INFO - 2022-02-13 20:26:44 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:26:44 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:26:44 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:26:44 --> URI Class Initialized
+INFO - 2022-02-13 20:26:44 --> Router Class Initialized
+INFO - 2022-02-13 20:26:44 --> Output Class Initialized
+INFO - 2022-02-13 20:26:44 --> Security Class Initialized
+DEBUG - 2022-02-13 20:26:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:26:44 --> Input Class Initialized
+INFO - 2022-02-13 20:26:44 --> Language Class Initialized
+INFO - 2022-02-13 20:26:44 --> Loader Class Initialized
+INFO - 2022-02-13 20:26:44 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:26:44 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:26:44 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:26:44 --> Email Class Initialized
+DEBUG - 2022-02-13 20:26:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:26:44 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:26:44 --> Controller Class Initialized
+INFO - 2022-02-13 20:26:44 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:26:44 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:26:44 --> Final output sent to browser
+DEBUG - 2022-02-13 20:26:44 --> Total execution time: 0.1824
+INFO - 2022-02-13 20:26:46 --> Config Class Initialized
+INFO - 2022-02-13 20:26:46 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:26:46 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:26:46 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:26:46 --> URI Class Initialized
+INFO - 2022-02-13 20:26:46 --> Router Class Initialized
+INFO - 2022-02-13 20:26:46 --> Output Class Initialized
+INFO - 2022-02-13 20:26:46 --> Security Class Initialized
+DEBUG - 2022-02-13 20:26:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:26:46 --> Input Class Initialized
+INFO - 2022-02-13 20:26:46 --> Language Class Initialized
+INFO - 2022-02-13 20:26:46 --> Loader Class Initialized
+INFO - 2022-02-13 20:26:46 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:26:46 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:26:46 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:26:46 --> Email Class Initialized
+DEBUG - 2022-02-13 20:26:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:26:46 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:26:46 --> Controller Class Initialized
+INFO - 2022-02-13 20:26:46 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:26:46 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:26:46 --> Final output sent to browser
+DEBUG - 2022-02-13 20:26:46 --> Total execution time: 0.1533
+INFO - 2022-02-13 20:28:55 --> Config Class Initialized
+INFO - 2022-02-13 20:28:55 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:28:55 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:28:55 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:28:55 --> URI Class Initialized
+INFO - 2022-02-13 20:28:55 --> Router Class Initialized
+INFO - 2022-02-13 20:28:55 --> Output Class Initialized
+INFO - 2022-02-13 20:28:55 --> Security Class Initialized
+DEBUG - 2022-02-13 20:28:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:28:55 --> Input Class Initialized
+INFO - 2022-02-13 20:28:55 --> Language Class Initialized
+INFO - 2022-02-13 20:28:55 --> Loader Class Initialized
+INFO - 2022-02-13 20:28:55 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:28:55 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:28:55 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:28:55 --> Email Class Initialized
+DEBUG - 2022-02-13 20:28:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:28:55 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:28:55 --> Controller Class Initialized
+INFO - 2022-02-13 20:28:55 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:28:55 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:28:55 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:28:55 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:28:55 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:28:55 --> Final output sent to browser
+DEBUG - 2022-02-13 20:28:55 --> Total execution time: 0.1285
+INFO - 2022-02-13 20:28:59 --> Config Class Initialized
+INFO - 2022-02-13 20:28:59 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:28:59 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:28:59 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:28:59 --> URI Class Initialized
+INFO - 2022-02-13 20:28:59 --> Router Class Initialized
+INFO - 2022-02-13 20:28:59 --> Output Class Initialized
+INFO - 2022-02-13 20:28:59 --> Security Class Initialized
+DEBUG - 2022-02-13 20:28:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:28:59 --> Input Class Initialized
+INFO - 2022-02-13 20:28:59 --> Language Class Initialized
+INFO - 2022-02-13 20:28:59 --> Loader Class Initialized
+INFO - 2022-02-13 20:28:59 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:28:59 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:28:59 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:28:59 --> Email Class Initialized
+DEBUG - 2022-02-13 20:28:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:28:59 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:28:59 --> Controller Class Initialized
+INFO - 2022-02-13 20:28:59 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:28:59 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:28:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:28:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:28:59 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:28:59 --> Final output sent to browser
+DEBUG - 2022-02-13 20:28:59 --> Total execution time: 0.1379
+INFO - 2022-02-13 20:29:06 --> Config Class Initialized
+INFO - 2022-02-13 20:29:06 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:29:06 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:29:06 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:29:06 --> URI Class Initialized
+DEBUG - 2022-02-13 20:29:06 --> No URI present. Default controller set.
+INFO - 2022-02-13 20:29:06 --> Router Class Initialized
+INFO - 2022-02-13 20:29:06 --> Output Class Initialized
+INFO - 2022-02-13 20:29:06 --> Security Class Initialized
+DEBUG - 2022-02-13 20:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:29:06 --> Input Class Initialized
+INFO - 2022-02-13 20:29:06 --> Language Class Initialized
+INFO - 2022-02-13 20:29:06 --> Loader Class Initialized
+INFO - 2022-02-13 20:29:06 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:29:06 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:29:06 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:29:06 --> Email Class Initialized
+DEBUG - 2022-02-13 20:29:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:29:06 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:29:06 --> Controller Class Initialized
+INFO - 2022-02-13 20:29:06 --> Model "HomeModel" initialized
+INFO - 2022-02-13 20:29:06 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//landing/index.php
+INFO - 2022-02-13 20:29:06 --> Final output sent to browser
+DEBUG - 2022-02-13 20:29:07 --> Total execution time: 0.1593
+INFO - 2022-02-13 20:29:09 --> Config Class Initialized
+INFO - 2022-02-13 20:29:09 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:29:09 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:29:09 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:29:09 --> URI Class Initialized
+INFO - 2022-02-13 20:29:09 --> Router Class Initialized
+INFO - 2022-02-13 20:29:09 --> Output Class Initialized
+INFO - 2022-02-13 20:29:09 --> Security Class Initialized
+DEBUG - 2022-02-13 20:29:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:29:09 --> Input Class Initialized
+INFO - 2022-02-13 20:29:09 --> Language Class Initialized
+INFO - 2022-02-13 20:29:09 --> Loader Class Initialized
+INFO - 2022-02-13 20:29:09 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:29:09 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:29:09 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:29:09 --> Email Class Initialized
+DEBUG - 2022-02-13 20:29:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:29:09 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:29:09 --> Controller Class Initialized
+INFO - 2022-02-13 20:29:09 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:29:09 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:29:09 --> Final output sent to browser
+DEBUG - 2022-02-13 20:29:09 --> Total execution time: 0.1529
+INFO - 2022-02-13 20:29:31 --> Config Class Initialized
+INFO - 2022-02-13 20:29:31 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:29:31 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:29:31 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:29:31 --> URI Class Initialized
+INFO - 2022-02-13 20:29:31 --> Router Class Initialized
+INFO - 2022-02-13 20:29:31 --> Output Class Initialized
+INFO - 2022-02-13 20:29:31 --> Security Class Initialized
+DEBUG - 2022-02-13 20:29:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:29:31 --> Input Class Initialized
+INFO - 2022-02-13 20:29:32 --> Language Class Initialized
+INFO - 2022-02-13 20:29:32 --> Loader Class Initialized
+INFO - 2022-02-13 20:29:32 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:29:32 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:29:32 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:29:32 --> Email Class Initialized
+DEBUG - 2022-02-13 20:29:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:29:32 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:29:32 --> Controller Class Initialized
+INFO - 2022-02-13 20:29:32 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:29:32 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:29:32 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:29:32 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:29:32 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:29:32 --> Final output sent to browser
+DEBUG - 2022-02-13 20:29:32 --> Total execution time: 0.1542
+INFO - 2022-02-13 20:29:35 --> Config Class Initialized
+INFO - 2022-02-13 20:29:35 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:29:35 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:29:35 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:29:35 --> URI Class Initialized
+INFO - 2022-02-13 20:29:35 --> Router Class Initialized
+INFO - 2022-02-13 20:29:35 --> Output Class Initialized
+INFO - 2022-02-13 20:29:35 --> Security Class Initialized
+DEBUG - 2022-02-13 20:29:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:29:35 --> Input Class Initialized
+INFO - 2022-02-13 20:29:35 --> Language Class Initialized
+INFO - 2022-02-13 20:29:35 --> Loader Class Initialized
+INFO - 2022-02-13 20:29:35 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:29:35 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:29:35 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:29:35 --> Email Class Initialized
+DEBUG - 2022-02-13 20:29:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:29:35 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:29:35 --> Controller Class Initialized
+INFO - 2022-02-13 20:29:35 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:29:35 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:29:35 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:29:35 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:29:35 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:29:35 --> Final output sent to browser
+DEBUG - 2022-02-13 20:29:35 --> Total execution time: 0.1474
+INFO - 2022-02-13 20:29:45 --> Config Class Initialized
+INFO - 2022-02-13 20:29:45 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:29:45 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:29:45 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:29:45 --> URI Class Initialized
+INFO - 2022-02-13 20:29:45 --> Router Class Initialized
+INFO - 2022-02-13 20:29:45 --> Output Class Initialized
+INFO - 2022-02-13 20:29:45 --> Security Class Initialized
+DEBUG - 2022-02-13 20:29:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:29:45 --> Input Class Initialized
+INFO - 2022-02-13 20:29:45 --> Language Class Initialized
+INFO - 2022-02-13 20:29:45 --> Loader Class Initialized
+INFO - 2022-02-13 20:29:45 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:29:45 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:29:45 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:29:45 --> Email Class Initialized
+DEBUG - 2022-02-13 20:29:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:29:45 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:29:45 --> Controller Class Initialized
+INFO - 2022-02-13 20:29:45 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:29:45 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:29:45 --> Final output sent to browser
+DEBUG - 2022-02-13 20:29:45 --> Total execution time: 0.1685
+INFO - 2022-02-13 20:30:04 --> Config Class Initialized
+INFO - 2022-02-13 20:30:04 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:30:04 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:30:04 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:30:04 --> URI Class Initialized
+INFO - 2022-02-13 20:30:04 --> Router Class Initialized
+INFO - 2022-02-13 20:30:04 --> Output Class Initialized
+INFO - 2022-02-13 20:30:04 --> Security Class Initialized
+DEBUG - 2022-02-13 20:30:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:30:04 --> Input Class Initialized
+INFO - 2022-02-13 20:30:04 --> Language Class Initialized
+INFO - 2022-02-13 20:30:04 --> Loader Class Initialized
+INFO - 2022-02-13 20:30:04 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:30:04 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:30:04 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:30:04 --> Email Class Initialized
+DEBUG - 2022-02-13 20:30:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:30:04 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:30:04 --> Controller Class Initialized
+INFO - 2022-02-13 20:30:04 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:30:04 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:30:04 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:30:04 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:30:04 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:30:04 --> Final output sent to browser
+DEBUG - 2022-02-13 20:30:04 --> Total execution time: 0.1559
+INFO - 2022-02-13 20:30:04 --> Config Class Initialized
+INFO - 2022-02-13 20:30:04 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:30:04 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:30:04 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:30:04 --> URI Class Initialized
+INFO - 2022-02-13 20:30:04 --> Router Class Initialized
+INFO - 2022-02-13 20:30:04 --> Output Class Initialized
+INFO - 2022-02-13 20:30:04 --> Security Class Initialized
+DEBUG - 2022-02-13 20:30:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:30:04 --> Input Class Initialized
+INFO - 2022-02-13 20:30:04 --> Language Class Initialized
+INFO - 2022-02-13 20:30:04 --> Loader Class Initialized
+INFO - 2022-02-13 20:30:04 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:30:04 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:30:05 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:30:05 --> Email Class Initialized
+DEBUG - 2022-02-13 20:30:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:30:05 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:30:05 --> Controller Class Initialized
+INFO - 2022-02-13 20:30:05 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:30:05 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:30:05 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:30:05 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:30:05 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/dashboard.php
+INFO - 2022-02-13 20:30:05 --> Final output sent to browser
+DEBUG - 2022-02-13 20:30:05 --> Total execution time: 0.1696
+INFO - 2022-02-13 20:30:08 --> Config Class Initialized
+INFO - 2022-02-13 20:30:08 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:30:08 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:30:08 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:30:08 --> URI Class Initialized
+INFO - 2022-02-13 20:30:08 --> Router Class Initialized
+INFO - 2022-02-13 20:30:08 --> Output Class Initialized
+INFO - 2022-02-13 20:30:08 --> Security Class Initialized
+DEBUG - 2022-02-13 20:30:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:30:08 --> Input Class Initialized
+INFO - 2022-02-13 20:30:08 --> Language Class Initialized
+INFO - 2022-02-13 20:30:08 --> Loader Class Initialized
+INFO - 2022-02-13 20:30:08 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:30:08 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:30:08 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:30:08 --> Email Class Initialized
+DEBUG - 2022-02-13 20:30:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:30:08 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:30:08 --> Controller Class Initialized
+INFO - 2022-02-13 20:30:08 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:30:08 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:30:08 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:30:08 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:30:08 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:30:08 --> Final output sent to browser
+DEBUG - 2022-02-13 20:30:08 --> Total execution time: 0.1511
+INFO - 2022-02-13 20:30:15 --> Config Class Initialized
+INFO - 2022-02-13 20:30:15 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:30:15 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:30:15 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:30:15 --> URI Class Initialized
+INFO - 2022-02-13 20:30:15 --> Router Class Initialized
+INFO - 2022-02-13 20:30:15 --> Output Class Initialized
+INFO - 2022-02-13 20:30:15 --> Security Class Initialized
+DEBUG - 2022-02-13 20:30:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:30:15 --> Input Class Initialized
+INFO - 2022-02-13 20:30:15 --> Language Class Initialized
+INFO - 2022-02-13 20:30:15 --> Loader Class Initialized
+INFO - 2022-02-13 20:30:15 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:30:15 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:30:15 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:30:15 --> Email Class Initialized
+DEBUG - 2022-02-13 20:30:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:30:15 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:30:15 --> Controller Class Initialized
+INFO - 2022-02-13 20:30:15 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:30:15 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:30:15 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:30:15 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:30:15 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/dashboard.php
+INFO - 2022-02-13 20:30:15 --> Final output sent to browser
+DEBUG - 2022-02-13 20:30:15 --> Total execution time: 0.1718
+INFO - 2022-02-13 20:30:18 --> Config Class Initialized
+INFO - 2022-02-13 20:30:18 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:30:18 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:30:18 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:30:18 --> URI Class Initialized
+INFO - 2022-02-13 20:30:18 --> Router Class Initialized
+INFO - 2022-02-13 20:30:18 --> Output Class Initialized
+INFO - 2022-02-13 20:30:18 --> Security Class Initialized
+DEBUG - 2022-02-13 20:30:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:30:18 --> Input Class Initialized
+INFO - 2022-02-13 20:30:18 --> Language Class Initialized
+INFO - 2022-02-13 20:30:18 --> Loader Class Initialized
+INFO - 2022-02-13 20:30:18 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:30:18 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:30:18 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:30:18 --> Email Class Initialized
+DEBUG - 2022-02-13 20:30:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:30:18 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:30:18 --> Controller Class Initialized
+INFO - 2022-02-13 20:30:18 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:30:18 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:30:18 --> Final output sent to browser
+DEBUG - 2022-02-13 20:30:18 --> Total execution time: 0.2458
+INFO - 2022-02-13 20:30:22 --> Config Class Initialized
+INFO - 2022-02-13 20:30:22 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:30:22 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:30:22 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:30:22 --> URI Class Initialized
+INFO - 2022-02-13 20:30:22 --> Router Class Initialized
+INFO - 2022-02-13 20:30:22 --> Output Class Initialized
+INFO - 2022-02-13 20:30:22 --> Security Class Initialized
+DEBUG - 2022-02-13 20:30:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:30:22 --> Input Class Initialized
+INFO - 2022-02-13 20:30:22 --> Language Class Initialized
+INFO - 2022-02-13 20:30:22 --> Loader Class Initialized
+INFO - 2022-02-13 20:30:22 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:30:22 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:30:22 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:30:22 --> Email Class Initialized
+DEBUG - 2022-02-13 20:30:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:30:22 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:30:22 --> Controller Class Initialized
+INFO - 2022-02-13 20:30:22 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:30:22 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:30:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:30:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:30:22 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:30:22 --> Final output sent to browser
+DEBUG - 2022-02-13 20:30:22 --> Total execution time: 0.1378
+INFO - 2022-02-13 20:30:31 --> Config Class Initialized
+INFO - 2022-02-13 20:30:31 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:30:31 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:30:31 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:30:31 --> URI Class Initialized
+INFO - 2022-02-13 20:30:31 --> Router Class Initialized
+INFO - 2022-02-13 20:30:31 --> Output Class Initialized
+INFO - 2022-02-13 20:30:31 --> Security Class Initialized
+DEBUG - 2022-02-13 20:30:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:30:31 --> Input Class Initialized
+INFO - 2022-02-13 20:30:31 --> Language Class Initialized
+INFO - 2022-02-13 20:30:31 --> Loader Class Initialized
+INFO - 2022-02-13 20:30:31 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:30:31 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:30:31 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:30:31 --> Email Class Initialized
+DEBUG - 2022-02-13 20:30:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:30:31 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:30:31 --> Controller Class Initialized
+INFO - 2022-02-13 20:30:31 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:30:31 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:30:31 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:30:31 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:30:31 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:30:31 --> Final output sent to browser
+DEBUG - 2022-02-13 20:30:31 --> Total execution time: 0.1481
+INFO - 2022-02-13 20:30:58 --> Config Class Initialized
+INFO - 2022-02-13 20:30:58 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:30:58 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:30:58 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:30:58 --> URI Class Initialized
+INFO - 2022-02-13 20:30:58 --> Router Class Initialized
+INFO - 2022-02-13 20:30:58 --> Output Class Initialized
+INFO - 2022-02-13 20:30:58 --> Security Class Initialized
+DEBUG - 2022-02-13 20:30:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:30:58 --> Input Class Initialized
+INFO - 2022-02-13 20:30:58 --> Language Class Initialized
+INFO - 2022-02-13 20:30:58 --> Loader Class Initialized
+INFO - 2022-02-13 20:30:58 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:30:58 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:30:58 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:30:58 --> Email Class Initialized
+DEBUG - 2022-02-13 20:30:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:30:58 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:30:58 --> Controller Class Initialized
+INFO - 2022-02-13 20:30:58 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:30:58 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:30:58 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:30:58 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:30:58 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:30:58 --> Final output sent to browser
+DEBUG - 2022-02-13 20:30:58 --> Total execution time: 0.1717
+INFO - 2022-02-13 20:31:13 --> Config Class Initialized
+INFO - 2022-02-13 20:31:13 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:31:13 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:31:13 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:31:13 --> URI Class Initialized
+INFO - 2022-02-13 20:31:13 --> Router Class Initialized
+INFO - 2022-02-13 20:31:13 --> Output Class Initialized
+INFO - 2022-02-13 20:31:13 --> Security Class Initialized
+DEBUG - 2022-02-13 20:31:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:31:13 --> Input Class Initialized
+INFO - 2022-02-13 20:31:13 --> Language Class Initialized
+INFO - 2022-02-13 20:31:13 --> Loader Class Initialized
+INFO - 2022-02-13 20:31:13 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:31:13 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:31:13 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:31:13 --> Email Class Initialized
+DEBUG - 2022-02-13 20:31:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:31:13 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:31:13 --> Controller Class Initialized
+INFO - 2022-02-13 20:31:13 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:31:13 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:31:13 --> Final output sent to browser
+DEBUG - 2022-02-13 20:31:13 --> Total execution time: 0.1626
+INFO - 2022-02-13 20:31:15 --> Config Class Initialized
+INFO - 2022-02-13 20:31:15 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:31:15 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:31:15 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:31:15 --> URI Class Initialized
+INFO - 2022-02-13 20:31:15 --> Router Class Initialized
+INFO - 2022-02-13 20:31:15 --> Output Class Initialized
+INFO - 2022-02-13 20:31:15 --> Security Class Initialized
+DEBUG - 2022-02-13 20:31:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:31:15 --> Input Class Initialized
+INFO - 2022-02-13 20:31:15 --> Language Class Initialized
+INFO - 2022-02-13 20:31:15 --> Loader Class Initialized
+INFO - 2022-02-13 20:31:15 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:31:15 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:31:15 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:31:15 --> Email Class Initialized
+DEBUG - 2022-02-13 20:31:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:31:15 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:31:15 --> Controller Class Initialized
+INFO - 2022-02-13 20:31:15 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:31:15 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:31:15 --> Final output sent to browser
+DEBUG - 2022-02-13 20:31:15 --> Total execution time: 0.1484
+INFO - 2022-02-13 20:31:20 --> Config Class Initialized
+INFO - 2022-02-13 20:31:20 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:31:20 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:31:20 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:31:20 --> URI Class Initialized
+INFO - 2022-02-13 20:31:20 --> Router Class Initialized
+INFO - 2022-02-13 20:31:20 --> Output Class Initialized
+INFO - 2022-02-13 20:31:20 --> Security Class Initialized
+DEBUG - 2022-02-13 20:31:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:31:20 --> Input Class Initialized
+INFO - 2022-02-13 20:31:20 --> Language Class Initialized
+INFO - 2022-02-13 20:31:20 --> Loader Class Initialized
+INFO - 2022-02-13 20:31:20 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:31:21 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:31:21 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:31:21 --> Email Class Initialized
+DEBUG - 2022-02-13 20:31:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:31:21 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:31:21 --> Controller Class Initialized
+INFO - 2022-02-13 20:31:21 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:31:21 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:31:21 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:31:21 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:31:21 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:31:21 --> Final output sent to browser
+DEBUG - 2022-02-13 20:31:21 --> Total execution time: 0.2007
+INFO - 2022-02-13 20:31:23 --> Config Class Initialized
+INFO - 2022-02-13 20:31:23 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:31:23 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:31:23 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:31:23 --> URI Class Initialized
+INFO - 2022-02-13 20:31:23 --> Router Class Initialized
+INFO - 2022-02-13 20:31:23 --> Output Class Initialized
+INFO - 2022-02-13 20:31:23 --> Security Class Initialized
+DEBUG - 2022-02-13 20:31:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:31:23 --> Input Class Initialized
+INFO - 2022-02-13 20:31:23 --> Language Class Initialized
+INFO - 2022-02-13 20:31:23 --> Loader Class Initialized
+INFO - 2022-02-13 20:31:23 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:31:23 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:31:23 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:31:23 --> Email Class Initialized
+DEBUG - 2022-02-13 20:31:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:31:23 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:31:23 --> Controller Class Initialized
+INFO - 2022-02-13 20:31:23 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:31:23 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:31:23 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:31:23 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:31:23 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:31:23 --> Final output sent to browser
+DEBUG - 2022-02-13 20:31:23 --> Total execution time: 0.2046
+INFO - 2022-02-13 20:31:33 --> Config Class Initialized
+INFO - 2022-02-13 20:31:33 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:31:33 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:31:33 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:31:33 --> URI Class Initialized
+INFO - 2022-02-13 20:31:33 --> Router Class Initialized
+INFO - 2022-02-13 20:31:33 --> Output Class Initialized
+INFO - 2022-02-13 20:31:33 --> Security Class Initialized
+DEBUG - 2022-02-13 20:31:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:31:33 --> Input Class Initialized
+INFO - 2022-02-13 20:31:33 --> Language Class Initialized
+INFO - 2022-02-13 20:31:33 --> Loader Class Initialized
+INFO - 2022-02-13 20:31:33 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:31:33 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:31:33 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:31:33 --> Email Class Initialized
+DEBUG - 2022-02-13 20:31:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:31:33 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:31:33 --> Controller Class Initialized
+INFO - 2022-02-13 20:31:33 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:31:33 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:31:33 --> Final output sent to browser
+DEBUG - 2022-02-13 20:31:33 --> Total execution time: 0.1340
+INFO - 2022-02-13 20:31:37 --> Config Class Initialized
+INFO - 2022-02-13 20:31:37 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:31:38 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:31:38 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:31:38 --> URI Class Initialized
+INFO - 2022-02-13 20:31:38 --> Router Class Initialized
+INFO - 2022-02-13 20:31:38 --> Output Class Initialized
+INFO - 2022-02-13 20:31:38 --> Security Class Initialized
+DEBUG - 2022-02-13 20:31:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:31:38 --> Input Class Initialized
+INFO - 2022-02-13 20:31:38 --> Language Class Initialized
+INFO - 2022-02-13 20:31:38 --> Loader Class Initialized
+INFO - 2022-02-13 20:31:38 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:31:38 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:31:38 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:31:38 --> Email Class Initialized
+DEBUG - 2022-02-13 20:31:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:31:38 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:31:38 --> Controller Class Initialized
+INFO - 2022-02-13 20:31:38 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:31:38 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:31:38 --> Final output sent to browser
+DEBUG - 2022-02-13 20:31:38 --> Total execution time: 0.1556
+INFO - 2022-02-13 20:31:42 --> Config Class Initialized
+INFO - 2022-02-13 20:31:42 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:31:42 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:31:42 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:31:42 --> URI Class Initialized
+INFO - 2022-02-13 20:31:42 --> Router Class Initialized
+INFO - 2022-02-13 20:31:42 --> Output Class Initialized
+INFO - 2022-02-13 20:31:42 --> Security Class Initialized
+DEBUG - 2022-02-13 20:31:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:31:42 --> Input Class Initialized
+INFO - 2022-02-13 20:31:42 --> Language Class Initialized
+INFO - 2022-02-13 20:31:42 --> Loader Class Initialized
+INFO - 2022-02-13 20:31:42 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:31:42 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:31:42 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:31:42 --> Email Class Initialized
+DEBUG - 2022-02-13 20:31:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:31:42 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:31:42 --> Controller Class Initialized
+INFO - 2022-02-13 20:31:42 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:31:42 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:31:42 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:31:42 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:31:42 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:31:42 --> Final output sent to browser
+DEBUG - 2022-02-13 20:31:42 --> Total execution time: 0.1581
+INFO - 2022-02-13 20:35:27 --> Config Class Initialized
+INFO - 2022-02-13 20:35:27 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:35:27 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:35:27 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:35:27 --> URI Class Initialized
+INFO - 2022-02-13 20:35:27 --> Router Class Initialized
+INFO - 2022-02-13 20:35:27 --> Output Class Initialized
+INFO - 2022-02-13 20:35:27 --> Security Class Initialized
+DEBUG - 2022-02-13 20:35:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:35:27 --> Input Class Initialized
+INFO - 2022-02-13 20:35:27 --> Language Class Initialized
+INFO - 2022-02-13 20:35:27 --> Loader Class Initialized
+INFO - 2022-02-13 20:35:27 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:35:27 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:35:27 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:35:27 --> Email Class Initialized
+DEBUG - 2022-02-13 20:35:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:35:27 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:35:27 --> Controller Class Initialized
+INFO - 2022-02-13 20:35:27 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:35:27 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:35:27 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:35:27 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:35:27 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:35:27 --> Final output sent to browser
+DEBUG - 2022-02-13 20:35:27 --> Total execution time: 0.1940
+INFO - 2022-02-13 20:35:32 --> Config Class Initialized
+INFO - 2022-02-13 20:35:32 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:35:32 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:35:32 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:35:32 --> URI Class Initialized
+INFO - 2022-02-13 20:35:32 --> Router Class Initialized
+INFO - 2022-02-13 20:35:32 --> Output Class Initialized
+INFO - 2022-02-13 20:35:32 --> Security Class Initialized
+DEBUG - 2022-02-13 20:35:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:35:32 --> Input Class Initialized
+INFO - 2022-02-13 20:35:32 --> Language Class Initialized
+INFO - 2022-02-13 20:35:32 --> Loader Class Initialized
+INFO - 2022-02-13 20:35:32 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:35:32 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:35:32 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:35:32 --> Email Class Initialized
+DEBUG - 2022-02-13 20:35:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:35:32 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:35:32 --> Controller Class Initialized
+INFO - 2022-02-13 20:35:32 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:35:32 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:35:32 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:35:32 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:35:32 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:35:32 --> Final output sent to browser
+DEBUG - 2022-02-13 20:35:32 --> Total execution time: 0.1423
+INFO - 2022-02-13 20:35:48 --> Config Class Initialized
+INFO - 2022-02-13 20:35:48 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:35:48 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:35:48 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:35:48 --> URI Class Initialized
+INFO - 2022-02-13 20:35:48 --> Router Class Initialized
+INFO - 2022-02-13 20:35:48 --> Output Class Initialized
+INFO - 2022-02-13 20:35:48 --> Security Class Initialized
+DEBUG - 2022-02-13 20:35:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:35:48 --> Input Class Initialized
+INFO - 2022-02-13 20:35:48 --> Language Class Initialized
+INFO - 2022-02-13 20:35:48 --> Loader Class Initialized
+INFO - 2022-02-13 20:35:48 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:35:48 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:35:48 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:35:48 --> Email Class Initialized
+DEBUG - 2022-02-13 20:35:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:35:48 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:35:48 --> Controller Class Initialized
+INFO - 2022-02-13 20:35:48 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:35:48 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:35:48 --> Final output sent to browser
+DEBUG - 2022-02-13 20:35:48 --> Total execution time: 0.1146
+INFO - 2022-02-13 20:36:00 --> Config Class Initialized
+INFO - 2022-02-13 20:36:00 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:36:00 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:36:00 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:36:00 --> URI Class Initialized
+INFO - 2022-02-13 20:36:00 --> Router Class Initialized
+INFO - 2022-02-13 20:36:00 --> Output Class Initialized
+INFO - 2022-02-13 20:36:00 --> Security Class Initialized
+DEBUG - 2022-02-13 20:36:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:36:00 --> Input Class Initialized
+INFO - 2022-02-13 20:36:00 --> Language Class Initialized
+INFO - 2022-02-13 20:36:00 --> Loader Class Initialized
+INFO - 2022-02-13 20:36:00 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:36:00 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:36:00 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:36:00 --> Email Class Initialized
+DEBUG - 2022-02-13 20:36:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:36:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:36:00 --> Controller Class Initialized
+INFO - 2022-02-13 20:36:00 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:36:00 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:36:00 --> Final output sent to browser
+DEBUG - 2022-02-13 20:36:00 --> Total execution time: 0.2164
+INFO - 2022-02-13 20:36:50 --> Config Class Initialized
+INFO - 2022-02-13 20:36:50 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:36:50 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:36:50 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:36:50 --> URI Class Initialized
+INFO - 2022-02-13 20:36:50 --> Router Class Initialized
+INFO - 2022-02-13 20:36:50 --> Output Class Initialized
+INFO - 2022-02-13 20:36:50 --> Security Class Initialized
+DEBUG - 2022-02-13 20:36:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:36:50 --> Input Class Initialized
+INFO - 2022-02-13 20:36:50 --> Language Class Initialized
+INFO - 2022-02-13 20:36:50 --> Loader Class Initialized
+INFO - 2022-02-13 20:36:50 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:36:50 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:36:50 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:36:50 --> Email Class Initialized
+DEBUG - 2022-02-13 20:36:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:36:50 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:36:50 --> Controller Class Initialized
+INFO - 2022-02-13 20:36:50 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:36:50 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:36:50 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:36:50 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:36:50 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:36:50 --> Final output sent to browser
+DEBUG - 2022-02-13 20:36:50 --> Total execution time: 0.1090
+INFO - 2022-02-13 20:36:59 --> Config Class Initialized
+INFO - 2022-02-13 20:36:59 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:36:59 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:36:59 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:36:59 --> URI Class Initialized
+INFO - 2022-02-13 20:36:59 --> Router Class Initialized
+INFO - 2022-02-13 20:36:59 --> Output Class Initialized
+INFO - 2022-02-13 20:36:59 --> Security Class Initialized
+DEBUG - 2022-02-13 20:36:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:36:59 --> Input Class Initialized
+INFO - 2022-02-13 20:36:59 --> Language Class Initialized
+INFO - 2022-02-13 20:36:59 --> Loader Class Initialized
+INFO - 2022-02-13 20:36:59 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:36:59 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:36:59 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:36:59 --> Email Class Initialized
+DEBUG - 2022-02-13 20:36:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:36:59 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:36:59 --> Controller Class Initialized
+INFO - 2022-02-13 20:36:59 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:36:59 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:36:59 --> Final output sent to browser
+DEBUG - 2022-02-13 20:36:59 --> Total execution time: 0.1698
+INFO - 2022-02-13 20:37:13 --> Config Class Initialized
+INFO - 2022-02-13 20:37:13 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:37:13 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:37:13 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:37:13 --> URI Class Initialized
+INFO - 2022-02-13 20:37:13 --> Router Class Initialized
+INFO - 2022-02-13 20:37:13 --> Output Class Initialized
+INFO - 2022-02-13 20:37:13 --> Security Class Initialized
+DEBUG - 2022-02-13 20:37:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:37:13 --> Input Class Initialized
+INFO - 2022-02-13 20:37:13 --> Language Class Initialized
+INFO - 2022-02-13 20:37:13 --> Loader Class Initialized
+INFO - 2022-02-13 20:37:13 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:37:13 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:37:13 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:37:13 --> Email Class Initialized
+DEBUG - 2022-02-13 20:37:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:37:13 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:37:13 --> Controller Class Initialized
+INFO - 2022-02-13 20:37:13 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:37:13 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:37:13 --> Final output sent to browser
+DEBUG - 2022-02-13 20:37:13 --> Total execution time: 0.1369
+INFO - 2022-02-13 20:37:18 --> Config Class Initialized
+INFO - 2022-02-13 20:37:18 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:37:18 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:37:18 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:37:18 --> URI Class Initialized
+INFO - 2022-02-13 20:37:18 --> Router Class Initialized
+INFO - 2022-02-13 20:37:18 --> Output Class Initialized
+INFO - 2022-02-13 20:37:18 --> Security Class Initialized
+DEBUG - 2022-02-13 20:37:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:37:18 --> Input Class Initialized
+INFO - 2022-02-13 20:37:18 --> Language Class Initialized
+INFO - 2022-02-13 20:37:18 --> Loader Class Initialized
+INFO - 2022-02-13 20:37:18 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:37:18 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:37:18 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:37:18 --> Email Class Initialized
+DEBUG - 2022-02-13 20:37:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:37:18 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:37:18 --> Controller Class Initialized
+INFO - 2022-02-13 20:37:18 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:37:18 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:37:18 --> Final output sent to browser
+DEBUG - 2022-02-13 20:37:18 --> Total execution time: 0.1776
+INFO - 2022-02-13 20:40:25 --> Config Class Initialized
+INFO - 2022-02-13 20:40:25 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:40:25 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:40:25 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:40:25 --> URI Class Initialized
+INFO - 2022-02-13 20:40:25 --> Router Class Initialized
+INFO - 2022-02-13 20:40:25 --> Output Class Initialized
+INFO - 2022-02-13 20:40:25 --> Security Class Initialized
+DEBUG - 2022-02-13 20:40:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:40:25 --> Input Class Initialized
+INFO - 2022-02-13 20:40:26 --> Language Class Initialized
+INFO - 2022-02-13 20:40:26 --> Loader Class Initialized
+INFO - 2022-02-13 20:40:26 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:40:26 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:40:26 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:40:26 --> Email Class Initialized
+DEBUG - 2022-02-13 20:40:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:40:26 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:40:26 --> Controller Class Initialized
+INFO - 2022-02-13 20:40:26 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:40:26 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:40:26 --> Final output sent to browser
+DEBUG - 2022-02-13 20:40:26 --> Total execution time: 0.1663
+INFO - 2022-02-13 20:40:45 --> Config Class Initialized
+INFO - 2022-02-13 20:40:45 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:40:45 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:40:45 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:40:45 --> URI Class Initialized
+INFO - 2022-02-13 20:40:45 --> Router Class Initialized
+INFO - 2022-02-13 20:40:45 --> Output Class Initialized
+INFO - 2022-02-13 20:40:45 --> Security Class Initialized
+DEBUG - 2022-02-13 20:40:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:40:45 --> Input Class Initialized
+INFO - 2022-02-13 20:40:45 --> Language Class Initialized
+INFO - 2022-02-13 20:40:45 --> Loader Class Initialized
+INFO - 2022-02-13 20:40:45 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:40:45 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:40:45 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:40:45 --> Email Class Initialized
+DEBUG - 2022-02-13 20:40:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:40:45 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:40:45 --> Controller Class Initialized
+INFO - 2022-02-13 20:40:45 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:40:45 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:40:45 --> Final output sent to browser
+DEBUG - 2022-02-13 20:40:45 --> Total execution time: 0.1406
+INFO - 2022-02-13 20:41:19 --> Config Class Initialized
+INFO - 2022-02-13 20:41:19 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:41:19 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:41:19 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:41:19 --> URI Class Initialized
+INFO - 2022-02-13 20:41:19 --> Router Class Initialized
+INFO - 2022-02-13 20:41:19 --> Output Class Initialized
+INFO - 2022-02-13 20:41:19 --> Security Class Initialized
+DEBUG - 2022-02-13 20:41:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:41:19 --> Input Class Initialized
+INFO - 2022-02-13 20:41:19 --> Language Class Initialized
+INFO - 2022-02-13 20:41:19 --> Loader Class Initialized
+INFO - 2022-02-13 20:41:19 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:41:19 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:41:19 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:41:19 --> Email Class Initialized
+DEBUG - 2022-02-13 20:41:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:41:19 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:41:19 --> Controller Class Initialized
+INFO - 2022-02-13 20:41:19 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:41:19 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:41:19 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:41:19 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:41:19 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:41:19 --> Final output sent to browser
+DEBUG - 2022-02-13 20:41:19 --> Total execution time: 0.1396
+INFO - 2022-02-13 20:41:34 --> Config Class Initialized
+INFO - 2022-02-13 20:41:34 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:41:34 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:41:34 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:41:34 --> URI Class Initialized
+INFO - 2022-02-13 20:41:34 --> Router Class Initialized
+INFO - 2022-02-13 20:41:34 --> Output Class Initialized
+INFO - 2022-02-13 20:41:34 --> Security Class Initialized
+DEBUG - 2022-02-13 20:41:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:41:34 --> Input Class Initialized
+INFO - 2022-02-13 20:41:34 --> Language Class Initialized
+INFO - 2022-02-13 20:41:34 --> Loader Class Initialized
+INFO - 2022-02-13 20:41:34 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:41:34 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:41:34 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:41:34 --> Email Class Initialized
+DEBUG - 2022-02-13 20:41:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:41:34 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:41:34 --> Controller Class Initialized
+INFO - 2022-02-13 20:41:34 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:41:34 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:41:34 --> Final output sent to browser
+DEBUG - 2022-02-13 20:41:34 --> Total execution time: 0.1180
+INFO - 2022-02-13 20:42:06 --> Config Class Initialized
+INFO - 2022-02-13 20:42:06 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:42:06 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:42:06 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:42:06 --> URI Class Initialized
+INFO - 2022-02-13 20:42:06 --> Router Class Initialized
+INFO - 2022-02-13 20:42:06 --> Output Class Initialized
+INFO - 2022-02-13 20:42:06 --> Security Class Initialized
+DEBUG - 2022-02-13 20:42:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:42:06 --> Input Class Initialized
+INFO - 2022-02-13 20:42:06 --> Language Class Initialized
+INFO - 2022-02-13 20:42:06 --> Loader Class Initialized
+INFO - 2022-02-13 20:42:06 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:42:06 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:42:06 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:42:06 --> Email Class Initialized
+DEBUG - 2022-02-13 20:42:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:42:06 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:42:06 --> Controller Class Initialized
+INFO - 2022-02-13 20:42:06 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:42:06 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:42:06 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:42:06 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:42:06 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:42:06 --> Final output sent to browser
+DEBUG - 2022-02-13 20:42:06 --> Total execution time: 0.1607
+INFO - 2022-02-13 20:42:23 --> Config Class Initialized
+INFO - 2022-02-13 20:42:23 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:42:23 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:42:23 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:42:23 --> URI Class Initialized
+INFO - 2022-02-13 20:42:23 --> Router Class Initialized
+INFO - 2022-02-13 20:42:23 --> Output Class Initialized
+INFO - 2022-02-13 20:42:23 --> Security Class Initialized
+DEBUG - 2022-02-13 20:42:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:42:23 --> Input Class Initialized
+INFO - 2022-02-13 20:42:23 --> Language Class Initialized
+INFO - 2022-02-13 20:42:23 --> Loader Class Initialized
+INFO - 2022-02-13 20:42:23 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:42:23 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:42:23 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:42:23 --> Email Class Initialized
+DEBUG - 2022-02-13 20:42:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:42:23 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:42:23 --> Controller Class Initialized
+INFO - 2022-02-13 20:42:23 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:42:23 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:42:23 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:42:23 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:42:23 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:42:23 --> Final output sent to browser
+DEBUG - 2022-02-13 20:42:23 --> Total execution time: 0.1556
+INFO - 2022-02-13 20:43:02 --> Config Class Initialized
+INFO - 2022-02-13 20:43:02 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:43:02 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:43:02 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:43:02 --> URI Class Initialized
+INFO - 2022-02-13 20:43:02 --> Router Class Initialized
+INFO - 2022-02-13 20:43:02 --> Output Class Initialized
+INFO - 2022-02-13 20:43:02 --> Security Class Initialized
+DEBUG - 2022-02-13 20:43:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:43:02 --> Input Class Initialized
+INFO - 2022-02-13 20:43:02 --> Language Class Initialized
+INFO - 2022-02-13 20:43:02 --> Loader Class Initialized
+INFO - 2022-02-13 20:43:02 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:43:02 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:43:02 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:43:02 --> Email Class Initialized
+DEBUG - 2022-02-13 20:43:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:43:02 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:43:02 --> Controller Class Initialized
+INFO - 2022-02-13 20:43:02 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:43:02 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:43:02 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:43:02 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:43:02 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:43:02 --> Final output sent to browser
+DEBUG - 2022-02-13 20:43:02 --> Total execution time: 0.1960
+INFO - 2022-02-13 20:44:03 --> Config Class Initialized
+INFO - 2022-02-13 20:44:03 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:44:03 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:44:03 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:44:03 --> URI Class Initialized
+INFO - 2022-02-13 20:44:03 --> Router Class Initialized
+INFO - 2022-02-13 20:44:03 --> Output Class Initialized
+INFO - 2022-02-13 20:44:03 --> Security Class Initialized
+DEBUG - 2022-02-13 20:44:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:44:03 --> Input Class Initialized
+INFO - 2022-02-13 20:44:03 --> Language Class Initialized
+INFO - 2022-02-13 20:44:03 --> Loader Class Initialized
+INFO - 2022-02-13 20:44:03 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:44:03 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:44:03 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:44:03 --> Email Class Initialized
+DEBUG - 2022-02-13 20:44:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:44:03 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:44:03 --> Controller Class Initialized
+INFO - 2022-02-13 20:44:03 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:44:03 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:44:03 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:44:03 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:44:03 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:44:03 --> Final output sent to browser
+DEBUG - 2022-02-13 20:44:03 --> Total execution time: 0.1963
+INFO - 2022-02-13 20:44:11 --> Config Class Initialized
+INFO - 2022-02-13 20:44:11 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:44:11 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:44:11 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:44:11 --> URI Class Initialized
+INFO - 2022-02-13 20:44:11 --> Router Class Initialized
+INFO - 2022-02-13 20:44:11 --> Output Class Initialized
+INFO - 2022-02-13 20:44:11 --> Security Class Initialized
+DEBUG - 2022-02-13 20:44:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:44:11 --> Input Class Initialized
+INFO - 2022-02-13 20:44:11 --> Language Class Initialized
+INFO - 2022-02-13 20:44:11 --> Loader Class Initialized
+INFO - 2022-02-13 20:44:11 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:44:11 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:44:11 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:44:11 --> Email Class Initialized
+DEBUG - 2022-02-13 20:44:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:44:11 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:44:11 --> Controller Class Initialized
+INFO - 2022-02-13 20:44:11 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:44:11 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:44:11 --> Final output sent to browser
+DEBUG - 2022-02-13 20:44:11 --> Total execution time: 0.1501
+INFO - 2022-02-13 20:44:33 --> Config Class Initialized
+INFO - 2022-02-13 20:44:33 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:44:33 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:44:33 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:44:33 --> URI Class Initialized
+INFO - 2022-02-13 20:44:33 --> Router Class Initialized
+INFO - 2022-02-13 20:44:33 --> Output Class Initialized
+INFO - 2022-02-13 20:44:33 --> Security Class Initialized
+DEBUG - 2022-02-13 20:44:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:44:33 --> Input Class Initialized
+INFO - 2022-02-13 20:44:33 --> Language Class Initialized
+INFO - 2022-02-13 20:44:33 --> Loader Class Initialized
+INFO - 2022-02-13 20:44:33 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:44:33 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:44:33 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:44:33 --> Email Class Initialized
+DEBUG - 2022-02-13 20:44:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:44:33 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:44:33 --> Controller Class Initialized
+INFO - 2022-02-13 20:44:33 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:44:33 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:44:33 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:44:33 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:44:33 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:44:33 --> Final output sent to browser
+DEBUG - 2022-02-13 20:44:33 --> Total execution time: 0.1954
+INFO - 2022-02-13 20:44:41 --> Config Class Initialized
+INFO - 2022-02-13 20:44:41 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:44:41 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:44:41 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:44:41 --> URI Class Initialized
+INFO - 2022-02-13 20:44:41 --> Router Class Initialized
+INFO - 2022-02-13 20:44:41 --> Output Class Initialized
+INFO - 2022-02-13 20:44:41 --> Security Class Initialized
+DEBUG - 2022-02-13 20:44:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:44:41 --> Input Class Initialized
+INFO - 2022-02-13 20:44:41 --> Language Class Initialized
+INFO - 2022-02-13 20:44:41 --> Loader Class Initialized
+INFO - 2022-02-13 20:44:41 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:44:41 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:44:41 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:44:41 --> Email Class Initialized
+DEBUG - 2022-02-13 20:44:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:44:41 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:44:41 --> Controller Class Initialized
+INFO - 2022-02-13 20:44:41 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:44:41 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:44:41 --> Final output sent to browser
+DEBUG - 2022-02-13 20:44:41 --> Total execution time: 0.1598
+INFO - 2022-02-13 20:48:30 --> Config Class Initialized
+INFO - 2022-02-13 20:48:30 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:48:30 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:48:30 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:48:30 --> URI Class Initialized
+INFO - 2022-02-13 20:48:30 --> Router Class Initialized
+INFO - 2022-02-13 20:48:30 --> Output Class Initialized
+INFO - 2022-02-13 20:48:30 --> Security Class Initialized
+DEBUG - 2022-02-13 20:48:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:48:30 --> Input Class Initialized
+INFO - 2022-02-13 20:48:30 --> Language Class Initialized
+INFO - 2022-02-13 20:48:30 --> Loader Class Initialized
+INFO - 2022-02-13 20:48:30 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:48:30 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:48:30 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:48:30 --> Email Class Initialized
+DEBUG - 2022-02-13 20:48:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:48:30 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:48:30 --> Controller Class Initialized
+INFO - 2022-02-13 20:48:30 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:48:30 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:48:30 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:48:30 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:48:30 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:48:30 --> Final output sent to browser
+DEBUG - 2022-02-13 20:48:30 --> Total execution time: 0.1557
+INFO - 2022-02-13 20:48:44 --> Config Class Initialized
+INFO - 2022-02-13 20:48:44 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:48:44 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:48:44 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:48:44 --> URI Class Initialized
+INFO - 2022-02-13 20:48:44 --> Router Class Initialized
+INFO - 2022-02-13 20:48:44 --> Output Class Initialized
+INFO - 2022-02-13 20:48:44 --> Security Class Initialized
+DEBUG - 2022-02-13 20:48:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:48:44 --> Input Class Initialized
+INFO - 2022-02-13 20:48:44 --> Language Class Initialized
+INFO - 2022-02-13 20:48:44 --> Loader Class Initialized
+INFO - 2022-02-13 20:48:44 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:48:44 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:48:44 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:48:44 --> Email Class Initialized
+DEBUG - 2022-02-13 20:48:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:48:44 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:48:44 --> Controller Class Initialized
+INFO - 2022-02-13 20:48:44 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:48:44 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:48:44 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/header-arrendador.php
+INFO - 2022-02-13 20:48:44 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//template/footer-arrendador.php
+INFO - 2022-02-13 20:48:44 --> File loaded: C:\xampp\htdocs\wannafarmapirest\application\views\frontend//arrendador-templates/formParcela.php
+INFO - 2022-02-13 20:48:44 --> Final output sent to browser
+DEBUG - 2022-02-13 20:48:44 --> Total execution time: 0.1144
+INFO - 2022-02-13 20:49:57 --> Config Class Initialized
+INFO - 2022-02-13 20:49:57 --> Hooks Class Initialized
+DEBUG - 2022-02-13 20:49:57 --> UTF-8 Support Enabled
+INFO - 2022-02-13 20:49:57 --> Utf8 Class Initialized
+INFO - 2022-02-13 20:49:57 --> URI Class Initialized
+INFO - 2022-02-13 20:49:57 --> Router Class Initialized
+INFO - 2022-02-13 20:49:57 --> Output Class Initialized
+INFO - 2022-02-13 20:49:57 --> Security Class Initialized
+DEBUG - 2022-02-13 20:49:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-02-13 20:49:57 --> Input Class Initialized
+INFO - 2022-02-13 20:49:57 --> Language Class Initialized
+INFO - 2022-02-13 20:49:57 --> Loader Class Initialized
+INFO - 2022-02-13 20:49:57 --> Helper loaded: url_helper
+INFO - 2022-02-13 20:49:57 --> Helper loaded: electro_helper
+INFO - 2022-02-13 20:49:57 --> Database Driver Class Initialized
+INFO - 2022-02-13 20:49:57 --> Email Class Initialized
+DEBUG - 2022-02-13 20:49:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-02-13 20:49:57 --> Session: Class initialized using 'files' driver.
+INFO - 2022-02-13 20:49:57 --> Controller Class Initialized
+INFO - 2022-02-13 20:49:57 --> Model "LandLordModel" initialized
+INFO - 2022-02-13 20:49:57 --> Model "parcelasModel" initialized
+INFO - 2022-02-13 20:49:57 --> Final output sent to browser
+DEBUG - 2022-02-13 20:49:57 --> Total execution time: 0.1895
