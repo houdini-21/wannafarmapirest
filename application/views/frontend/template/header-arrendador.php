@@ -107,5 +107,8 @@
             });
         </script>
     </nav>
+    <script>
+        let base_url = '<?= base_url(); ?>';
+    </script>
     <div class="mt-20">
         <?php show_message(); ?>
