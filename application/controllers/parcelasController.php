@@ -2,7 +2,7 @@
 defined("BASEPATH") or exit("No direct script access allowed");
 //cuando crees un controlador con permisos especiales usar un extends CRUD_controller
 //para configurar quien puede acceder ir a la ruta core/crud_controller.php
-class parcelasController extends CRUD_controller
+class ParcelasController extends CRUD_controller
 {
   public function __construct()
   {
@@ -12,24 +12,14 @@ class parcelasController extends CRUD_controller
   }
   public function index()
   {
-    $result = [
-      "resultado" => " ",
-      "add" => " ",
-      "success" => " "
-    ];
-    $this->load->view(
-      template_frontpath('parcelas-template/agregarparcelas'),
-      $result,
-      false
-      // $this->load->view(template_frontpath('parcelas-template/agregarparcelas'), false);
-    );
+   
   }
 
 
   //almaceando parcelas
   public function almacenandoParcelas()
   { //los datos que se reciben son enviados a una tabla para verificar tu veracidad
-    $valor2 = $this->session->userdata('idperson');
+    $valor2 = user_id();
     $id_persona = $valor2; //$this->session->user_data('idperson'); //extraemos el id de la variable session que quedo almacenado al iniciar 
     //variables a ser almacenadas
     $dimenciones = $this->input->post('dimenciones');

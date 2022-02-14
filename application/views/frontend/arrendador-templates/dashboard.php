@@ -2,11 +2,24 @@
  asi reciclas codigo y puedes ahorrarte tiempo de escritura de nuevo -->
 <?php $this->load->view(template_frontpath('template/header-arrendador')); ?>
 <h2 class="suprema-regular text-4xl text-green text-center">Mis Parcelas</h2>
-<div class="flex flex-col justify-center items-center md:flex-row md:justify-evenly md:flex-wrap md:w-10/12 md:mx-auto md:my-0 md:mt-4">
-	<?php if (count($parcelas) < 0) { ?>
+<style>
+	slick-track {
+		display: flex !important;
+	}
+
+	.slick-slide {
+		height: 180px;
+	}
+</style>
+<div class="flex flex-col justify-center items-center md:flex-row md:justify-evenly h-auto md:flex-wrap md:w-10/12 md:mx-auto md:my-0 md:mt-4">
+	<?php if (count($parcelas) > 0) { ?>
 		<?php foreach ($parcelas as $parcela) { ?>
-			<div class="flex flex-col justify-center items-center w-4/5 md:w-80 shadow-lg rounded h-auto my-4">
-				<img src="https://ihdwall.com/storage/202103/jinx-arcane-netflix-series-4k-wallpaper-3840x2160-15.jpg" alt="" class="w-full h-40 rounded-t-lg object-cover">
+			<div class="flex flex-col justify-center items-center w-4/5 md:w-80 shadow-lg rounded my-4">
+				<div class="carrousel w-full">
+					<?php foreach ($parcela->fotos as $foto) { ?>
+						<img src="<?= base_url($foto) ?>" alt="" class="w-full h-40 rounded-t-lg object-cover">
+					<?php } ?>
+				</div>
 				<div class="flex flex-col justify-center items-start w-full px-4 py-3">
 					<p class="suprema-regular text-gray-600 text-base mb-2 capitalize">Ubicacion: <span class="suprema-medium"><?= $parcela->ubicacion ?></span></p>
 					<p class="suprema-regular text-gray-600 text-base mb-2 capitalize">Caracteristicas: <span class="suprema-medium"><?= $parcela->caracteristicas ?></span></p>
@@ -23,9 +36,19 @@
 	<?php } else { ?>
 		<div class="flex flex-col items-center justify-center mt-20">
 			<h3 class="text-2xl text-gray-600 text-center suprema-regular">No posees parcelas</h3>
-			<a href="" class="text-base text-green-500 suprema-medium underline">Crear parcela &rarr;</a>
+			<a href="<?= base_url('login/logout') ?>" class="text-base text-green-500 suprema-medium underline">Crear parcela &rarr;</a>
 		</div>
 	<?php } ?>
 
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+	$('.carrousel').slick({
+		dots: true,
+		arrows: false,
+		infinite: false,
+		swipeToSlide: true
+	});
+</script>
 <?php $this->load->view(template_frontpath('template/footer-arrendador')); ?>
