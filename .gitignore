@@ -1,2 +1,6 @@
 application/config/config.php
 application/config/database.php
+
+application/helpers/electro_helper.php
+
+application/logs/*

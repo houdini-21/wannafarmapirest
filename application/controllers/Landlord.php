@@ -54,7 +54,7 @@ class Landlord extends CRUD_controller
     $res = $this->parcelasModel->registrarParcelas($data);
     if ($res) {
       $this->upload_files('./uploads/parcelas/' . user_id(), 'jinx', $_FILES['file'], $res);
-
+      $this->upload_files('./uploads/comprobantes/' . user_id(), 'jinx', $_FILES['comprobantes'], $res);
       //guarda la ruta de la foto subida
       echo json_encode(200);
     } else {

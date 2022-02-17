@@ -240,16 +240,18 @@ function send_mail($data, $email)
 
     $CI->load->library("email");
     $config["protocol"] = "smtp";
-    $config["smtp_host"] = "smtp.hostinger.com";
-    $config["smtp_user"] = "noreplay@wannnafarm.com";
-    $config["smtp_pass"] = "Kuto@houdini21";
-    $config["smtp_port"] = "587";
+    $config["smtp_host"] = "ssl://smtp.googlemail.com";
+    $config["smtp_user"] = "noreplaywannafarm@gmail.com";
+    $config["smtp_pass"] = "esunhombreconalasquevolandova";
+    $config["smtp_port"] = "465";
     $config["charset"] = "utf-8";
+    $config['newline'] = "\r\n";
     $config["wordwrap"] = true;
     $config["validate"] = true;
 
     $CI->email->initialize($config);
-    $CI->email->from("noreplay@wannnafarm.com", "Wannafarm");
+    $CI->email->from("noreplaywannafarm@gmail.com", "Wannafarm");
+    $CI->email->subject('Correo de activacion de cuenta');
     $CI->email->to($email);
     $CI->email->message($data);
     if ($CI->email->send()) {
@@ -467,8 +469,9 @@ function showSaludo()
 }
 
 
-function getAvatarByName(){
+function getAvatarByName()
+{
     $usuario = get_metadata();
-    $url = 'https://ui-avatars.com/api/?name='.$usuario->nombres.' '.$usuario->apellidos.'&background=fff&color=57BF77';
+    $url = 'https://ui-avatars.com/api/?name=' . $usuario->nombres . ' ' . $usuario->apellidos . '&background=fff&color=57BF77';
     echo $url;
 }

@@ -2,6 +2,11 @@
 <link href="https://unpkg.com/filepond@^4/dist/filepond.css" rel="stylesheet" />
 <link href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css" rel="stylesheet" />
 <link href="https://unpkg.com/filepond-plugin-image-edit/dist/filepond-plugin-image-edit.css" rel="stylesheet" />
+<style>
+    .swal2-html-container {
+        overflow: hidden;
+    }
+</style>
 
 <h2 class="suprema-regular text-4xl text-green text-center mb-8">Crear Parcela</h2>
 <form action="<?= base_url('landlord/guardarParcela') ?>" method="post" enctype="multipart/form-data" id='upload_form'>
@@ -60,6 +65,10 @@
             <label class="text-base text-gray-600 suprema-medium">Sube las fotos de tu parcela</label>
             <input type="file" class="my-pond w-full mt-2" id='file' name="filepond[]" multiple data-allow-reorder="true" data-max-file-size="5MB" data-max-files="5">
         </div>
+        <div class="w-full">
+            <label class="text-base text-gray-600 suprema-medium">Sube los comprobantes de tu parcela</label>
+            <input type="file" class="my-pond w-full mt-2" id='comprobantes' name="compro[]" multiple data-allow-reorder="true" data-max-file-size="5MB" data-max-files="5">
+        </div>
         <textarea name="caracteristicas" placeholder="Escribe una caracteristica de tu parcela que la haga atractiva para ayudar a aumentar el interes" cols="20" rows="10" class="
         focus:border-green focus:ring-1 focus:ring-green focus:outline-none
           w-full
@@ -109,6 +118,13 @@
                 allowProcess: false,
                 labelIdle: 'Arrastra aquí tu imagen o <span class="filepond--label-action" tabindex="0">buscala en tu computadora</span><br>',
             });
+        pond = FilePond.create(
+            document.querySelector('#comprobantes'), {
+                allowMultiple: true,
+                instantUpload: false,
+                allowProcess: false,
+                labelIdle: 'Arrastra aquí tus comprobantes o <span class="filepond--label-action" tabindex="0">buscala en tu computadora</span><br>',
+            });
 
         $("#upload_form").submit(function(e) {
             e.preventDefault();
@@ -118,7 +134,9 @@
             for (var i = 0; i < pondFiles.length; i++) {
                 fd.append('file[]', pondFiles[i].file);
             }
-
+            for (var i = 0; i < pondFiles.length; i++) {
+                fd.append('comprobantes[]', pondFiles[i].file);
+            }
             $.ajax({
                 url: base_url + 'landlord/guardarParcela',
                 type: 'POST',
@@ -127,6 +145,16 @@
                 contentType: false,
                 cache: false,
                 processData: false,
+                beforeSend: function() { //We add this before send to disable the button once we submit it so that we prevent the multiple click
+                    Swal.fire({
+                        title: 'Espera un momento',
+                        text: 'Estamos subiendo tus datos',
+                        showCancelButton: false,
+                        showConfirmButton: false,
+                        allowOutsideClick: false,
+                        html: '<i class="fad fa-spinner-third fa-spin" style="font-size:100px; color: #50bf77"></i>',
+                    })
+                },
                 success: function(data) {
                     if (data == 200) {
                         Swal.fire(
@@ -135,7 +163,7 @@
                             'success'
                         );
                         setTimeout(function() {
-                            window.location.href = base_url + "/landlord/";
+                             window.location.href = base_url + "/landlord/";
                         }, 3000);
                     } else {
                         Swal.fire(
@@ -144,6 +172,9 @@
                             'error'
                         );
                     }
+                },
+                complete: function() {
+                    console.log('complete');
                 },
                 error: function(data) {
                     //    todo the logic
