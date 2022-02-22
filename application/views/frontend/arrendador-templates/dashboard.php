@@ -11,6 +11,8 @@
 		height: 180px;
 	}
 </style>
+
+
 <div class="flex flex-col justify-center items-center md:flex-row md:justify-evenly h-auto md:flex-wrap md:w-10/12 md:mx-auto md:my-0 md:mt-4">
 	<?php if (count($parcelas) > 0) { ?>
 		<?php foreach ($parcelas as $parcela) { ?>
