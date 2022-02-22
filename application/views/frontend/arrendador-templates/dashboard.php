@@ -29,7 +29,8 @@
 				</div>
 				<div class="flex flex-col justify-center items-start w-full py-3 px-4">
 					<a href="#" class="col-span-12 text-center suprema-regular w-full rounded-lg px-4 py-2 bg-green-500 text-white hover:bg-green-600 duration-300 mb-4">Ver parcela <i class="far fa-arrow-right"></i></a>
-					<a href="#" class="col-span-12 text-center suprema-regular w-full rounded-lg px-4 py-2 border-2 border-blue-500  text-blue-500 hover:bg-blue-500 hover:text-white duration-300">Editar parcela <i class="far fa-edit"></i></a>
+					<a href="#" class="col-span-12 text-center suprema-regular w-full rounded-lg px-4 py-2 border-2 border-blue-500  text-blue-500 hover:bg-blue-500 hover:text-white duration-300 mb-4">Editar parcela <i class="far fa-edit"></i></a>
+					<a href="#" class="col-span-12 text-center suprema-regular w-full rounded-lg px-4 py-2 border-2 border-red-500  text-red-500 hover:bg-red-500 hover:text-white duration-300">Eliminar parcela <i class="far fa-trash"></i></a>
 				</div>
 			</div>
 		<?php } ?>

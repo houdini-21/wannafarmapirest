@@ -152,7 +152,7 @@
                         showCancelButton: false,
                         showConfirmButton: false,
                         allowOutsideClick: false,
-                        html: '<i class="fad fa-spinner-third fa-spin" style="font-size:100px; color: #50bf77"></i>',
+                        html: '<i class="fad fa-spinner-third fa-spin" style="font-size:70px; color: #50bf77"></i>',
                     })
                 },
                 success: function(data) {
