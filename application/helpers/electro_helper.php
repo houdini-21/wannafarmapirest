@@ -475,3 +475,77 @@ function getAvatarByName()
     $url = 'https://ui-avatars.com/api/?name=' . $usuario->nombres . ' ' . $usuario->apellidos . '&background=fff&color=57BF77';
     echo $url;
 }
+function subirArchivos($path, $title, $files)
+{
+    $CI = &get_instance();
+
+    //el formato a enviarlo es  upload_files('ruta del archivo', 'nombre del archivo', 'archivo')
+    if (!is_dir($path)) {
+        mkdir($path, 0777, true);
+    }
+
+    $config = array(
+        'upload_path'   => $path,
+        'allowed_types' => '*',
+        'overwrite'     => 1
+    );
+
+    $CI->load->library('upload', $config);
+
+    $images = array();
+
+    /**
+  
+     */
+
+    /***
+     *   $_FILES['images[]']['name'] = 'hou';
+  $_FILES['images[]']['type'] = 'hou';
+  $_FILES['images[]']['tmp_name'] = $files['tmp_name'];
+  $_FILES['images[]']['error'] = $files['error'];
+  $_FILES['images[]']['size'] = $files['size'];
+
+  $fileName = $title;
+
+  $images[] = $fileName;
+
+  $config['file_name'] = time();
+
+  $CI->upload->initialize($config);
+
+  if ($CI->upload->do_upload('images')) {
+    $data = $CI->upload->data();
+    $rutaimagen = str_replace('.', '', $path) . '/' . $data['file_name'];
+  } else {
+    $error = array('error' => $CI->upload->display_errors());
+    $rutaimagen = "/uploads/default.png";
+    print_r($error);
+  }
+  return $rutaimagen;
+     */
+    foreach ($files['name'] as $key => $image) {
+        $_FILES['images[]']['name'] = 'hou';
+        $_FILES['images[]']['type'] = 'hou';
+        $_FILES['images[]']['tmp_name'] = $files['tmp_name'][$key];
+        $_FILES['images[]']['error'] = $files['error'][$key];
+        $_FILES['images[]']['size'] = $files['size'][$key];
+
+        $fileName = $title;
+
+        $images[] = $fileName;
+
+        $config['file_name'] = time();
+
+        $CI->upload->initialize($config);
+
+        if ($CI->upload->do_upload('images[]')) {
+            $data = $CI->upload->data();
+            $rutaimagen = str_replace('.', '', $path) . '/' . $data['file_name'];
+        } else {
+            $error = array('error' => $CI->upload->display_errors());
+            $rutaimagen = "/uploads/default.png";
+            print_r($error);
+        }
+        return $rutaimagen;
+    }
+}

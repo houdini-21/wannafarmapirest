@@ -7,6 +7,7 @@ class Login extends CI_Controller
   {
     parent::__construct();
     $this->load->model('LoginModel', 'loginModel');
+    $this->load->model('UploadModel', 'uploadModel');
     $this->load->library('session');
   }
   public function index()
@@ -37,7 +38,7 @@ class Login extends CI_Controller
         redirect('Landlord', 'refresh');
       }
     } else {
-      message('error', 'Usuario/contraseña incorrectos'); 
+      message('error', 'Usuario/contraseña incorrectos');
       redirect('Login', 'refresh');
     }
   }
@@ -62,80 +63,68 @@ class Login extends CI_Controller
 
   public function createPerson()
   {
-    $id_cuenta = $this->input->post('id_cuenta');
-    $name = $this->input->post('name');
-    $lastname = $this->input->post('lastname');
-    $age = $this->input->post('age');
-    $address = $this->input->post('address');
-    $phone = $this->input->post('phone');
-    $role = $this->input->post('accountType');
-    $departament = 21;
-    $town = 21;
-
-    $data['id_cuenta'] = $id_cuenta;
-    $data['nombres'] = $name;
-    $data['apellidos'] = $lastname;
-    $data['edad'] = $age;
-    $data['id_direcciones'] = 0;
-    $data['telefono'] = $phone;
-    $data['id_rol'] = $role;
-    $data['departamento'] = $departament;
-    $data['municipio'] = $town;
-    $data['direccion'] = $address;
-    $sql = $this->loginModel->registerUser($data);
-
-    if ($sql > 0) {
-      $cuenta['id_persona'] = $sql;
-      $this->loginModel->updateCuenta($cuenta, $id_cuenta);
-
-      $encript['id'] = $id_cuenta;
-      $email = $this->loginModel->getEmail($id_cuenta);
-      $code = createToken($encript);
-      $url = base_url() . 'login/confirmaCuenta/' . $code;
-
-      if (send_mail($url, $email) == 201) {
-        $message['message'] =
-          'se ha enviado un correo de confirmacion a ' . $email;
-        $this->load->view(template_frontpath('ui/message'), $message, false);
-      } else {
-        $message['message'] =
-          'Error al enviar correo electronico';
-        $this->load->view(template_frontpath('ui/message'), $message, false);
-      }
-    } else {
-      $message['message'] =
-        'Error al enviar correo electronico';
-      $this->load->view(template_frontpath('ui/message'), $message, false);
-    }
   }
 
   public function createUser()
   {
     $email = $this->input->post('email');
-    $password = $this->input->post('password');
+    $user['correo'] = $email;
+    $user['contrasena'] = md5($this->input->post('password'));
+    $user['estado'] = 0;
+    $data['nombres'] = $this->input->post('name');
+    $data['apellidos'] = $this->input->post('lastname');
+    $data['edad'] = $this->input->post('age');
+    $data['id_direcciones'] = 0;
+    $data['telefono'] = $this->input->post('phone');
+    $data['id_rol'] = $this->input->post('accountType');
+    $data['departamento'] = $this->input->post('departamento');
+    $data['municipio'] = $this->input->post('municipio');
+    $data['direccion'] = $this->input->post('direccion');
+    $data['nit'] = $this->input->post('nitn');
+    $data['dui'] = $this->input->post('duin');
 
-    $data['correo'] = trim($email);
-    $data['contrasena'] = md5($password);
-    $data['estado'] = 0;
 
-    $validar_correo = $this->loginModel->validarCorreo($email);
-    if ($validar_correo !== 0) {
-      echo 'Correo en uso';
-      return;
-    }
-    $sql = $this->loginModel->createUser($data);
-    $encript['id'] = $sql;
-    $code = createToken($encript);
+    $sql = $this->loginModel->createUser($user);
+    $validacion = $this->loginModel->validarCorreo($email);
+    // $sql = 1;
+    if ($validacion == 0) {
+      if ($sql > 0) {
+        $id_cuenta = $sql;
+        $data['id_cuenta'] = $id_cuenta;
+        $cuenta['id_persona'] = $this->loginModel->registerUser($data);
 
-    if ($sql != 0) {
-      $url = base_url() . 'login/crearUsuario/' . $code;
-      redirect($url, 'refresh');
-    } else {
-      $message['message'] =
-        'Error intente mas tarde';
-      $this->load->view(template_frontpath('ui/message'), $message, false);
+        //sube las fots de dui y nit
+        $duif['id_usuario'] = $id_cuenta;
+        $duif['direccion'] = subirArchivos('./uploads/comprobantes/' . $id_cuenta . '/dui', 'jinx', $_FILES['duif']);
+        $duit['id_usuario'] = $id_cuenta;
+        $duit['direccion'] = subirArchivos('./uploads/comprobantes/' . $id_cuenta . '/dui', 'jinx', $_FILES['duit']);
+
+        $nitf['id_usuario'] = $id_cuenta;
+        $nitf['direccion'] = subirArchivos('./uploads/comprobantes/' . $id_cuenta . '/nit', 'jinx', $_FILES['nitf']);
+        $nitt['id_usuario'] = $id_cuenta;
+        $nitt['direccion'] = subirArchivos('./uploads/comprobantes/' . $id_cuenta . '/nit', 'jinx', $_FILES['nitt']);
+
+        $this->uploadModel->uploadPicturePerson($duif);
+        $this->uploadModel->uploadPicturePerson($duit);
+        $this->uploadModel->uploadPicturePerson($nitf);
+        $this->uploadModel->uploadPicturePerson($nitt);
+
+        $this->loginModel->updateCuenta($cuenta, $id_cuenta);
+
+        //genera codigo de activacion de cuenta y lo envia por correo
+        $encript['id'] = $id_cuenta;
+        $code = createToken($encript);
+        $url = base_url() . 'login/confirmaCuenta/' . $code;
+        send_mail($url, $email);
+        echo json_encode(201);
+      } else {
+        echo json_encode(400);
+      }
+    }else{
+      echo json_encode(401);
     }
   }
+
   public function confirmaCuenta($token)
   {
     if ($token != '') {
@@ -148,7 +137,7 @@ class Login extends CI_Controller
           $id = $code_decode['data']->id;
           $update['estado'] = 1;
           $this->loginModel->updateCuenta($update, $id);
-          $message['message'] = 'cuenta confirmada';
+          $message['message'] = 'cuenta confirmada, puede iniciar sesion';
           $this->load->view(template_frontpath('ui/message'), $message, false);
         } else {
           $message['message'] = 'tu cuenta ya fue confirmada';
@@ -159,7 +148,7 @@ class Login extends CI_Controller
         $this->load->view(template_frontpath('ui/message'), $message, false);
       }
     } else {
-      redirect('login', 'refresh');
+      redirect(('login'), 'refresh');
     }
   }
 
