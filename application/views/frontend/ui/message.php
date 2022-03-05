@@ -17,4 +17,9 @@
     <p class="suprema-medium text-3xl lg:text-4xl text-center text-black"><?= $message ?> </p>
   </div>
 </div>
+<script>
+  setTimeout(function() {
+    window.location.href = base_url + 'login';
+  }, 3000);
+</script>
 <?php $this->load->view(template_frontpath('template/footer')); ?>

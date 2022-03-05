@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="<?= base_url('/assets/css/fontawesome.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('/assets/css/all.css') ?>" />
 </head>
+<script>
+    let base_url = '<?= base_url(); ?>';
+</script>
 
 <body id="root">
     <?php show_message(); ?>

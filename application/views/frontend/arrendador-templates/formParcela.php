@@ -111,14 +111,14 @@
 
 <script>
     $(document).ready(function() {
-        pond = FilePond.create(
+        pond1 = FilePond.create(
             document.querySelector('#file'), {
                 allowMultiple: true,
                 instantUpload: false,
                 allowProcess: false,
                 labelIdle: 'Arrastra aquí tu imagen o <span class="filepond--label-action" tabindex="0">buscala en tu computadora</span><br>',
             });
-        pond = FilePond.create(
+        pond2 = FilePond.create(
             document.querySelector('#comprobantes'), {
                 allowMultiple: true,
                 instantUpload: false,
@@ -130,12 +130,14 @@
             e.preventDefault();
             var fd = new FormData(this);
             // append files array into the form data
-            pondFiles = pond.getFiles();
-            for (var i = 0; i < pondFiles.length; i++) {
-                fd.append('file[]', pondFiles[i].file);
+            pondFiles1 = pond2.getFiles();
+            pondFiles2 = pond2.getFiles();
+
+            for (var i = 0; i < pondFiles1.length; i++) {
+                fd.append('file[]', pondFiles1[i].file);
             }
-            for (var i = 0; i < pondFiles.length; i++) {
-                fd.append('comprobantes[]', pondFiles[i].file);
+            for (var i = 0; i < pondFiles2.length; i++) {
+                fd.append('comprobantes[]', pondFiles2[i].file);
             }
             $.ajax({
                 url: base_url + 'landlord/guardarParcela',
@@ -163,7 +165,7 @@
                             'success'
                         );
                         setTimeout(function() {
-                             window.location.href = base_url + "/landlord/";
+                            window.location.href = base_url + "/landlord/";
                         }, 3000);
                     } else {
                         Swal.fire(
