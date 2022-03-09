@@ -6,6 +6,11 @@
     .swal2-html-container {
         overflow: hidden;
     }
+
+    #map {
+        height: 400px;
+        width: 100%;
+    }
 </style>
 
 <h2 class="suprema-regular text-4xl text-green text-center mb-8">Crear Parcela</h2>
@@ -61,11 +66,17 @@
           h-40
           mb-4
           suprema-medium"></textarea>
-        <div class="w-full">
+        <div class="w-full mb-4">
             <label class="text-base text-gray-600 suprema-medium">Sube las fotos de tu parcela</label>
             <input type="file" class="my-pond w-full mt-2" id='file' name="filepond[]" multiple data-allow-reorder="true" data-max-file-size="5MB" data-max-files="5">
         </div>
         <div class="w-full">
+            <label class="text-base text-gray-600 suprema-medium">Por favor marca en el mapa la ubiacion de tu parcela</label>
+            <div class="w-fill h-80" id="map"></div>
+        </div>
+        <input type="hidden" name="latitud" id="latitud">
+        <input type="hidden" name="longitud" id="longitud">
+        <div class="w-full mt-4">
             <label class="text-base text-gray-600 suprema-medium">Sube los comprobantes de tu parcela</label>
             <input type="file" class="my-pond w-full mt-2" id='comprobantes' name="compro[]" multiple data-allow-reorder="true" data-max-file-size="5MB" data-max-files="5">
         </div>
@@ -99,6 +110,9 @@
 <script src="https://unpkg.com/filepond-plugin-image-exif-orientation/dist/filepond-plugin-image-exif-orientation.js"></script><!-- include FilePond jQuery adapter -->
 <script src="https://unpkg.com/jquery-filepond/filepond.jquery.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIyHQGJhSHK8R12fYdJwvQilI8hXt5mp0">
+</script>
+
 <script>
     $(function() {
 
@@ -110,7 +124,48 @@
 </script>
 
 <script>
+    let map;
+    let marker;
+    let marker1;
+
+    var uluru = {
+        lat: 51.5087420,
+        lng: -0.120850
+    };
+
+
+    let initMap = () => {
+
+        map = new google.maps.Map(
+            document.getElementById('map'), {
+                zoom: 15,
+                center: uluru
+            });
+
+        marker1 = new google.maps.Marker({
+            position: uluru,
+            map: map,
+            icon: base_url + 'assets/images/mylocation.png'
+
+        });
+
+
+        map.addListener('click', function(e) {
+            if (marker) {
+                marker.setMap(null);
+            }
+            marker = new google.maps.Marker({
+                position: e.latLng,
+                map: map,
+            });
+            $("#latitud").val(e.latLng.lat());
+            $("#longitud").val(e.latLng.lng());
+        });
+    }
+
     $(document).ready(function() {
+
+
         pond1 = FilePond.create(
             document.querySelector('#file'), {
                 allowMultiple: true,
@@ -126,64 +181,80 @@
                 labelIdle: 'Arrastra aquí tus comprobantes o <span class="filepond--label-action" tabindex="0">buscala en tu computadora</span><br>',
             });
 
-        $("#upload_form").submit(function(e) {
-            e.preventDefault();
-            var fd = new FormData(this);
-            // append files array into the form data
-            pondFiles1 = pond2.getFiles();
-            pondFiles2 = pond2.getFiles();
-
-            for (var i = 0; i < pondFiles1.length; i++) {
-                fd.append('file[]', pondFiles1[i].file);
-            }
-            for (var i = 0; i < pondFiles2.length; i++) {
-                fd.append('comprobantes[]', pondFiles2[i].file);
-            }
-            $.ajax({
-                url: base_url + 'landlord/guardarParcela',
-                type: 'POST',
-                data: fd,
-                dataType: 'JSON',
-                contentType: false,
-                cache: false,
-                processData: false,
-                beforeSend: function() { //We add this before send to disable the button once we submit it so that we prevent the multiple click
-                    Swal.fire({
-                        title: 'Espera un momento',
-                        text: 'Estamos subiendo tus datos',
-                        showCancelButton: false,
-                        showConfirmButton: false,
-                        allowOutsideClick: false,
-                        html: '<i class="fad fa-spinner-third fa-spin" style="font-size:70px; color: #50bf77"></i>',
-                    })
-                },
-                success: function(data) {
-                    if (data == 200) {
-                        Swal.fire(
-                            'Parcela creada!',
-                            'Tu parcela fue creada con exito',
-                            'success'
-                        );
-                        setTimeout(function() {
-                            window.location.href = base_url + "/landlord/";
-                        }, 3000);
-                    } else {
-                        Swal.fire(
-                            'Hubo un error!',
-                            'No se pudo crear la parcela, intenta mas tarde',
-                            'error'
-                        );
-                    }
-                },
-                complete: function() {
-                    console.log('complete');
-                },
-                error: function(data) {
-                    //    todo the logic
-                }
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                let [latitude, longitude] = [position.coords.latitude, position.coords.longitude];
+                uluru = {
+                    lat: latitude,
+                    lng: longitude
+                };
+                initMap();
             });
-        });
+        }
+
+
     })
+
+    $("#upload_form").submit(function(e) {
+        e.preventDefault();
+        var fd = new FormData(this);
+        // append files array into the form data
+        pondFiles1 = pond2.getFiles();
+        pondFiles2 = pond2.getFiles();
+
+        for (var i = 0; i < pondFiles1.length; i++) {
+            fd.append('file[]', pondFiles1[i].file);
+        }
+        for (var i = 0; i < pondFiles2.length; i++) {
+            fd.append('comprobantes[]', pondFiles2[i].file);
+        }
+        $.ajax({
+            url: base_url + 'landlord/guardarParcela',
+            type: 'POST',
+            data: fd,
+            dataType: 'JSON',
+            contentType: false,
+            cache: false,
+            processData: false,
+            beforeSend: function() { //We add this before send to disable the button once we submit it so that we prevent the multiple click
+                Swal.fire({
+                    title: 'Espera un momento',
+                    text: 'Estamos subiendo tus datos',
+                    showCancelButton: false,
+                    showConfirmButton: false,
+                    allowOutsideClick: false,
+                    html: '<i class="fad fa-spinner-third fa-spin" style="font-size:70px; color: #50bf77"></i>',
+                })
+            },
+            success: function(data) {
+                if (data == 200) {
+                    Swal.fire(
+                        'Parcela creada!',
+                        'Tu parcela fue creada con exito',
+                        'success'
+                    );
+                    setTimeout(function() {
+                        window.location.href = base_url + "/landlord/";
+                    }, 3000);
+                } else {
+                    Swal.fire(
+                        'Hubo un error!',
+                        'No se pudo crear la parcela, intenta mas tarde',
+                        'error'
+                    );
+                }
+            },
+            complete: function() {
+                console.log('complete');
+            },
+            error: function(data) {
+                //    todo the logic
+            }
+        });
+    });
+
+
+    //create a marker when the user click a arean in the map and remove it when the user click again
 </script>
 
 <?php $this->load->view(template_frontpath('template/footer-arrendador')); ?>

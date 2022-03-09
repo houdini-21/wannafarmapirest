@@ -51,10 +51,15 @@ class Landlord extends CRUD_controller
     $data['ocupadas'] = false;
     $data['fecha_registro'] = date('Y-m-d H:i:s');
     $data['id_persona'] = user_id();
+    $data['lat'] = $this->input->post('latitud');
+    $data['long'] = $this->input->post('longitud');
+
     $res = $this->parcelasModel->registrarParcelas($data);
     if ($res) {
-      $this->upload_files('./uploads/parcelas/' . user_id(), 'jinx', $_FILES['file'], $res);
-      subirArchivos('./uploads/comprobantes/' . user_id(), 'jinx', $_FILES['comprobantes']);
+      
+      print_r($_FILES);
+      //$this->upload_files('./uploads/parcelas/' . user_id(), 'jinx', $_FILES['file'], $res);
+      //subirArchivos('./uploads/comprobantes/' . user_id(), 'jinx', $_FILES['comprobantes']);
       //guarda la ruta de la foto subida
       echo json_encode(200);
     } else {
