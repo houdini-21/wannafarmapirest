@@ -39,7 +39,7 @@
 	<?php } else { ?>
 		<div class="flex flex-col items-center justify-center mt-20">
 			<h3 class="text-2xl text-gray-600 text-center suprema-regular">No posees parcelas</h3>
-			<a href="<?= base_url('login/logout') ?>" class="text-base text-green-500 suprema-medium underline">Crear parcela &rarr;</a>
+			<a href="<?= base_url('landlord/crearParcela') ?>" class="text-base text-green-500 suprema-medium underline mt-4">Crear parcela &rarr;</a>
 		</div>
 	<?php } ?>
 
