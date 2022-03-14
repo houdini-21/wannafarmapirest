@@ -32,7 +32,7 @@
 				<div class="flex flex-col justify-center items-start w-full py-3 px-4">
 					<a href="#" class="col-span-12 text-center suprema-regular w-full rounded-lg px-4 py-2 bg-green-500 text-white hover:bg-green-600 duration-300 mb-4">Ver parcela <i class="far fa-arrow-right"></i></a>
 					<a href="#" class="col-span-12 text-center suprema-regular w-full rounded-lg px-4 py-2 border-2 border-blue-500  text-blue-500 hover:bg-blue-500 hover:text-white duration-300 mb-4">Editar parcela <i class="far fa-edit"></i></a>
-					<a href="#" class="col-span-12 text-center suprema-regular w-full rounded-lg px-4 py-2 border-2 border-red-500  text-red-500 hover:bg-red-500 hover:text-white duration-300">Eliminar parcela <i class="far fa-trash"></i></a>
+					<a href="#" class="col-span-12 text-center suprema-regular w-full rounded-lg px-4 py-2 border-2 border-red-500  text-red-500 hover:bg-red-500 hover:text-white duration-300 btn-delete" id="<?= $parcela->id_parcelas ?>">Eliminar parcela <i class="far fa-trash"></i></a>
 				</div>
 			</div>
 		<?php } ?>
@@ -46,12 +46,55 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <script>
 	$('.carrousel').slick({
 		dots: true,
 		arrows: false,
 		infinite: false,
 		swipeToSlide: true
+	});
+
+	document.querySelectorAll('.btn-delete').forEach(function(btn) {
+		btn.addEventListener('click', function(e) {
+			e.preventDefault();
+
+
+			Swal.fire({
+				title: 'Seguro de eliminar esta parcela?',
+				icon: 'warning',
+				showDenyButton: true,
+				showCancelButton: true,
+				confirmButtonText: 'Si, Eliminar',
+				denyButtonText: `No, Cancelar`,
+			}).then((result) => {
+				/* Read more about isConfirmed, isDenied below */
+				if (result.isConfirmed) {
+					var id = this.getAttribute('id');
+					var datos = {
+						id: id
+					};
+					$.ajax({
+						url: base_url + 'field/eliminarParcela',
+						type: 'POST',
+						data: datos,
+						success: function(response) {
+							if (response == 200) {
+								Swal.fire('Parcela Eliminada con Exito!', '', 'success')
+								setTimeout(function() {
+									window.location.href = base_url + "/landlord/";
+								}, 1000);
+							}
+						}
+					});
+				} else if (result.isDenied) {
+					Swal.fire('Parcela no eliminada', '', 'info')
+				}
+			})
+
+
+		});
 	});
 </script>
 <?php $this->load->view(template_frontpath('template/footer-arrendador')); ?>

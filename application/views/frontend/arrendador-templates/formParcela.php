@@ -78,7 +78,7 @@
         <input type="hidden" name="longitud" id="longitud">
         <div class="w-full mt-4">
             <label class="text-base text-gray-600 suprema-medium">Sube los comprobantes de tu parcela</label>
-            <input type="file" class="my-pond w-full mt-2" id='comprobantes' name="compro[]" multiple data-allow-reorder="true" data-max-file-size="5MB" data-max-files="5">
+            <input type="file" class="my-pond w-full mt-2" id='comprobantes' name="compro[]" multiple data-allow-reorder="true" data-max-file-size="5MB" data-max-files="1">
         </div>
         <textarea name="caracteristicas" placeholder="Escribe una caracteristica de tu parcela que la haga atractiva para ayudar a aumentar el interes" cols="20" rows="10" class="
         focus:border-green focus:ring-1 focus:ring-green focus:outline-none
@@ -199,7 +199,7 @@
         e.preventDefault();
         var fd = new FormData(this);
         // append files array into the form data
-        pondFiles1 = pond2.getFiles();
+        pondFiles1 = pond1.getFiles();
         pondFiles2 = pond2.getFiles();
 
         for (var i = 0; i < pondFiles1.length; i++) {
@@ -209,7 +209,7 @@
             fd.append('comprobantes[]', pondFiles2[i].file);
         }
         $.ajax({
-            url: base_url + 'landlord/guardarParcela',
+            url: base_url + 'field/guardarParcela',
             type: 'POST',
             data: fd,
             dataType: 'JSON',

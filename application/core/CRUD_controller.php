@@ -23,7 +23,7 @@ class CRUD_controller extends CI_Controller
         //farmer
         $acceso_rol[1] = array("farmer");
         //landlord
-        $acceso_rol[2] = array("landlord", "parcelascontroller");
+        $acceso_rol[2] = array("landlord", "parcelascontroller", "field");
 
         $accesos = array();
         $accesos = array_merge($accesos, $acceso_rol[$this->user->id_rol]);
