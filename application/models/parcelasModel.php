@@ -40,4 +40,11 @@ class ParcelasModel extends CI_Model
         $this->db->insert("wf_fotos", $data);
         return $this->db->insert_id();
     }
+
+    public function eliminarParcela($id)
+    {
+        $this->db->where("id_parcelas", $id);
+        $this->db->delete("wf_parcelas");
+        return $this->db->affected_rows();
+    }
 }
